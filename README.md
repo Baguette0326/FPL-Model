@@ -15,6 +15,7 @@ This is for the official FPL Draft format, not the salary-cap version of FPL. A 
 - A weekly waiver, free-agent, breakout, and trade plan in [`docs/WEEKLY_MANAGER.md`](docs/WEEKLY_MANAGER.md)
 - Confirmed league settings and opponent-behavior assumptions in [`docs/LEAGUE_STRATEGY.md`](docs/LEAGUE_STRATEGY.md)
 - A ten-season extraction and SQLite event-store plan in [`docs/DATA_PIPELINE_PLAN.md`](docs/DATA_PIPELINE_PLAN.md)
+- SQL-editor import instructions for the published processed CSVs in [`docs/SQL_IMPORT.md`](docs/SQL_IMPORT.md)
 - A pure-Python live draft board and recommendation engine
 - A starter same-position weekly add/drop recommendation engine
 - A walk-forward ML training scaffold that avoids random train/test leakage

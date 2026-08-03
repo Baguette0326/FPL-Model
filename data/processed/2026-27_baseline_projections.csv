@@ -1,0 +1,561 @@
+name,position,projected_points,uncertainty,player_id,code,team_name,status,prior_total_points,prior_minutes,fixture_difficulty_next6,projection_method
+Erling Haaland,FWD,213.400,32.010,411,223094,Man City,a,239.000,2953.000,3.000,prior-season points with positional shrinkage
+Bruno Borges Fernandes,MID,205.964,30.895,426,141746,Man Utd,a,235.000,3065.000,2.833,prior-season points with positional shrinkage
+Gabriel dos Santos Magalhães,DEF,186.200,27.930,4,226597,Arsenal,a,209.000,2750.000,3.000,prior-season points with positional shrinkage
+Antoine Semenyo,MID,178.200,26.730,397,437730,Man City,a,202.000,3200.000,3.000,prior-season points with positional shrinkage
+Morgan Gibbs-White,MID,167.000,25.050,480,222531,Nott'm Forest,a,188.000,3101.000,3.000,prior-season points with positional shrinkage
+Igor Thiago Nascimento Rodrigues,FWD,165.887,24.883,106,502500,Brentford,a,181.000,3282.000,3.167,prior-season points with positional shrinkage
+João Pedro Junqueira de Jesus,FWD,163.800,24.570,165,475168,Chelsea,a,177.000,2658.000,3.000,prior-season points with positional shrinkage
+Declan Rice,MID,163.800,24.570,13,204480,Arsenal,a,184.000,3093.000,3.000,prior-season points with positional shrinkage
+Marc Guéhi,DEF,162.200,24.330,388,209036,Man City,a,179.000,3150.000,3.000,prior-season points with positional shrinkage
+Elliot Anderson,MID,160.600,24.090,481,215379,Man City,a,180.000,3332.000,3.000,prior-season points with positional shrinkage
+Virgil van Dijk,DEF,160.060,24.009,356,97032,Liverpool,a,175.000,3420.000,2.833,prior-season points with positional shrinkage
+Marcos Senesi Barón,DEF,159.000,23.850,498,221466,Spurs,a,175.000,3288.000,3.000,prior-season points with positional shrinkage
+James Tarkowski,DEF,156.033,23.405,229,17761,Everton,a,170.000,3330.000,2.833,prior-season points with positional shrinkage
+Ollie Watkins,FWD,155.800,23.370,55,178301,Aston Villa,a,167.000,2833.000,3.000,prior-season points with positional shrinkage
+David Raya Martín,GK,153.600,23.040,1,154561,Arsenal,a,162.000,3330.000,3.000,prior-season points with positional shrinkage
+Morgan Rogers,MID,151.800,22.770,40,244850,Chelsea,a,169.000,3280.000,3.000,prior-season points with positional shrinkage
+Harry Wilson,MID,149.993,22.499,260,153682,Leeds,a,168.000,2674.000,3.167,prior-season points with positional shrinkage
+Nico O'Reilly,DEF,147.000,22.050,387,472769,Man City,a,160.000,2643.000,3.000,prior-season points with positional shrinkage
+Adrien Truffert,DEF,146.973,22.046,61,494521,Bournemouth,a,165.000,3378.000,3.667,prior-season points with positional shrinkage
+Dominik Szoboszlai,MID,145.564,21.835,368,424876,Liverpool,a,160.000,3232.000,2.833,prior-season points with positional shrinkage
+Bukayo Saka,MID,142.200,21.330,12,223340,Arsenal,a,157.000,2218.000,3.000,prior-season points with positional shrinkage
+Enzo Fernández,MID,142.200,21.330,155,448047,Chelsea,a,157.000,3114.000,3.000,prior-season points with positional shrinkage
+Matheus Nunes,DEF,142.200,21.330,389,465351,Man City,a,154.000,2861.000,3.000,prior-season points with positional shrinkage
+Maxence Lacroix,DEF,142.200,21.330,200,437499,Chelsea,a,154.000,3085.000,3.000,prior-season points with positional shrinkage
+Bruno Guimarães Rodriguez Moura,MID,140.732,21.110,452,208706,Newcastle,a,154.000,2456.000,2.833,prior-season points with positional shrinkage
+Nordi Mukiele,DEF,139.800,20.970,533,200834,Sunderland,a,151.000,2784.000,3.000,prior-season points with positional shrinkage
+Kiernan Dewsbury-Hall,MID,138.316,20.747,236,215413,Everton,a,151.000,2629.000,2.833,prior-season points with positional shrinkage
+Caoimhín Kelleher,GK,137.477,20.622,82,200720,Brentford,a,143.000,3330.000,3.167,prior-season points with positional shrinkage
+Jan Paul van Hecke,DEF,137.400,20.610,112,469142,Spurs,a,148.000,3210.000,3.000,prior-season points with positional shrinkage
+Bryan Mbeumo,MID,135.900,20.385,427,446008,Man Utd,a,148.000,2611.000,2.833,prior-season points with positional shrinkage
+Dominic Calvert-Lewin,FWD,134.895,20.234,346,177815,Leeds,a,142.000,2721.000,3.167,prior-season points with positional shrinkage
+Enzo Le Fée,MID,134.200,20.130,542,484420,Sunderland,a,147.000,2930.000,3.000,prior-season points with positional shrinkage
+Jordan Pickford,GK,132.880,19.932,226,111234,Everton,a,135.000,3420.000,2.833,prior-season points with positional shrinkage
+Robin Roefs,GK,132.800,19.920,529,498016,Sunderland,a,136.000,3150.000,3.000,prior-season points with positional shrinkage
+Ryan Gravenberch,MID,132.679,19.902,371,441266,Liverpool,a,144.000,2991.000,2.833,prior-season points with positional shrinkage
+Gianluigi Donnarumma,GK,132.000,19.800,384,204936,Man City,a,135.000,3060.000,3.000,prior-season points with positional shrinkage
+Matheus Santos Carneiro da Cunha,MID,131.873,19.781,428,430871,Man Utd,a,143.000,2493.000,2.833,prior-season points with positional shrinkage
+Dean Henderson,GK,128.800,19.320,198,172649,Crystal Palace,a,131.000,3330.000,3.000,prior-season points with positional shrinkage
+Bart Verbruggen,GK,128.000,19.200,109,489639,Brighton,a,130.000,3420.000,3.000,prior-season points with positional shrinkage
+Trevoh Chalobah,DEF,127.800,19.170,143,180736,Chelsea,a,136.000,2780.000,3.000,prior-season points with positional shrinkage
+Daniel Muñoz Mejía,DEF,127.800,19.170,201,247348,Crystal Palace,a,136.000,2400.000,3.000,prior-season points with positional shrinkage
+James Garner,MID,127.388,29.299,239,232928,Everton,i,159.000,3413.000,2.833,prior-season points with positional shrinkage
+Tyrick Mitchell,DEF,127.000,19.050,204,244723,Crystal Palace,a,135.000,3253.000,3.000,prior-season points with positional shrinkage
+Anton Stach,MID,125.359,18.804,335,466525,Leeds,a,137.000,2369.000,3.167,prior-season points with positional shrinkage
+Michael Keane,DEF,124.625,18.694,231,106611,Everton,a,131.000,2588.000,2.833,prior-season points with positional shrinkage
+Viktor Gyökeres,FWD,124.600,18.690,25,224117,Arsenal,a,128.000,2217.000,3.000,prior-season points with positional shrinkage
+Rayan Cherki,MID,124.600,18.690,399,466052,Man City,a,135.000,1772.000,3.000,prior-season points with positional shrinkage
+Mateus Fernandes,MID,124.600,18.690,525,551226,Spurs,a,135.000,3017.000,3.000,prior-season points with positional shrinkage
+Dango Ouattara,MID,124.564,18.685,95,533463,Brentford,a,136.000,2271.000,3.167,prior-season points with positional shrinkage
+Danny Welbeck,FWD,123.000,18.450,136,50175,Brighton,a,126.000,2249.000,3.000,prior-season points with positional shrinkage
+Martín Zubimendi Ibáñez,MID,123.000,18.450,19,481655,Arsenal,a,133.000,2991.000,3.000,prior-season points with positional shrinkage
+Ethan Ampadu,MID,122.975,18.446,338,199598,Leeds,a,134.000,3119.000,3.167,prior-season points with positional shrinkage
+Marcus Tavernier,MID,122.835,18.425,68,201658,Bournemouth,a,137.000,2732.000,3.667,prior-season points with positional shrinkage
+Cody Gakpo,MID,122.209,18.331,367,243298,Liverpool,a,131.000,2736.000,2.833,prior-season points with positional shrinkage
+Alex Scott,MID,122.056,18.308,69,503139,Bournemouth,a,136.000,2848.000,3.667,prior-season points with positional shrinkage
+Jurriën Timber,DEF,121.616,27.972,5,445122,Arsenal,i,149.000,2452.000,3.000,prior-season points with positional shrinkage
+Phil Foden,MID,121.400,18.210,398,209244,Man City,a,131.000,2078.000,3.000,prior-season points with positional shrinkage
+Chris Richards,DEF,121.400,18.210,202,427623,Crystal Palace,a,128.000,2825.000,3.000,prior-season points with positional shrinkage
+Neco Williams,DEF,121.400,18.210,469,215136,Nott'm Forest,a,128.000,3203.000,3.000,prior-season points with positional shrinkage
+Nathan Collins,DEF,121.385,18.208,84,432830,Brentford,a,129.000,2971.000,3.167,prior-season points with positional shrinkage
+Malick Thiaw,DEF,120.599,18.090,445,465642,Newcastle,a,126.000,2963.000,2.833,prior-season points with positional shrinkage
+Emiliano Martínez Romero,GK,120.000,18.000,28,98980,Aston Villa,a,120.000,2835.000,3.000,prior-season points with positional shrinkage
+Bernd Leno,GK,119.979,17.997,250,80201,Fulham,a,122.000,3420.000,3.333,prior-season points with positional shrinkage
+Đorđe Petrović,GK,119.915,17.987,57,457569,Bournemouth,a,124.000,3420.000,3.667,prior-season points with positional shrinkage
+Iliman Ndiaye,MID,119.793,17.969,237,440993,Everton,a,128.000,2781.000,2.833,prior-season points with positional shrinkage
+Omar Alderete,DEF,119.000,17.850,535,201895,Sunderland,a,125.000,2797.000,3.000,prior-season points with positional shrinkage
+Jaidon Anthony,MID,117.412,17.612,105,444180,Brentford,a,127.000,2717.000,3.167,prior-season points with positional shrinkage
+Richarlison de Andrade,FWD,117.400,17.610,527,212319,Spurs,a,119.000,1954.000,3.000,prior-season points with positional shrinkage
+Florian Wirtz,MID,117.377,17.607,366,494595,Liverpool,a,125.000,2374.000,2.833,prior-season points with positional shrinkage
+Brenden Aaronson,MID,116.617,17.493,337,427637,Leeds,a,126.000,2449.000,3.167,prior-season points with positional shrinkage
+Pedro Lomba Neto,MID,116.600,17.490,156,247632,Chelsea,a,125.000,2629.000,3.000,prior-season points with positional shrinkage
+Kevin Schade,MID,115.823,17.373,94,513418,Brentford,a,125.000,2744.000,3.167,prior-season points with positional shrinkage
+Granit Xhaka,MID,115.800,17.370,544,84450,Sunderland,a,124.000,2901.000,3.000,prior-season points with positional shrinkage
+Robert Lynch Sánchez,GK,114.400,17.160,140,215059,Chelsea,a,113.000,3040.000,3.000,prior-season points with positional shrinkage
+Nikola Milenković,DEF,114.200,17.130,471,227444,Nott'm Forest,a,119.000,3375.000,3.000,prior-season points with positional shrinkage
+Jean-Philippe Mateta,FWD,113.400,17.010,223,231747,Crystal Palace,a,114.000,2210.000,3.000,prior-season points with positional shrinkage
+Ferdi Kadıoğlu,DEF,113.400,17.010,113,231416,Brighton,a,118.000,3130.000,3.000,prior-season points with positional shrinkage
+Igor Jesus Maciel da Cruz,FWD,113.400,17.010,491,482973,Nott'm Forest,a,114.000,2293.000,3.000,prior-season points with positional shrinkage
+William Saliba,DEF,113.168,26.029,6,462424,Arsenal,i,137.000,2614.000,3.000,prior-season points with positional shrinkage
+Matty Cash,DEF,112.600,16.890,32,199796,Aston Villa,a,117.000,3016.000,3.000,prior-season points with positional shrinkage
+Pedro Porro Sauceda,DEF,112.600,16.890,499,441164,Spurs,a,117.000,2793.000,3.000,prior-season points with positional shrinkage
+Jérémy Doku,MID,112.600,16.890,400,248875,Man City,a,120.000,1773.000,3.000,prior-season points with positional shrinkage
+Jake O'Brien,DEF,112.545,16.882,232,512462,Everton,a,116.000,3118.000,2.833,prior-season points with positional shrinkage
+Senne Lammens,GK,111.941,16.791,412,465247,Man Utd,a,109.000,2880.000,2.833,prior-season points with positional shrinkage
+Micky van de Ven,DEF,111.800,16.770,503,491279,Spurs,a,116.000,3041.000,3.000,prior-season points with positional shrinkage
+Daniel Ballard,DEF,111.800,16.770,532,223827,Sunderland,a,116.000,2144.000,3.000,prior-season points with positional shrinkage
+Francisco Evanilson de Lima Barbosa,FWD,111.155,16.673,79,444102,Bournemouth,a,115.000,2741.000,3.667,prior-season points with positional shrinkage
+Reece James,DEF,111.000,16.650,142,225796,Chelsea,a,115.000,1957.000,3.000,prior-season points with positional shrinkage
+Yankuba Minteh,MID,110.200,16.530,122,592031,Brighton,a,117.000,2389.000,3.000,prior-season points with positional shrinkage
+Ismaïla Sarr,MID,110.200,16.530,208,232185,Crystal Palace,a,117.000,2173.000,3.000,prior-season points with positional shrinkage
+Luke Shaw,DEF,110.129,16.519,423,106760,Man Utd,a,113.000,3220.000,2.833,prior-season points with positional shrinkage
+Rúben dos Santos Gato Alves Dias,DEF,109.400,16.410,390,171314,Man City,a,113.000,2139.000,3.000,prior-season points with positional shrinkage
+Nick Woltemade,FWD,109.324,16.399,463,470313,Newcastle,a,108.000,1896.000,2.833,prior-season points with positional shrinkage
+Michael Kayode,DEF,108.671,16.301,88,607464,Brentford,a,113.000,3258.000,3.167,prior-season points with positional shrinkage
+Sepp van den Berg,DEF,108.671,16.301,85,444765,Brentford,a,113.000,2761.000,3.167,prior-season points with positional shrinkage
+Diogo Dalot Teixeira,DEF,108.519,16.278,417,216051,Man Utd,a,111.000,2609.000,2.833,prior-season points with positional shrinkage
+Hugo Ekitiké,FWD,108.253,24.898,380,510663,Liverpool,i,125.000,1797.000,2.833,prior-season points with positional shrinkage
+Matz Sels,GK,108.000,16.200,467,85633,Nott'm Forest,a,105.000,2667.000,3.000,prior-season points with positional shrinkage
+Keane Lewis-Potter,MID,107.876,16.181,86,249231,Brentford,a,115.000,1960.000,3.167,prior-season points with positional shrinkage
+Cole Palmer,MID,107.800,16.170,154,244851,Chelsea,a,114.000,1954.000,3.000,prior-season points with positional shrinkage
+Trai Hume,DEF,107.000,16.050,534,487676,Sunderland,a,110.000,3032.000,3.000,prior-season points with positional shrinkage
+Eberechi Eze,MID,107.000,16.050,14,232413,Arsenal,a,113.000,1885.000,3.000,prior-season points with positional shrinkage
+Mikkel Damsgaard,MID,106.287,15.943,96,440089,Brentford,a,113.000,2046.000,3.167,prior-season points with positional shrinkage
+Riccardo Calafiori,DEF,106.200,15.930,8,466075,Arsenal,a,109.000,1697.000,3.000,prior-season points with positional shrinkage
+Norberto Bercique Gomes Betuncal,FWD,106.103,15.915,248,486385,Everton,a,104.000,1551.000,2.833,prior-season points with positional shrinkage
+Joe Rodon,DEF,105.492,15.824,329,214225,Leeds,a,109.000,2952.000,3.167,prior-season points with positional shrinkage
+Pascal Struijk,DEF,105.400,15.810,328,222694,Brighton,a,108.000,2935.000,3.000,prior-season points with positional shrinkage
+Benjamin Sesko,FWD,105.036,24.158,439,485711,Man Utd,d,111.000,1630.000,2.833,prior-season points with positional shrinkage
+Moisés Caicedo Corozo,MID,104.600,15.690,159,486672,Chelsea,a,110.000,2796.000,3.000,prior-season points with positional shrinkage
+Joachim Andersen,DEF,104.251,23.978,253,174874,Fulham,s,123.000,2882.000,3.333,prior-season points with positional shrinkage
+James Hill,DEF,104.147,15.622,60,463981,Bournemouth,a,110.000,2102.000,3.667,prior-season points with positional shrinkage
+Alexis Mac Allister,MID,103.687,15.553,372,243016,Liverpool,a,108.000,2654.000,2.833,prior-season points with positional shrinkage
+Noah Okafor,MID,103.108,15.466,336,435997,Leeds,a,109.000,1553.000,3.167,prior-season points with positional shrinkage
+Joao Gomes,MID,102.200,15.330,54,448089,Aston Villa,a,107.000,2829.000,3.000,prior-season points with positional shrinkage
+Harvey Barnes,MID,102.076,15.311,453,201666,Newcastle,a,106.000,1951.000,2.833,prior-season points with positional shrinkage
+Nick Pope,GK,101.472,15.221,442,98747,Newcastle,a,96.000,2416.000,2.833,prior-season points with positional shrinkage
+Martin Dubravka,GK,100.800,15.120,497,67089,Spurs,a,96.000,3150.000,3.000,prior-season points with positional shrinkage
+Calvin Bassey,DEF,100.048,15.007,257,232892,Fulham,a,103.000,2532.000,3.333,prior-season points with positional shrinkage
+Adam Wharton,MID,99.828,22.960,210,496221,Crystal Palace,d,112.000,2552.000,3.000,prior-season points with positional shrinkage
+Yehor Yarmoliuk,MID,99.135,14.870,102,508395,Brentford,a,104.000,2652.000,3.167,prior-season points with positional shrinkage
+Lewis Dunk,DEF,99.000,14.850,116,83299,Brighton,a,100.000,2837.000,3.000,prior-season points with positional shrinkage
+Ezri Konsa Ngoyo,DEF,99.000,14.850,31,199798,Aston Villa,a,100.000,3035.000,3.000,prior-season points with positional shrinkage
+John McGinn,MID,99.000,14.850,45,122806,Aston Villa,a,103.000,2136.000,3.000,prior-season points with positional shrinkage
+Thierno Barry,FWD,98.855,14.828,249,586309,Everton,a,95.000,1898.000,2.833,prior-season points with positional shrinkage
+Emiliano Buendía Stati,MID,98.200,14.730,41,195546,Aston Villa,a,102.000,1753.000,3.000,prior-season points with positional shrinkage
+Alex Iwobi,MID,97.680,14.652,261,153133,Fulham,a,103.000,2420.000,3.333,prior-season points with positional shrinkage
+Jaka Bijol,DEF,97.545,14.632,327,434752,Leeds,a,99.000,1888.000,3.167,prior-season points with positional shrinkage
+Alisson Becker,GK,97.445,14.617,350,116535,Liverpool,a,91.000,2340.000,2.833,prior-season points with positional shrinkage
+Lucas Digne,DEF,96.600,14.490,30,101188,Aston Villa,a,97.000,1842.000,3.000,prior-season points with positional shrinkage
+Guglielmo Vicario,GK,96.000,14.400,494,184254,Spurs,a,90.000,2790.000,3.000,prior-season points with positional shrinkage
+Brian Brobbey,FWD,95.800,14.370,552,441264,Sunderland,a,92.000,1920.000,3.000,prior-season points with positional shrinkage
+Malo Gusto,DEF,95.800,14.370,144,482609,Chelsea,a,96.000,2255.000,3.000,prior-season points with positional shrinkage
+Vitalii Mykolenko,DEF,95.633,14.345,233,224967,Everton,a,95.000,2959.000,2.833,prior-season points with positional shrinkage
+Jayden Bogle,DEF,95.161,14.274,330,226182,Leeds,a,96.000,2795.000,3.167,prior-season points with positional shrinkage
+Yasin Ayari,MID,95.000,14.250,129,509416,Brighton,a,98.000,1921.000,3.000,prior-season points with positional shrinkage
+Mathias Jensen,MID,94.367,14.155,97,207283,Brentford,a,98.000,2239.000,3.167,prior-season points with positional shrinkage
+Diego Gómez Amarilla,MID,94.200,14.130,127,514254,Brighton,a,97.000,2117.000,3.000,prior-season points with positional shrinkage
+Mats Wieffer,DEF,94.200,14.130,130,467779,Brighton,a,94.000,1901.000,3.000,prior-season points with positional shrinkage
+Dan Burn,DEF,94.023,14.103,448,78916,Newcastle,a,93.000,2195.000,2.833,prior-season points with positional shrinkage
+Ryan Sessegnon,DEF,93.733,14.060,269,184349,Fulham,a,95.000,1816.000,3.333,prior-season points with positional shrinkage
+James Justin,DEF,93.572,14.036,332,220627,Leeds,a,94.000,1893.000,3.167,prior-season points with positional shrinkage
+Patrick Dorgu,MID,93.217,13.983,415,596777,Man Utd,a,95.000,1440.000,2.833,prior-season points with positional shrinkage
+Georginio Rutter,FWD,91.800,13.770,125,463067,Brighton,a,87.000,1776.000,3.000,prior-season points with positional shrinkage
+Cristian Romero,DEF,91.800,13.770,500,221632,Spurs,a,91.000,1869.000,3.000,prior-season points with positional shrinkage
+Junior Kroupi,MID,91.649,21.079,78,560262,Bournemouth,i,113.000,1663.000,3.667,prior-season points with positional shrinkage
+Harry Maguire,DEF,91.607,13.741,418,95658,Man Utd,a,90.000,1649.000,2.833,prior-season points with positional shrinkage
+Sven Botman,DEF,90.801,13.620,447,220237,Newcastle,a,89.000,1834.000,2.833,prior-season points with positional shrinkage
+Tijjani Reijnders,MID,90.200,13.530,404,433036,Man City,a,92.000,1623.000,3.000,prior-season points with positional shrinkage
+Amad Diallo,MID,89.996,13.499,431,493250,Man Utd,a,91.000,2339.000,2.833,prior-season points with positional shrinkage
+Jack Hinshelwood,MID,89.400,13.410,123,532529,Brighton,a,91.000,1736.000,3.000,prior-season points with positional shrinkage
+Piero Hincapié,DEF,88.600,13.290,9,448104,Arsenal,a,87.000,1787.000,3.000,prior-season points with positional shrinkage
+Sander Berge,MID,88.208,13.231,265,207189,Fulham,a,91.000,2904.000,3.333,prior-season points with positional shrinkage
+Ibrahim Sangaré,MID,87.800,13.170,488,210462,Nott'm Forest,a,89.000,2073.000,3.000,prior-season points with positional shrinkage
+Milos Kerkez,DEF,87.580,13.137,358,544877,Liverpool,a,85.000,2251.000,2.833,prior-season points with positional shrinkage
+Maxim De Cuyper,DEF,86.200,12.930,115,465730,Brighton,a,84.000,1404.000,3.000,prior-season points with positional shrinkage
+Callum Wilson,FWD,85.625,12.844,108,75115,Brentford,a,80.000,1234.000,3.167,prior-season points with positional shrinkage
+Rodrigo Bentancur,MID,85.400,12.810,516,202993,Spurs,a,86.000,1880.000,3.000,prior-season points with positional shrinkage
+William Osula,FWD,83.553,20.888,465,538207,Newcastle,a,76.000,805.000,2.833,prior-season points with positional shrinkage
+Chemsdine Talbi,MID,83.000,12.450,549,549912,Sunderland,a,83.000,1553.000,3.000,prior-season points with positional shrinkage
+Jacob Murphy,MID,82.748,12.412,457,114243,Newcastle,a,82.000,1606.000,2.833,prior-season points with positional shrinkage
+Lewis Hall,DEF,82.748,12.412,449,487838,Newcastle,a,79.000,2176.000,2.833,prior-season points with positional shrinkage
+Kenny Tete,DEF,82.683,12.402,256,167074,Fulham,a,81.000,1791.000,3.333,prior-season points with positional shrinkage
+Omari Hutchinson,MID,82.200,12.330,484,503301,Nott'm Forest,a,82.000,1676.000,3.000,prior-season points with positional shrinkage
+Jørgen Strand Larsen,FWD,82.200,12.330,222,247412,Crystal Palace,a,75.000,2301.000,3.000,prior-season points with positional shrinkage
+Joško Gvardiol,DEF,82.200,12.330,391,477424,Man City,a,79.000,1370.000,3.000,prior-season points with positional shrinkage
+Curtis Jones,MID,81.943,12.291,373,206915,Liverpool,a,81.000,1923.000,2.833,prior-season points with positional shrinkage
+Callum Hudson-Odoi,MID,81.780,18.809,482,209046,Nott'm Forest,d,88.000,1838.000,3.000,prior-season points with positional shrinkage
+Wilson Isidor,FWD,81.400,12.210,553,437505,Sunderland,a,74.000,1148.000,3.000,prior-season points with positional shrinkage
+Sandro Tonali,MID,81.400,12.210,455,432422,Spurs,a,81.000,2534.000,3.000,prior-season points with positional shrinkage
+Djed Spence,DEF,81.400,12.210,505,232859,Spurs,a,78.000,2049.000,3.000,prior-season points with positional shrinkage
+Noah Sadiki,MID,80.600,12.090,545,577669,Sunderland,a,80.000,2891.000,3.000,prior-season points with positional shrinkage
+Murillo Costa dos Santos,DEF,80.276,18.463,472,575476,Nott'm Forest,d,83.000,2130.000,3.000,prior-season points with positional shrinkage
+Lukas Nmecha,FWD,80.063,12.009,347,174594,Leeds,a,73.000,1065.000,3.167,prior-season points with positional shrinkage
+Emile Smith Rowe,MID,79.525,11.929,262,209289,Fulham,a,80.000,1909.000,3.333,prior-season points with positional shrinkage
+Kristoffer Ajer,DEF,79.268,11.890,87,191866,Brentford,a,76.000,1805.000,3.167,prior-season points with positional shrinkage
+Mathys Tel,MID,79.000,11.850,514,511499,Spurs,a,78.000,1334.000,3.000,prior-season points with positional shrinkage
+Pascal Groß,MID,79.000,11.850,124,60307,Brighton,a,78.000,1636.000,3.000,prior-season points with positional shrinkage
+Harvey Davies,GK,78.520,31.408,355,464353,Liverpool,a,,,2.833,position prior for new player
+Ewen Jaouen,GK,78.520,31.408,444,554578,Newcastle,a,,,2.833,position prior for new player
+Reinildo Mandava,DEF,78.200,11.730,536,434399,Sunderland,a,74.000,1966.000,3.000,prior-season points with positional shrinkage
+Yéremy Pino Santos,MID,78.200,11.730,211,488024,Crystal Palace,a,77.000,2074.000,3.000,prior-season points with positional shrinkage
+Alex Palmer,GK,78.000,31.200,301,112520,Ipswich Town,a,,,3.000,position prior for new player
+David Button,GK,78.000,31.200,302,50093,Ipswich Town,a,,,3.000,position prior for new player
+Christian Walton,GK,78.000,31.200,300,108813,Ipswich Town,a,,,3.000,position prior for new player
+Kayne van Oevelen,GK,78.000,31.200,554,546600,Ipswich Town,a,,,3.000,position prior for new player
+Oliver Dovin,GK,77.480,30.992,171,484389,Coventry City,a,,,3.167,position prior for new player
+Dillon Phillips,GK,77.480,30.992,273,167825,Hull City,a,,,3.167,position prior for new player
+Jack Butland,GK,77.480,30.992,274,105666,Hull City,a,,,3.167,position prior for new player
+Ben Wilson,GK,77.480,30.992,172,110690,Coventry City,a,,,3.167,position prior for new player
+Thimothée Lo-Tutala,GK,77.480,30.992,276,444307,Hull City,a,,,3.167,position prior for new player
+Jaydee Canvot,DEF,76.600,11.490,203,651426,Crystal Palace,a,72.000,1331.000,3.000,prior-season points with positional shrinkage
+Karl Darlow,GK,76.458,17.585,325,59735,Man Utd,d,71.000,1980.000,2.833,prior-season points with positional shrinkage
+Tyler Adams,MID,76.115,11.417,73,200785,Bournemouth,a,77.000,1769.000,3.667,prior-season points with positional shrinkage
+Martin Ødegaard,MID,75.800,11.370,15,184029,Arsenal,a,74.000,1363.000,3.000,prior-season points with positional shrinkage
+Kobbie Mainoo,MID,75.500,11.325,432,516895,Man Utd,a,73.000,1653.000,2.833,prior-season points with positional shrinkage
+Vitaly Janelt,MID,75.295,11.294,98,204580,Brentford,a,74.000,1434.000,3.167,prior-season points with positional shrinkage
+Jack Grealish,MID,75.012,17.253,238,114283,Man City,d,79.000,1627.000,3.000,prior-season points with positional shrinkage
+Noni Madueke,MID,74.200,11.130,16,248857,Arsenal,a,72.000,1205.000,3.000,prior-season points with positional shrinkage
+Pape Matar Sarr,MID,73.400,11.010,518,482442,Spurs,a,71.000,1388.000,3.000,prior-season points with positional shrinkage
+Gabriel Gudmundsson,DEF,72.911,10.937,331,243526,Leeds,a,68.000,2637.000,3.167,prior-season points with positional shrinkage
+Abdukodir Khusanov,DEF,72.600,10.890,393,578153,Man City,a,67.000,1427.000,3.000,prior-season points with positional shrinkage
+Ola Aina,DEF,72.600,10.890,473,159506,Nott'm Forest,a,67.000,1587.000,3.000,prior-season points with positional shrinkage
+George Hirst,FWD,72.150,28.860,317,222625,Ipswich Town,a,,,3.000,position prior for new player
+Ali Al-Hamadi,FWD,72.150,28.860,322,462387,Ipswich Town,a,,,3.000,position prior for new player
+Chuba Akpom,FWD,72.150,28.860,320,147675,Ipswich Town,a,,,3.000,position prior for new player
+Emersonn Correia da Silva,FWD,72.150,28.860,316,543968,Ipswich Town,a,,,3.000,position prior for new player
+Sindre Walle Egeli,FWD,72.150,28.860,321,557012,Ipswich Town,a,,,3.000,position prior for new player
+Mohammed Kudus,MID,72.004,16.561,512,460842,Spurs,d,75.000,1535.000,3.000,prior-season points with positional shrinkage
+Jefferson Lerma Solís,MID,71.800,10.770,213,152551,Crystal Palace,a,69.000,1722.000,3.000,prior-season points with positional shrinkage
+Ellis Simms,FWD,71.669,28.668,195,218997,Coventry City,a,,,3.167,position prior for new player
+Jahnoah Markelo,FWD,71.669,28.668,196,551262,Coventry City,a,,,3.167,position prior for new player
+Haji Wright,FWD,71.669,28.668,193,176412,Coventry City,a,,,3.167,position prior for new player
+Mason Burstow,FWD,71.669,28.668,299,534392,Hull City,a,,,3.167,position prior for new player
+Brandon Thomas-Asante,FWD,71.669,28.668,194,230730,Coventry City,a,,,3.167,position prior for new player
+Enis Destan,FWD,71.669,28.668,298,500957,Hull City,a,,,3.167,position prior for new player
+Oli McBurnie,FWD,71.669,28.668,295,169432,Hull City,a,,,3.167,position prior for new player
+Tim Iroegbunam,MID,71.473,10.721,240,490094,Everton,a,68.000,1477.000,2.833,prior-season points with positional shrinkage
+Joelinton Cássio Apolinário de Lira,MID,70.970,16.323,458,180974,Newcastle,d,73.000,1950.000,2.833,prior-season points with positional shrinkage
+Xavi Simons,MID,70.928,16.313,513,493362,Spurs,i,80.000,1747.000,3.000,prior-season points with positional shrinkage
+Álvaro Rodríguez,FWD,70.226,28.090,81,561245,Bournemouth,a,,,3.667,position prior for new player
+Pau Torres,DEF,70.200,10.530,34,244954,Aston Villa,a,64.000,1673.000,3.000,prior-season points with positional shrinkage
+Daichi Kamada,MID,70.200,10.530,214,209400,Crystal Palace,a,67.000,1899.000,3.000,prior-season points with positional shrinkage
+Mikel Merino Zazón,MID,70.200,10.530,17,195384,Arsenal,a,67.000,1024.000,3.000,prior-season points with positional shrinkage
+Antonee Robinson,DEF,70.053,10.508,254,169528,Fulham,a,65.000,1487.000,3.333,prior-season points with positional shrinkage
+Jeremie Frimpong,DEF,69.863,10.479,357,216094,Liverpool,a,63.000,1032.000,2.833,prior-season points with positional shrinkage
+Tanaka Ao,MID,69.732,10.460,345,248056,Leeds,a,67.000,1307.000,3.167,prior-season points with positional shrinkage
+Kevin Danso,DEF,69.400,10.410,501,135720,Spurs,a,63.000,1489.000,3.000,prior-season points with positional shrinkage
+Saša Lukić,MID,69.264,10.390,267,212314,Fulham,a,67.000,1730.000,3.333,prior-season points with positional shrinkage
+Vitezslav Jaros,GK,69.098,33.167,354,432987,Liverpool,i,,,2.833,position prior for new player
+Habib Diarra,MID,68.600,10.290,543,547027,Sunderland,a,65.000,1403.000,3.000,prior-season points with positional shrinkage
+Brennan Johnson,MID,68.600,10.290,209,242898,Crystal Palace,a,65.000,1710.000,3.000,prior-season points with positional shrinkage
+Amine Adli,MID,68.328,10.249,77,489888,Bournemouth,a,67.000,1074.000,3.667,prior-season points with positional shrinkage
+Rayan Vitor Simplício Rocha,MID,68.328,10.249,67,499604,Bournemouth,a,67.000,1110.000,3.667,prior-season points with positional shrinkage
+Amadou Onana,MID,68.112,15.666,48,449871,Aston Villa,i,76.000,1755.000,3.000,prior-season points with positional shrinkage
+Emmanuel Emegha,FWD,67.821,32.554,170,503037,Chelsea,d,,,3.000,position prior for new player
+Youri Tielemans,MID,67.185,15.453,43,166989,Man Utd,d,68.000,1857.000,2.833,prior-season points with positional shrinkage
+Omar Marmoush,FWD,67.000,16.750,401,438234,Man City,a,56.000,691.000,3.000,prior-season points with positional shrinkage
+Rayan Aït-Nouri,DEF,67.000,10.050,392,448514,Man City,a,60.000,971.000,3.000,prior-season points with positional shrinkage
+Nico González Iglesias,MID,67.000,10.050,405,465694,Man City,a,63.000,1561.000,3.000,prior-season points with positional shrinkage
+Timothy Castagne,DEF,66.896,10.034,258,166477,Fulham,a,61.000,1838.000,3.333,prior-season points with positional shrinkage
+Jacob Ramsey,MID,66.641,9.996,456,232653,Newcastle,a,62.000,1441.000,2.833,prior-season points with positional shrinkage
+Josh King,MID,66.107,9.916,268,577725,Fulham,a,63.000,1290.000,3.333,prior-season points with positional shrinkage
+Lewis Miley,MID,65.731,15.118,459,547719,Newcastle,i,72.000,1493.000,2.833,prior-season points with positional shrinkage
+Archie Gray,MID,65.400,9.810,522,547701,Spurs,a,61.000,1471.000,3.000,prior-season points with positional shrinkage
+Leny Yoro,DEF,64.225,9.634,420,550864,Man Utd,a,56.000,1730.000,2.833,prior-season points with positional shrinkage
+Wesley Fofana,DEF,63.900,14.697,145,444463,Chelsea,s,65.000,1718.000,3.000,prior-season points with positional shrinkage
+Adam Smith,DEF,63.656,9.548,64,54469,Bournemouth,a,58.000,1073.000,3.667,prior-season points with positional shrinkage
+Mason Mount,MID,63.420,9.513,430,184341,Man Utd,a,58.000,1010.000,2.833,prior-season points with positional shrinkage
+Loum Tchaouna,MID,63.375,9.506,190,469272,Coventry City,a,59.000,1259.000,3.167,prior-season points with positional shrinkage
+Rodrigo 'Rodri' Hernandez Cascante,MID,63.184,14.532,402,220566,Man City,i,69.000,1510.000,3.000,prior-season points with positional shrinkage
+Estêvão Almeida de Oliveira Gonçalves,MID,63.000,15.750,157,624773,Chelsea,a,58.000,839.000,3.000,prior-season points with positional shrinkage
+Andrew Robertson,DEF,63.000,9.450,502,122798,Spurs,a,55.000,1165.000,3.000,prior-season points with positional shrinkage
+Tino Livramento,DEF,62.643,14.408,450,441191,Newcastle,d,59.000,1326.000,2.833,prior-season points with positional shrinkage
+Ian Maatsen,DEF,62.200,9.330,36,441302,Aston Villa,a,54.000,1590.000,3.000,prior-season points with positional shrinkage
+Gabriel Martinelli Silva,MID,62.200,9.330,18,444145,Arsenal,a,57.000,1065.000,3.000,prior-season points with positional shrinkage
+Jeremy Jacquet,DEF,62.162,24.865,362,606702,Liverpool,a,,,2.833,position prior for new player
+David Brooks,MID,62.099,9.315,74,111317,Bournemouth,a,59.000,1188.000,3.667,prior-season points with positional shrinkage
+Noussair Mazraoui,DEF,61.809,9.271,422,230001,Man Utd,a,53.000,977.000,2.833,prior-season points with positional shrinkage
+Kosta Nedeljkovic,DEF,61.750,24.700,39,578545,Aston Villa,a,,,3.000,position prior for new player
+Michael Svoboda,DEF,61.750,24.700,120,454490,Brighton,a,,,3.000,position prior for new player
+Oscar Mingueza,DEF,61.750,24.700,207,242313,Crystal Palace,a,,,3.000,position prior for new player
+Tyler Bindon,DEF,61.750,24.700,479,538638,Nott'm Forest,a,,,3.000,position prior for new player
+Dara O'Shea,DEF,61.750,24.700,304,216616,Ipswich Town,a,,,3.000,position prior for new player
+Marco Palestra,DEF,61.750,24.700,152,620109,Chelsea,a,,,3.000,position prior for new player
+João Pedro Loureiro da Costa,DEF,61.750,24.700,119,451490,Brighton,a,,,3.000,position prior for new player
+Leif Davis,DEF,61.750,24.700,305,455084,Ipswich Town,a,,,3.000,position prior for new player
+Thomas Meunier,DEF,61.750,24.700,541,93605,Sunderland,a,,,3.000,position prior for new player
+Jacob Greaves,DEF,61.750,24.700,306,449429,Ipswich Town,a,,,3.000,position prior for new player
+Darnell Furlong,DEF,61.750,24.700,308,176420,Ipswich Town,a,,,3.000,position prior for new player
+Ben Johnson,DEF,61.750,24.700,307,222018,Ipswich Town,a,,,3.000,position prior for new player
+Cédric Kipré,DEF,61.750,24.700,303,183015,Ipswich Town,a,,,3.000,position prior for new player
+Boubacar Kamara,MID,61.476,14.139,47,226944,Aston Villa,d,61.000,1410.000,3.000,prior-season points with positional shrinkage
+Alejandro Garnacho Ferreyra,MID,61.400,9.210,160,493105,Aston Villa,a,56.000,1261.000,3.000,prior-season points with positional shrinkage
+Felipe Rodrigues da Silva,DEF,61.400,9.210,470,485047,Nott'm Forest,a,53.000,1340.000,3.000,prior-season points with positional shrinkage
+Carlos Baleba,MID,61.400,9.210,131,535301,Brighton,a,56.000,1646.000,3.000,prior-season points with positional shrinkage
+Ross Barkley,MID,61.400,15.350,46,88894,Aston Villa,a,56.000,844.000,3.000,prior-season points with positional shrinkage
+Miguel Brau,DEF,61.338,24.535,181,577411,Coventry City,a,,,3.167,position prior for new player
+Bobby Thomas,DEF,61.338,24.535,173,461102,Coventry City,a,,,3.167,position prior for new player
+Semi Ajayi,DEF,61.338,24.535,279,146426,Hull City,a,,,3.167,position prior for new player
+Paddy McNair,DEF,61.338,24.535,285,160817,Hull City,a,,,3.167,position prior for new player
+Tarik Muharemović,DEF,61.338,24.535,334,522047,Leeds,a,,,3.167,position prior for new player
+Jannik Schuster,DEF,61.338,24.535,93,513086,Brentford,a,,,3.167,position prior for new player
+Kaine Kesler-Hayden,DEF,61.338,24.535,177,465390,Coventry City,a,,,3.167,position prior for new player
+Jay Dasilva,DEF,61.338,24.535,176,173878,Coventry City,a,,,3.167,position prior for new player
+Liam Kitching,DEF,61.338,24.535,174,436761,Coventry City,a,,,3.167,position prior for new player
+Joel Latibeaudiere,DEF,61.338,24.535,179,204813,Coventry City,a,,,3.167,position prior for new player
+Jake Bidwell,DEF,61.338,24.535,178,80178,Coventry City,a,,,3.167,position prior for new player
+Luke Woolfenden,DEF,61.338,24.535,180,220583,Coventry City,a,,,3.167,position prior for new player
+Milan van Ewijk,DEF,61.338,24.535,175,451284,Coventry City,a,,,3.167,position prior for new player
+John Egan,DEF,61.338,24.535,277,108416,Hull City,a,,,3.167,position prior for new player
+Cody Drameh,DEF,61.338,24.535,281,433590,Hull City,a,,,3.167,position prior for new player
+Cathal McCarthy,DEF,61.338,24.535,284,661800,Hull City,a,,,3.167,position prior for new player
+Ryan Giles,DEF,61.338,24.535,282,232351,Hull City,a,,,3.167,position prior for new player
+Lewie Coyle,DEF,61.338,24.535,280,193278,Hull City,a,,,3.167,position prior for new player
+Aurèle Amenda,DEF,61.338,24.535,182,539142,Coventry City,a,,,3.167,position prior for new player
+Ilia Gruev,MID,60.991,9.149,344,486520,Leeds,a,56.000,1318.000,3.167,prior-season points with positional shrinkage
+Sean Longstaff,MID,60.991,9.149,339,180135,Leeds,a,56.000,1003.000,3.167,prior-season points with positional shrinkage
+Fabian Schär,DEF,60.199,9.030,446,119471,Newcastle,a,51.000,1089.000,2.833,prior-season points with positional shrinkage
+Rico Henry,DEF,60.196,9.029,89,194010,Brentford,a,52.000,1322.000,3.167,prior-season points with positional shrinkage
+Dwight McNeil,MID,59.393,8.909,241,433154,Everton,a,53.000,1161.000,2.833,prior-season points with positional shrinkage
+Tyrone Mings,DEF,59.000,8.850,33,149484,Aston Villa,a,50.000,1322.000,3.000,prior-season points with positional shrinkage
+Mitoma Kaoru,MID,58.256,13.399,121,451340,Brighton,i,62.000,1714.000,3.000,prior-season points with positional shrinkage
+Axel Disasi,DEF,58.200,8.730,153,220362,Chelsea,a,49.000,1254.000,3.000,prior-season points with positional shrinkage
+Liam Delap,FWD,58.200,8.730,167,463034,Chelsea,a,45.000,1092.000,3.000,prior-season points with positional shrinkage
+Lucas Estella Perri,GK,58.011,8.702,326,201595,Leeds,a,43.000,1440.000,3.167,prior-season points with positional shrinkage
+Matty Jacob,DEF,57.658,27.676,283,449428,Hull City,d,,,3.167,position prior for new player
+Taiwo Awoniyi,FWD,56.600,14.150,492,210156,Nott'm Forest,a,43.000,480.000,3.000,prior-season points with positional shrinkage
+Dan Ndoye,MID,56.600,8.490,483,456512,Nott'm Forest,a,50.000,1167.000,3.000,prior-season points with positional shrinkage
+Lisandro Martínez,DEF,56.587,13.015,419,221820,Man Utd,d,51.000,1229.000,2.833,prior-season points with positional shrinkage
+Joshua Zirkzee,FWD,56.172,14.043,440,458249,Man Utd,a,42.000,607.000,2.833,prior-season points with positional shrinkage
+Lucas Bergvall,MID,55.800,8.370,520,570526,Spurs,a,49.000,955.000,3.000,prior-season points with positional shrinkage
+Alexander Isak,FWD,55.367,13.842,379,219168,Liverpool,a,41.000,694.000,2.833,prior-season points with positional shrinkage
+Anthony Elanga,MID,55.367,8.305,454,449434,Newcastle,a,48.000,1302.000,2.833,prior-season points with positional shrinkage
+Kevin Santos Lopes de Macedo,MID,55.056,8.258,263,560552,Fulham,a,49.000,1030.000,3.333,prior-season points with positional shrinkage
+Nicolás Domínguez,MID,55.000,8.250,487,250199,Nott'm Forest,a,48.000,1168.000,3.000,prior-season points with positional shrinkage
+Chris Wood,FWD,55.000,13.750,490,60689,Nott'm Forest,a,41.000,896.000,3.000,prior-season points with positional shrinkage
+Benjamin White,DEF,55.000,13.750,10,198869,Arsenal,a,45.000,699.000,3.000,prior-season points with positional shrinkage
+Andrey Nascimento dos Santos,MID,54.561,8.184,162,532605,Man Utd,a,47.000,1247.000,2.833,prior-season points with positional shrinkage
+Bafodé Diakité,DEF,54.312,8.147,62,242882,Bournemouth,a,46.000,1275.000,3.667,prior-season points with positional shrinkage
+Victor Munoz,MID,54.310,21.724,377,551499,Liverpool,a,,,2.833,position prior for new player
+Bazoumana Touré,MID,54.310,21.724,461,611665,Newcastle,a,,,2.833,position prior for new player
+Sean Steur,MID,54.310,21.724,462,636852,Newcastle,a,,,2.833,position prior for new player
+Aladji Bamba,MID,54.310,21.724,559,632794,Newcastle,a,,,2.833,position prior for new player
+Lewis Koumas,MID,54.310,21.724,381,514514,Liverpool,a,,,2.833,position prior for new player
+Hayden Hackney,MID,54.310,21.724,247,244860,Everton,a,,,2.833,position prior for new player
+Dominic Solanke-Mitchell,FWD,54.200,8.130,526,154566,Spurs,a,40.000,997.000,3.000,prior-season points with positional shrinkage
+Charlie Hughes,DEF,53.978,25.909,278,501902,Hull City,i,,,3.167,position prior for new player
+Zadok Yohanna,MID,53.950,21.580,135,700308,Brighton,a,,,3.000,position prior for new player
+Xaver Schlager,MID,53.950,21.580,558,204561,Nott'm Forest,a,,,3.000,position prior for new player
+Jeremy Monga,MID,53.950,21.580,410,649208,Man City,a,,,3.000,position prior for new player
+Johan Manzambi,MID,53.950,21.580,53,614071,Aston Villa,a,,,3.000,position prior for new player
+Daizen Maeda,MID,53.950,21.580,562,442967,Ipswich Town,a,,,3.000,position prior for new player
+Anis Mehmeti,MID,53.950,21.580,324,232457,Ipswich Town,a,,,3.000,position prior for new player
+Kasey McAteer,MID,53.950,21.580,323,461587,Ipswich Town,a,,,3.000,position prior for new player
+Sam Szmodics,MID,53.950,21.580,319,172453,Ipswich Town,a,,,3.000,position prior for new player
+Jack Clarke,MID,53.950,21.580,313,443261,Ipswich Town,a,,,3.000,position prior for new player
+Chiedozie Ogbene,MID,53.950,21.580,314,229164,Ipswich Town,a,,,3.000,position prior for new player
+Abdul Fatawu,MID,53.950,21.580,315,531442,Ipswich Town,a,,,3.000,position prior for new player
+Wes Burns,MID,53.950,21.580,311,149929,Ipswich Town,a,,,3.000,position prior for new player
+Marcelino Núñez,MID,53.950,21.580,309,501390,Ipswich Town,a,,,3.000,position prior for new player
+Jaden Philogene,MID,53.950,21.580,318,481624,Ipswich Town,a,,,3.000,position prior for new player
+Christos Tzolis,MID,53.950,21.580,557,439509,Arsenal,a,,,3.000,position prior for new player
+Mohamed Belloumi,MID,53.590,21.436,286,540324,Hull City,a,,,3.167,position prior for new player
+Hidemasa Morita,MID,53.590,21.436,563,445028,Hull City,a,,,3.167,position prior for new player
+Óscar Zambrano,MID,53.590,21.436,294,553783,Hull City,a,,,3.167,position prior for new player
+David Akintola,MID,53.590,21.436,296,213292,Hull City,a,,,3.167,position prior for new player
+Abdülkadir Ömür,MID,53.590,21.436,292,208481,Hull City,a,,,3.167,position prior for new player
+Abu Kamara,MID,53.590,21.436,293,490161,Hull City,a,,,3.167,position prior for new player
+Regan Slater,MID,53.590,21.436,290,243413,Hull City,a,,,3.167,position prior for new player
+Matt Crooks,MID,53.590,21.436,289,101282,Hull City,a,,,3.167,position prior for new player
+Kieran Dowell,MID,53.590,21.436,288,171270,Hull City,a,,,3.167,position prior for new player
+Liam Millar,MID,53.590,21.436,287,232905,Hull City,a,,,3.167,position prior for new player
+Tatsuhiro Sakamoto,MID,53.590,21.436,185,501459,Coventry City,a,,,3.167,position prior for new player
+Victor Torp,MID,53.590,21.436,188,226965,Coventry City,a,,,3.167,position prior for new player
+Josh Eccles,MID,53.590,21.436,187,439668,Coventry City,a,,,3.167,position prior for new player
+Ephron Mason-Clark,MID,53.590,21.436,186,241293,Coventry City,a,,,3.167,position prior for new player
+George Shepherd,MID,53.590,21.436,189,684268,Coventry City,a,,,3.167,position prior for new player
+Raphael Borges Rodrigues,MID,53.590,21.436,191,492498,Coventry City,a,,,3.167,position prior for new player
+Kaine Andrews,MID,53.590,21.436,192,629397,Coventry City,a,,,3.167,position prior for new player
+Mamadou Sangaré,MID,53.590,21.436,565,513545,Brentford,a,,,3.167,position prior for new player
+Matt Grimes,MID,53.590,21.436,184,168144,Coventry City,a,,,3.167,position prior for new player
+Ayden Heaven,DEF,52.951,8.000,421,606745,Man Utd,a,42.000,920.000,2.833,prior-season points with positional shrinkage
+Will Hughes,MID,52.600,8.000,212,108413,Crystal Palace,a,45.000,1560.000,3.000,prior-season points with positional shrinkage
+Evann Guessand,MID,51.800,8.000,42,485337,Aston Villa,a,44.000,909.000,3.000,prior-season points with positional shrinkage
+Conor Gallagher,MID,51.800,8.000,519,232787,Spurs,a,44.000,1183.000,3.000,prior-season points with positional shrinkage
+Giorgi Mamardashvili,GK,51.541,12.885,351,449027,Liverpool,a,34.000,867.000,2.833,prior-season points with positional shrinkage
+Rio Ngumoha,MID,51.340,12.835,369,611922,Liverpool,a,43.000,547.000,2.833,prior-season points with positional shrinkage
+Cristhian Mosquera,DEF,51.000,8.000,11,500040,Arsenal,a,40.000,986.000,3.000,prior-season points with positional shrinkage
+Kai Havertz,FWD,51.000,12.750,26,219847,Arsenal,a,36.000,577.000,3.000,prior-season points with positional shrinkage
+Sávio Moreira de Oliveira,MID,51.000,12.750,403,510281,Man City,a,43.000,817.000,3.000,prior-season points with positional shrinkage
+Geovany Quenda,MID,50.713,24.342,164,593117,Chelsea,d,,,3.000,position prior for new player
+Jack Rudoni,MID,50.375,24.180,183,480457,Coventry City,d,,,3.167,position prior for new player
+Rodrigo Muniz Carvalho,FWD,50.320,8.000,271,244042,Fulham,a,36.000,987.000,3.333,prior-season points with positional shrinkage
+Josh Acheampong,DEF,50.200,12.550,151,577016,Chelsea,a,39.000,657.000,3.000,prior-season points with positional shrinkage
+Charalampos Kostoulas,FWD,50.200,12.550,138,647850,Brighton,a,35.000,351.000,3.000,prior-season points with positional shrinkage
+Olivier Boscagli,DEF,50.200,12.550,114,204120,Brighton,a,39.000,799.000,3.000,prior-season points with positional shrinkage
+Oscar Bobb,MID,49.531,8.000,264,477555,Fulham,a,42.000,1030.000,3.333,prior-season points with positional shrinkage
+Jorge Cuenca Barreno,DEF,49.531,8.000,255,246301,Fulham,a,39.000,935.000,3.333,prior-season points with positional shrinkage
+Tom Cairney,MID,48.741,12.185,266,76357,Fulham,a,41.000,756.000,3.333,prior-season points with positional shrinkage
+Lamare Bogarde,MID,48.600,8.000,35,515597,Aston Villa,a,40.000,1042.000,3.000,prior-season points with positional shrinkage
+Aaron Hickey,DEF,48.276,12.069,90,472713,Brentford,a,37.000,679.000,3.167,prior-season points with positional shrinkage
+Justin Kluivert,MID,48.083,8.000,70,222683,Bournemouth,a,41.000,945.000,3.667,prior-season points with positional shrinkage
+Ryan Christie,MID,47.479,10.920,75,158499,Bournemouth,s,47.000,978.000,3.667,prior-season points with positional shrinkage
+Azor Matusiwa,MID,47.476,22.788,310,241117,Ipswich Town,i,,,3.000,position prior for new player
+Jack Taylor,MID,47.476,22.788,312,231899,Ipswich Town,i,,,3.000,position prior for new player
+Joe Willock,MID,47.313,8.000,460,200089,Newcastle,a,38.000,972.000,2.833,prior-season points with positional shrinkage
+Matthijs de Ligt,DEF,47.305,10.880,416,209365,Man Utd,i,43.000,1170.000,2.833,prior-season points with positional shrinkage
+Lewis Cook,MID,47.304,11.826,71,155408,Bournemouth,a,40.000,872.000,3.667,prior-season points with positional shrinkage
+Eliot Matazo,MID,47.159,22.637,291,465525,Hull City,i,,,3.167,position prior for new player
+Wilson Odobert,MID,46.992,10.808,517,550839,Spurs,i,46.000,972.000,3.000,prior-season points with positional shrinkage
+Conor Bradley,DEF,46.597,10.717,360,492777,Liverpool,i,42.000,928.000,2.833,prior-season points with positional shrinkage
+Federico Chiesa,MID,46.508,11.627,370,223541,Liverpool,a,37.000,317.000,2.833,prior-season points with positional shrinkage
+Tosin Adarabioyo,DEF,46.200,11.550,147,109646,Chelsea,a,34.000,788.000,3.000,prior-season points with positional shrinkage
+Merlin Röhl,MID,45.703,11.426,246,513466,Everton,a,36.000,675.000,2.833,prior-season points with positional shrinkage
+Justin Devenny,MID,45.400,11.350,215,489706,Crystal Palace,a,36.000,785.000,3.000,prior-season points with positional shrinkage
+Chris Rigg,MID,45.400,11.350,548,554197,Sunderland,a,36.000,758.000,3.000,prior-season points with positional shrinkage
+Jarrad Branthwaite,DEF,44.897,11.224,230,480455,Everton,a,32.000,678.000,2.833,prior-season points with positional shrinkage
+Nicolò Savona,DEF,44.176,10.160,475,500151,Nott'm Forest,i,39.000,1025.000,3.000,prior-season points with positional shrinkage
+Yoane Wissa,FWD,44.092,11.023,464,216646,Newcastle,a,27.000,517.000,2.833,prior-season points with positional shrinkage
+Simon Adingra,MID,43.800,10.950,546,535818,Sunderland,a,34.000,649.000,3.000,prior-season points with positional shrinkage
+Issa Diop,DEF,43.800,10.950,259,219924,Ipswich Town,a,31.000,812.000,3.000,prior-season points with positional shrinkage
+Enes Ünal,FWD,42.632,10.658,80,168636,Bournemouth,a,27.000,214.000,3.667,prior-season points with positional shrinkage
+Victor Lindelöf,DEF,42.200,8.000,37,184667,Aston Villa,a,29.000,942.000,3.000,prior-season points with positional shrinkage
+Destiny Udogie,DEF,42.200,8.000,506,487053,Spurs,a,29.000,1335.000,3.000,prior-season points with positional shrinkage
+Wilfried Gnonto,MID,41.919,10.480,341,492859,Leeds,a,32.000,521.000,3.167,prior-season points with positional shrinkage
+Manuel Ugarte Ribeiro,MID,41.636,13.740,433,232112,Man Utd,i,38.000,876.000,2.833,prior-season points with positional shrinkage
+Gabriel Fernando de Jesus,FWD,41.400,10.350,27,205651,Arsenal,a,24.000,418.000,3.000,prior-season points with positional shrinkage
+Eddie Nketiah,FWD,40.600,10.150,224,205533,Crystal Palace,a,23.000,414.000,3.000,prior-season points with positional shrinkage
+Ryan Yates,MID,40.600,10.150,489,204968,Nott'm Forest,a,30.000,602.000,3.000,prior-season points with positional shrinkage
+Joe Gomez,DEF,40.218,13.272,359,171287,Liverpool,i,33.000,594.000,2.833,prior-season points with positional shrinkage
+Carlos Alcaraz Durán,MID,40.065,10.016,243,502697,Everton,a,29.000,679.000,2.833,prior-season points with positional shrinkage
+Antonín Kinský,GK,40.000,10.000,496,485055,Spurs,a,20.000,630.000,3.000,prior-season points with positional shrinkage
+Myles Lewis-Skelly,MID,39.800,9.950,7,499169,Arsenal,a,29.000,697.000,3.000,prior-season points with positional shrinkage
+Luke O'Nien,DEF,39.800,9.950,539,167512,Sunderland,a,26.000,565.000,3.000,prior-season points with positional shrinkage
+Sebastiaan Bornauw,DEF,38.740,9.685,333,437738,Leeds,a,25.000,429.000,3.167,prior-season points with positional shrinkage
+Dilane Bakwa,MID,37.400,9.350,485,476887,Nott'm Forest,a,26.000,549.000,3.000,prior-season points with positional shrinkage
+Nathan Patterson,DEF,36.844,9.211,234,243571,Everton,a,22.000,238.000,2.833,prior-season points with positional shrinkage
+Melker Ellborg,GK,36.800,9.200,531,515046,Sunderland,a,16.000,270.000,3.000,prior-season points with positional shrinkage
+Marco Bizot,GK,36.800,9.200,29,72147,Aston Villa,a,16.000,585.000,3.000,prior-season points with positional shrinkage
+Jamie Bynoe-Gittens,MID,36.600,9.150,158,463936,Chelsea,a,25.000,486.000,3.000,prior-season points with positional shrinkage
+Tammy Abraham,FWD,35.728,11.790,56,173879,Aston Villa,i,23.000,278.000,3.000,prior-season points with positional shrinkage
+Joël Piroe,FWD,35.561,8.890,348,235826,Leeds,a,17.000,244.000,3.167,prior-season points with positional shrinkage
+Chadi Riad Dnanou,DEF,35.000,8.750,206,515621,Crystal Palace,a,20.000,550.000,3.000,prior-season points with positional shrinkage
+Daniel James,MID,34.767,8.692,343,200617,Leeds,a,23.000,547.000,3.167,prior-season points with positional shrinkage
+James Trafford,GK,34.400,8.600,385,432720,Man City,a,13.000,360.000,3.000,prior-season points with positional shrinkage
+Jorrel Hato,DEF,34.200,8.000,148,551210,Chelsea,a,19.000,1139.000,3.000,prior-season points with positional shrinkage
+Rico Lewis,DEF,34.200,8.550,395,477064,Man City,a,19.000,401.000,3.000,prior-season points with positional shrinkage
+Harrison Armstrong,MID,33.623,8.406,244,609873,Everton,a,21.000,524.000,2.833,prior-season points with positional shrinkage
+Leon Bailey,MID,33.400,8.350,44,215711,Aston Villa,a,21.000,450.000,3.000,prior-season points with positional shrinkage
+Veljko Milosavljevic,DEF,33.288,8.322,63,620487,Bournemouth,a,19.000,367.000,3.667,prior-season points with positional shrinkage
+Altay Bayındır,GK,33.019,8.255,413,451302,Man Utd,a,11.000,540.000,2.833,prior-season points with positional shrinkage
+Stefanos Tzimas,FWD,32.900,10.857,137,608181,Brighton,d,16.000,132.000,3.000,prior-season points with positional shrinkage
+John Victor Maciel Furtado,GK,32.800,8.200,468,221389,Nott'm Forest,a,11.000,437.000,3.000,prior-season points with positional shrinkage
+Marc Guiu Paz,FWD,32.600,8.150,168,499309,Chelsea,a,13.000,265.000,3.000,prior-season points with positional shrinkage
+Tyler Dibling,MID,31.207,8.000,245,496661,Everton,a,18.000,349.000,2.833,prior-season points with positional shrinkage
+Filip Jörgensen,GK,31.200,8.000,141,508479,Chelsea,a,9.000,378.000,3.000,prior-season points with positional shrinkage
+James McAtee,MID,30.200,8.000,486,432714,Nott'm Forest,a,17.000,288.000,3.000,prior-season points with positional shrinkage
+Ethan Pinnock,DEF,29.999,8.000,91,231065,Brentford,a,14.000,318.000,3.167,prior-season points with positional shrinkage
+Walter Benítez,GK,29.600,8.000,199,121709,Crystal Palace,a,7.000,90.000,3.000,prior-season points with positional shrinkage
+Tyrique George,MID,29.596,8.000,242,550615,Everton,a,16.000,351.000,2.833,prior-season points with positional shrinkage
+Arnaud Kalimuendo,FWD,29.400,8.000,493,465680,Nott'm Forest,a,9.000,89.000,3.000,prior-season points with positional shrinkage
+Matt O'Riley,MID,29.400,8.000,126,219249,Brighton,a,16.000,202.000,3.000,prior-season points with positional shrinkage
+Max Dowman,MID,29.400,8.000,20,616077,Arsenal,a,16.000,152.000,3.000,prior-season points with positional shrinkage
+Jair Paula da Cunha Filho,DEF,29.400,8.000,474,575458,Nott'm Forest,a,13.000,514.000,3.000,prior-season points with positional shrinkage
+Freddie Woodman,GK,28.992,8.000,352,155503,Liverpool,a,6.000,212.000,2.833,prior-season points with positional shrinkage
+Harrison Reed,MID,28.219,8.000,270,153366,Fulham,a,15.000,89.000,3.333,prior-season points with positional shrinkage
+Romaine Mundle,MID,27.800,8.000,547,461199,Sunderland,a,14.000,399.000,3.000,prior-season points with positional shrinkage
+Luca Netz,DEF,27.800,8.000,478,470315,Nott'm Forest,a,11.000,353.000,3.000,prior-season points with positional shrinkage
+Diego Coppola,DEF,27.000,8.000,117,550090,Brighton,a,10.000,193.000,3.000,prior-season points with positional shrinkage
+Roméo Lavia,MID,27.000,8.000,161,514356,Chelsea,a,13.000,374.000,3.000,prior-season points with positional shrinkage
+Ben Davies,DEF,27.000,8.000,508,115556,Spurs,a,10.000,136.000,3.000,prior-season points with positional shrinkage
+Nilson Angulo,MID,27.000,8.000,551,536661,Sunderland,a,13.000,401.000,3.000,prior-season points with positional shrinkage
+Reiss Nelson,MID,27.000,8.000,24,200641,Arsenal,a,13.000,118.000,3.000,prior-season points with positional shrinkage
+Jonah Kusi-Asare,FWD,26.640,8.000,272,631786,Fulham,a,6.000,49.000,3.333,prior-season points with positional shrinkage
+Frank Onyeka,MID,26.025,8.000,104,428580,Coventry City,a,12.000,88.000,3.167,prior-season points with positional shrinkage
+Kepa Arrizabalaga Revuelta,GK,25.600,8.000,2,109745,Arsenal,a,2.000,90.000,3.000,prior-season points with positional shrinkage
+Levi Samuels Colwill,DEF,25.400,8.000,149,460028,Chelsea,a,8.000,225.000,3.000,prior-season points with positional shrinkage
+Endo Wataru,MID,24.792,8.181,374,158983,Liverpool,d,12.000,170.000,2.833,prior-season points with positional shrinkage
+Ben Gannon-Doak,MID,24.723,8.000,72,496208,Bournemouth,a,11.000,105.000,3.667,prior-season points with positional shrinkage
+Hákon Rafn Valdimarsson,GK,24.635,8.000,83,507433,Brentford,a,1.000,90.000,3.167,prior-season points with positional shrinkage
+Benoît Badiashile Mukinayi,DEF,24.600,8.000,146,242880,Chelsea,a,7.000,470.000,3.000,prior-season points with positional shrinkage
+Tom Heaton,GK,24.160,8.000,414,21205,Man Utd,a,0.000,0.000,2.833,prior-season points with positional shrinkage
+Mark Travers,GK,24.160,8.000,227,229600,Everton,a,0.000,0.000,2.833,prior-season points with positional shrinkage
+Mark Gillespie,GK,24.160,8.000,443,81441,Newcastle,a,0.000,0.000,2.833,prior-season points with positional shrinkage
+Tom King,GK,24.160,8.000,228,138001,Everton,a,0.000,0.000,2.833,prior-season points with positional shrinkage
+Armin Pecsi,GK,24.160,8.000,353,586268,Liverpool,a,0.000,0.000,2.833,prior-season points with positional shrinkage
+Kjell Scherpen,GK,24.000,8.000,564,240514,Ipswich Town,a,0.000,0.000,3.000,prior-season points with positional shrinkage
+Marcus Bettinelli,GK,24.000,8.000,386,122074,Man City,a,0.000,0.000,3.000,prior-season points with positional shrinkage
+Remi Matthews,GK,24.000,8.000,555,169593,Crystal Palace,a,0.000,0.000,3.000,prior-season points with positional shrinkage
+Illan Meslier,GK,24.000,8.000,3,437495,Arsenal,a,0.000,0.000,3.000,prior-season points with positional shrinkage
+Jason Steele,GK,24.000,8.000,111,49262,Brighton,a,0.000,0.000,3.000,prior-season points with positional shrinkage
+Brandon Austin,GK,24.000,8.000,495,214572,Spurs,a,0.000,0.000,3.000,prior-season points with positional shrinkage
+Anthony Patterson,GK,24.000,8.000,530,232571,Sunderland,a,0.000,0.000,3.000,prior-season points with positional shrinkage
+Carl Rushworth,GK,24.000,8.000,110,472739,Brighton,a,0.000,0.000,3.000,prior-season points with positional shrinkage
+Mike Penders,GK,24.000,8.000,560,549939,Chelsea,a,0.000,0.000,3.000,prior-season points with positional shrinkage
+Dane Scarlett,FWD,23.800,8.000,528,490145,Spurs,a,2.000,7.000,3.000,prior-season points with positional shrinkage
+Mateo Kovačić,MID,23.800,8.000,406,91651,Man City,a,9.000,125.000,3.000,prior-season points with positional shrinkage
+Igor Julio dos Santos de Paulo,DEF,23.800,8.000,118,223434,Brighton,a,6.000,103.000,3.000,prior-season points with positional shrinkage
+Borna Sosa,DEF,23.800,8.000,205,218364,Crystal Palace,a,6.000,99.000,3.000,prior-season points with positional shrinkage
+Alfie McNally,GK,23.680,8.000,252,505079,Fulham,a,0.000,0.000,3.333,prior-season points with positional shrinkage
+Benjamin Lecomte,GK,23.680,8.000,251,86873,Fulham,a,0.000,0.000,3.333,prior-season points with positional shrinkage
+Fábio Freitas Gouveia Carvalho,MID,23.602,8.000,100,244858,Brentford,i,13.000,100.000,3.167,prior-season points with positional shrinkage
+Fraser Forster,GK,23.360,8.000,58,40383,Bournemouth,a,0.000,0.000,3.667,prior-season points with positional shrinkage
+Will Dennis,GK,23.360,8.000,59,444172,Bournemouth,a,0.000,0.000,3.667,prior-season points with positional shrinkage
+Sean Neave,FWD,23.153,8.000,466,599303,Newcastle,a,1.000,13.000,2.833,prior-season points with positional shrinkage
+Shumaira Mheuka,FWD,23.000,8.000,169,567119,Chelsea,a,1.000,1.000,3.000,prior-season points with positional shrinkage
+Andrés García,DEF,23.000,8.000,38,606798,Aston Villa,a,5.000,83.000,3.000,prior-season points with positional shrinkage
+Ethan Nwaneri,MID,23.000,8.000,22,499175,Arsenal,a,8.000,165.000,3.000,prior-season points with positional shrinkage
+Max Alleyne,DEF,23.000,8.000,394,494307,Man City,a,5.000,135.000,3.000,prior-season points with positional shrinkage
+Kaye Furo,FWD,22.847,8.000,107,593174,Brentford,a,1.000,1.000,3.167,prior-season points with positional shrinkage
+Alex Tóth,MID,22.387,8.000,76,614574,Bournemouth,a,8.000,135.000,3.667,prior-season points with positional shrinkage
+Chido Obi,FWD,22.348,8.000,441,596047,Man Utd,a,0.000,0.000,2.833,prior-season points with positional shrinkage
+Nicolas Jackson,FWD,22.200,8.000,166,517052,Chelsea,a,0.000,0.000,3.000,prior-season points with positional shrinkage
+Christian Nørgaard,MID,22.200,8.000,21,128295,Arsenal,a,7.000,101.000,3.000,prior-season points with positional shrinkage
+Trey Nyoni,MID,21.543,8.000,375,591386,Liverpool,a,6.000,21.000,2.833,prior-season points with positional shrinkage
+Mamadou Sarr,DEF,21.400,8.000,150,574458,Chelsea,a,3.000,100.000,3.000,prior-season points with positional shrinkage
+Zach Abbott,DEF,21.400,8.000,477,549067,Nott'm Forest,a,3.000,165.000,3.000,prior-season points with positional shrinkage
+João Victor de Souza Menezes,DEF,21.400,8.000,511,616221,Spurs,a,3.000,142.000,3.000,prior-season points with positional shrinkage
+Julio Soler Barreto,DEF,20.829,8.000,66,575901,Bournemouth,a,3.000,34.000,3.667,prior-season points with positional shrinkage
+Alex Murphy,DEF,20.737,8.000,451,545477,Newcastle,a,2.000,7.000,2.833,prior-season points with positional shrinkage
+Harvey Elliott,MID,20.737,8.000,383,444884,Liverpool,a,5.000,110.000,2.833,prior-season points with positional shrinkage
+Jenson Seelt,DEF,20.600,8.000,537,519634,Sunderland,a,2.000,133.000,3.000,prior-season points with positional shrinkage
+Rio Cardines,DEF,20.600,8.000,220,590014,Crystal Palace,a,2.000,90.000,3.000,prior-season points with positional shrinkage
+Tom Watson,MID,20.600,8.000,133,549074,Brighton,a,5.000,57.000,3.000,prior-season points with positional shrinkage
+Tyler Fredricson,DEF,19.932,8.000,425,547676,Man Utd,a,1.000,2.000,2.833,prior-season points with positional shrinkage
+Romain Esse,MID,19.800,8.000,216,606921,Crystal Palace,a,4.000,40.000,3.000,prior-season points with positional shrinkage
+Jun'ai Byfield,DEF,19.800,8.000,509,640419,Spurs,a,1.000,1.000,3.000,prior-season points with positional shrinkage
+Harry Howell,MID,19.800,8.000,132,597320,Brighton,a,4.000,92.000,3.000,prior-season points with positional shrinkage
+Arthur Masuaku,DEF,19.800,8.000,540,105717,Sunderland,a,1.000,125.000,3.000,prior-season points with positional shrinkage
+James Rowswell,DEF,19.800,8.000,510,499716,Spurs,a,1.000,1.000,3.000,prior-season points with positional shrinkage
+Jayden Danns,FWD,19.666,8.000,382,500058,Liverpool,i,0.000,0.000,2.833,prior-season points with positional shrinkage
+Evan Ferguson,FWD,19.536,8.000,139,487117,Brighton,i,0.000,0.000,3.000,prior-season points with positional shrinkage
+Mateo Joseph Fernández-Regatillo,FWD,19.406,8.000,349,565297,Leeds,i,0.000,0.000,3.167,prior-season points with positional shrinkage
+Kostas Tsimikas,DEF,19.127,8.000,364,214285,Liverpool,a,0.000,0.000,2.833,prior-season points with positional shrinkage
+Wellity Lucky,DEF,19.127,8.000,361,519440,Liverpool,a,0.000,0.000,2.833,prior-season points with positional shrinkage
+Adam Aznou,DEF,19.127,8.000,235,499300,Everton,a,0.000,0.000,2.833,prior-season points with positional shrinkage
+Calvin Ramsay,DEF,19.127,8.000,365,489580,Liverpool,a,0.000,0.000,2.833,prior-season points with positional shrinkage
+Jack Fletcher,MID,19.127,8.000,434,547037,Man Utd,a,3.000,107.000,2.833,prior-season points with positional shrinkage
+Harry Amass,DEF,19.127,8.000,424,577974,Man Utd,a,0.000,0.000,2.833,prior-season points with positional shrinkage
+Shea Lacey,MID,19.127,8.000,435,576628,Man Utd,a,3.000,40.000,2.833,prior-season points with positional shrinkage
+James Maddison,MID,19.000,8.000,515,172780,Spurs,a,3.000,34.000,3.000,prior-season points with positional shrinkage
+Facundo Buonanotte,MID,19.000,8.000,128,536916,Brighton,a,3.000,81.000,3.000,prior-season points with positional shrinkage
+Omar Richards,DEF,19.000,8.000,476,204822,Nott'm Forest,a,0.000,0.000,3.000,prior-season points with positional shrinkage
+Luka Vušković,DEF,19.000,8.000,504,610799,Brighton,a,0.000,0.000,3.000,prior-season points with positional shrinkage
+Aaron Anselmino,DEF,19.000,8.000,561,622758,Chelsea,a,0.000,0.000,3.000,prior-season points with positional shrinkage
+Vitor de Oliveira Nunes dos Reis,DEF,19.000,8.000,396,616222,Man City,a,0.000,0.000,3.000,prior-season points with positional shrinkage
+Alysson Edward Franco da Rocha dos Santos,MID,19.000,8.000,52,653481,Aston Villa,a,3.000,47.000,3.000,prior-season points with positional shrinkage
+Leo Fuhr Hjelde,DEF,19.000,8.000,538,477547,Sunderland,a,0.000,0.000,3.000,prior-season points with positional shrinkage
+Ashley Phillips,DEF,19.000,8.000,507,548308,Spurs,a,0.000,0.000,3.000,prior-season points with positional shrinkage
+Matt Targett,DEF,18.873,8.000,556,169359,Hull City,a,0.000,0.000,3.167,prior-season points with positional shrinkage
+Kim Ji-soo,DEF,18.873,8.000,92,570241,Brentford,a,0.000,0.000,3.167,prior-season points with positional shrinkage
+Julián Araujo Zúñiga,DEF,18.493,8.000,65,436893,Bournemouth,a,0.000,0.000,3.667,prior-season points with positional shrinkage
+Tyler Fletcher,MID,18.321,8.000,438,519913,Man Utd,a,2.000,17.000,2.833,prior-season points with positional shrinkage
+Divine Mukasa,MID,18.200,8.000,409,590039,Man City,a,2.000,25.000,3.000,prior-season points with positional shrinkage
+Joél Drakes-Thomas,MID,18.200,8.000,221,672492,Crystal Palace,a,2.000,7.000,3.000,prior-season points with positional shrinkage
+George Hemmings,MID,18.200,8.000,51,577285,Aston Villa,a,2.000,25.000,3.000,prior-season points with positional shrinkage
+Josh Dasilva,MID,18.079,8.000,103,183656,Brentford,a,2.000,2.000,3.167,prior-season points with positional shrinkage
+Bendito Mantato,MID,17.516,8.000,437,576620,Man Utd,a,1.000,15.000,2.833,prior-season points with positional shrinkage
+Bradley Burrowes,MID,17.400,8.000,50,645618,Aston Villa,a,1.000,16.000,3.000,prior-season points with positional shrinkage
+Callum Olusesi,MID,17.400,8.000,524,499726,Spurs,a,1.000,14.000,3.000,prior-season points with positional shrinkage
+Djiamgone Jocelin Ta Bi,MID,17.400,8.000,550,699989,Sunderland,a,1.000,38.000,3.000,prior-season points with positional shrinkage
+Dário Luís Essugo,MID,17.400,8.000,163,491007,Chelsea,a,1.000,26.000,3.000,prior-season points with positional shrinkage
+Nehemiah Oriola,MID,17.400,8.000,134,556637,Brighton,a,1.000,1.000,3.000,prior-season points with positional shrinkage
+Giovanni Leoni,DEF,16.831,8.000,363,647681,Liverpool,i,0.000,0.000,2.833,prior-season points with positional shrinkage
+Marcus Rashford,MID,16.711,8.000,429,176297,Man Utd,a,0.000,0.000,2.833,prior-season points with positional shrinkage
+Toby Collyer,MID,16.711,8.000,436,490881,Man Utd,a,0.000,0.000,2.833,prior-season points with positional shrinkage
+James McConnell,MID,16.711,8.000,378,491501,Liverpool,a,0.000,0.000,2.833,prior-season points with positional shrinkage
+Jesurun Rak-Sakyi,MID,16.600,8.000,219,450542,Crystal Palace,a,0.000,0.000,3.000,prior-season points with positional shrinkage
+Mikey Moore,MID,16.600,8.000,523,499721,Spurs,a,0.000,0.000,3.000,prior-season points with positional shrinkage
+Fábio Ferreira Vieira,MID,16.600,8.000,23,438098,Arsenal,a,0.000,0.000,3.000,prior-season points with positional shrinkage
+Kalvin Phillips,MID,16.600,8.000,408,155405,Man City,a,0.000,0.000,3.000,prior-season points with positional shrinkage
+Claudio Echeverri,MID,16.600,8.000,407,575204,Man City,a,0.000,0.000,3.000,prior-season points with positional shrinkage
+Cheick Doucouré,MID,16.600,8.000,218,438464,Crystal Palace,a,0.000,0.000,3.000,prior-season points with positional shrinkage
+Samuel Iling-Junior,MID,16.600,8.000,49,469247,Aston Villa,a,0.000,0.000,3.000,prior-season points with positional shrinkage
+Matheus França de Oliveira,MID,16.600,8.000,217,536694,Crystal Palace,a,0.000,0.000,3.000,prior-season points with positional shrinkage
+Joe Gelhardt,MID,16.489,8.000,340,462635,Leeds,a,0.000,0.000,3.167,prior-season points with positional shrinkage
+Darko Gyabi,MID,16.489,8.000,297,470294,Hull City,a,0.000,0.000,3.167,prior-season points with positional shrinkage
+Antoni Milambo,MID,16.247,8.000,99,543295,Brentford,d,1.000,45.000,3.167,prior-season points with positional shrinkage
+Stefan Bajčetić Maquieira,MID,14.705,8.000,376,535928,Liverpool,i,0.000,0.000,2.833,prior-season points with positional shrinkage
+Dejan Kulusevski,MID,14.608,8.000,521,445044,Spurs,i,0.000,0.000,3.000,prior-season points with positional shrinkage
