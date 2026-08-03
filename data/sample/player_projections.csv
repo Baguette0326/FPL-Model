@@ -1,0 +1,16 @@
+name,position,projected_points,uncertainty
+Sample Forward A,FWD,218,24
+Sample Forward B,FWD,194,18
+Sample Forward C,FWD,171,20
+Sample Forward D,FWD,149,12
+Sample Midfielder A,MID,224,20
+Sample Midfielder B,MID,207,16
+Sample Midfielder C,MID,188,14
+Sample Midfielder D,MID,172,15
+Sample Defender A,DEF,184,13
+Sample Defender B,DEF,171,11
+Sample Defender C,DEF,159,12
+Sample Defender D,DEF,151,10
+Sample Goalkeeper A,GK,166,9
+Sample Goalkeeper B,GK,155,8
+Sample Goalkeeper C,GK,143,7
