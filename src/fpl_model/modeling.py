@@ -18,6 +18,7 @@ FEATURE_COLUMNS = (
     "bonus_last_6",
     "expected_goals_last_6",
     "expected_assists_last_6",
+    "expected_stats_available",
     "team_goals_for_last_6",
     "team_goals_against_last_6",
 )

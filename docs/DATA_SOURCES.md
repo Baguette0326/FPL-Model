@@ -2,7 +2,9 @@
 
 ## Historical Gameweek data
 
-The pipeline downloads `merged_gw.csv` and `players_raw.csv` for 2022/23 through 2025/26 from the public [vaastav/Fantasy-Premier-League](https://github.com/vaastav/Fantasy-Premier-League) historical dataset. Its files originate from FPL API snapshots and provide one row per player fixture plus a season-end player identity table.
+The pipeline downloads `merged_gw.csv` and `players_raw.csv` for every available season from 2016/17 through 2025/26 from the public [vaastav/Fantasy-Premier-League](https://github.com/vaastav/Fantasy-Premier-League) historical dataset. Its files originate from FPL API snapshots and provide one row per player fixture plus a season-end player identity table.
+
+All ten seasons contain the stable player identifiers and match context required by the normalizer. Older seasons do not contain every modern expected-statistics field. Missing source fields are represented as unavailable/zero in the current baseline table and must be accompanied by availability indicators before advanced-statistics models compare across eras.
 
 The upstream repository stopped weekly updates after 2024/25 but still provides major start, January, and end-of-season snapshots. The 2025/26 end-of-season files are used here.
 

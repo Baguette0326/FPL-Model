@@ -24,6 +24,7 @@ Each row represents the information available for one player immediately before 
 | `home_matches_next_6` | Home matches in target horizon |
 | `rest_days_next_match` | Days between scheduled matches |
 | `availability_flag` | Known injury/suspension/selection status at cutoff |
+| `expected_stats_available` | Whether the source season actually supplies xG/xA fields; prevents legacy missing values from being treated as genuine zeros |
 | `points_next_6` | Training target; sum of later FPL points in horizon |
 | `minutes_next_6` | Training target; sum of later minutes in horizon |
 

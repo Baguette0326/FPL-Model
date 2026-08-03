@@ -14,6 +14,7 @@ This is for the official FPL Draft format, not the salary-cap version of FPL. A 
 - A detailed implementation roadmap in [`docs/PROJECT_PLAN.md`](docs/PROJECT_PLAN.md)
 - A weekly waiver, free-agent, breakout, and trade plan in [`docs/WEEKLY_MANAGER.md`](docs/WEEKLY_MANAGER.md)
 - Confirmed league settings and opponent-behavior assumptions in [`docs/LEAGUE_STRATEGY.md`](docs/LEAGUE_STRATEGY.md)
+- A ten-season extraction and SQLite event-store plan in [`docs/DATA_PIPELINE_PLAN.md`](docs/DATA_PIPELINE_PLAN.md)
 - A pure-Python live draft board and recommendation engine
 - A starter same-position weekly add/drop recommendation engine
 - A walk-forward ML training scaffold that avoids random train/test leakage
@@ -39,7 +40,14 @@ $env:PYTHONPATH = "src"
 python -m fpl_model.pipeline all
 ```
 
-This downloads four historical seasons and current official FPL snapshots. Generated raw and processed data stay outside Git; checksums are recorded in `data/raw/manifest.json`.
+This downloads all ten available historical seasons (2016/17–2025/26) and current official FPL snapshots. Generated raw and processed data stay outside Git; checksums are recorded in `data/raw/manifest.json`.
+
+Initialize the local league event database:
+
+```powershell
+$env:PYTHONPATH = "src"
+python -m fpl_model.pipeline init-db
+```
 
 ## Draft-day workflow
 

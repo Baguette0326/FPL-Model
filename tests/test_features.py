@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import sys
+import tempfile
 import unittest
 from pathlib import Path
 
@@ -8,7 +9,7 @@ import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).parents[1] / "src"))
 
-from fpl_model.features import _forward_sum  # noqa: E402
+from fpl_model.features import _forward_sum, _read_csv_compatible  # noqa: E402
 from fpl_model.baseline import evaluate_recency_baseline  # noqa: E402
 
 
@@ -38,6 +39,13 @@ class FeatureSafetyTests(unittest.TestCase):
         )
         metrics = evaluate_recency_baseline(table)
         self.assertEqual(int(metrics.iloc[0]["rows"]), 2)
+
+    def test_legacy_windows_1252_csv_is_supported(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "legacy.csv"
+            path.write_bytes("name,points\nJosé,10\n".encode("cp1252"))
+            frame = _read_csv_compatible(path)
+        self.assertEqual(frame.iloc[0]["name"], "José")
 
 
 if __name__ == "__main__":

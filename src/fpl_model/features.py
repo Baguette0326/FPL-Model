@@ -8,6 +8,8 @@ from typing import Iterable
 import numpy as np
 import pandas as pd
 
+POSITION_MAP = {1: "GK", 2: "DEF", 3: "MID", 4: "FWD"}
+
 PLAYER_SUM_COLUMNS = (
     "total_points",
     "minutes",
@@ -24,6 +26,14 @@ PLAYER_SUM_COLUMNS = (
 )
 
 
+def _read_csv_compatible(path: str | Path) -> pd.DataFrame:
+    """Read modern UTF-8 or legacy Windows-1252 historical snapshots."""
+    try:
+        return pd.read_csv(path, low_memory=False, encoding="utf-8-sig")
+    except UnicodeDecodeError:
+        return pd.read_csv(path, low_memory=False, encoding="cp1252")
+
+
 def _forward_sum(series: pd.Series, horizon: int) -> pd.Series:
     future = pd.concat([series.shift(-step) for step in range(1, horizon + 1)], axis=1)
     return future.sum(axis=1, min_count=horizon)
@@ -34,7 +44,14 @@ def _complete_player_gameweeks(frame: pd.DataFrame, maximum_gameweek: int) -> pd
     for (_, _), player in frame.groupby(["season", "player_code"], sort=False):
         player = player.set_index("gameweek").reindex(range(1, maximum_gameweek + 1))
         player.index.name = "gameweek"
-        for column in ("season", "player_code", "name", "position", "team"):
+        for column in (
+            "season",
+            "player_code",
+            "name",
+            "position",
+            "team",
+            "expected_stats_available",
+        ):
             player[column] = player[column].ffill().bfill()
         for column in PLAYER_SUM_COLUMNS:
             player[column] = pd.to_numeric(player[column], errors="coerce").fillna(0.0)
@@ -43,21 +60,40 @@ def _complete_player_gameweeks(frame: pd.DataFrame, maximum_gameweek: int) -> pd
 
 
 def _season_frame(raw_root: Path, season: str) -> tuple[pd.DataFrame, pd.DataFrame]:
-    gameweeks = pd.read_csv(raw_root / season / "merged_gw.csv", low_memory=False)
-    players = pd.read_csv(raw_root / season / "players_raw.csv", low_memory=False)
-    required = {"GW", "element", "name", "position", "team", "fixture", "was_home"}
+    gameweeks = _read_csv_compatible(raw_root / season / "merged_gw.csv")
+    players = _read_csv_compatible(raw_root / season / "players_raw.csv")
+    required = {"GW", "element", "fixture", "was_home"}
     missing = required.difference(gameweeks.columns)
     if missing:
         raise ValueError(f"{season} gameweeks missing columns: {sorted(missing)}")
     if not {"id", "code"}.issubset(players.columns):
         raise ValueError(f"{season} players_raw.csv must include id and code")
 
-    id_map = players[["id", "code"]].rename(columns={"id": "element", "code": "player_code"})
+    id_map = players[["id", "code", "element_type", "team", "web_name"]].rename(
+        columns={
+            "id": "element",
+            "code": "player_code",
+            "element_type": "meta_element_type",
+            "team": "meta_team",
+            "web_name": "meta_name",
+        }
+    )
     frame = gameweeks.merge(id_map, on="element", how="left", validate="many_to_one")
     if frame["player_code"].isna().any():
         raise ValueError(f"{season} contains Gameweek rows without a stable player code")
     frame["season"] = season
+    frame["expected_stats_available"] = float(
+        {"expected_goals", "expected_assists"}.issubset(gameweeks.columns)
+    )
     frame["gameweek"] = pd.to_numeric(frame["GW"], errors="raise").astype(int)
+    if "name" not in frame.columns:
+        frame["name"] = frame["meta_name"]
+    if "position" not in frame.columns:
+        frame["position"] = frame["meta_element_type"].map(POSITION_MAP)
+    if "team" not in frame.columns:
+        frame["team"] = frame["meta_team"]
+    if frame[["name", "position", "team"]].isna().any().any():
+        raise ValueError(f"{season} contains rows without player name, position, or team")
     for column in PLAYER_SUM_COLUMNS:
         if column not in frame.columns:
             frame[column] = 0.0
@@ -69,6 +105,7 @@ def _season_frame(raw_root: Path, season: str) -> tuple[pd.DataFrame, pd.DataFra
             name=("name", "first"),
             position=("position", "first"),
             team=("team", "last"),
+            expected_stats_available=("expected_stats_available", "max"),
             **{column: (column, "sum") for column in PLAYER_SUM_COLUMNS},
         )
         .sort_values(["player_code", "gameweek"])

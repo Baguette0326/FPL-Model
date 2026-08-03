@@ -10,6 +10,7 @@ import pandas as pd
 from .baseline import build_current_projections, evaluate_recency_baseline, write_baseline_report
 from .features import build_modeling_table
 from .ingest import ingest_all, load_source_config
+from .storage import initialize_database
 
 
 def run_pipeline(*, refresh: bool = False) -> None:
@@ -43,7 +44,9 @@ def run_pipeline(*, refresh: bool = False) -> None:
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="Build FPL historical data and baseline rankings")
-    parser.add_argument("command", choices=("all", "ingest", "features", "baseline"))
+    parser.add_argument(
+        "command", choices=("all", "ingest", "features", "baseline", "init-db")
+    )
     parser.add_argument("--refresh", action="store_true", help="Redownload existing raw snapshots")
     return parser
 
@@ -56,6 +59,10 @@ def main() -> None:
     config = load_source_config(config_path)
     seasons = config["historical"]["seasons"]
 
+    if args.command == "init-db":
+        initialize_database("data/league.sqlite3")
+        print("database: data/league.sqlite3")
+        return
     if args.command == "all":
         run_pipeline(refresh=args.refresh)
         return
