@@ -30,11 +30,15 @@ $env:PYTHONPATH = "src"
 python -m fpl_model.cli recommend --projections data/sample/player_projections.csv --taken "Sample Forward A"
 ```
 
-To work on the ML pipeline, install the optional modeling dependencies:
+Build the real historical table and preliminary 2026/27 baseline rankings:
 
 ```powershell
 python -m pip install -e ".[model,dev]"
+$env:PYTHONPATH = "src"
+python -m fpl_model.pipeline all
 ```
+
+This downloads four historical seasons and current official FPL snapshots. Generated raw and processed data stay outside Git; checksums are recorded in `data/raw/manifest.json`.
 
 ## Draft-day workflow
 

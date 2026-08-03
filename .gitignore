@@ -20,3 +20,4 @@ reports/*
 !data/processed/.gitkeep
 !models/.gitkeep
 !reports/.gitkeep
+!reports/baseline_report.md

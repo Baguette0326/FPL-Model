@@ -6,7 +6,6 @@ from dataclasses import dataclass
 from pathlib import Path
 
 FEATURE_COLUMNS = (
-    "age",
     "minutes_last_3",
     "minutes_last_6",
     "minutes_last_12",
@@ -14,14 +13,13 @@ FEATURE_COLUMNS = (
     "points_last_3",
     "points_last_6",
     "points_last_12",
-    "goals_per90",
-    "assists_per90",
-    "bonus_per90",
-    "team_attack_form",
-    "team_defence_form",
-    "fixture_strength_next_6",
-    "home_matches_next_6",
-    "rest_days_next_match",
+    "goals_scored_last_6",
+    "assists_last_6",
+    "bonus_last_6",
+    "expected_goals_last_6",
+    "expected_assists_last_6",
+    "team_goals_for_last_6",
+    "team_goals_against_last_6",
 )
 
 
