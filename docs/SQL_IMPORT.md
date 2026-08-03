@@ -19,20 +19,6 @@ Clone or download the repository, then import the three files under `data/proces
 5. Allow type detection, then verify identifiers and Gameweeks are integers while points, minutes, expected statistics, and probabilities are numeric.
 6. Repeat for the other two CSVs using the table names above.
 
-## SQL Server Management Studio (SSMS)
-
-For `modeling_table.csv`, use [`sql/sql_server/import_modeling_table.sql`](../sql/sql_server/import_modeling_table.sql) instead of allowing the SSMS Flat File Wizard to infer the schema.
-
-1. Open the SQL script in SSMS and select the destination database.
-2. Replace `C:\FULL\PATH\TO\modeling_table.csv` with the file's absolute path.
-3. Ensure the SQL Server service account can read the containing folder.
-4. Run the complete script.
-5. Confirm that `imported_rows` is `205352` and review the season-count query.
-
-The script imports into an all-nullable text staging table and exposes `dbo.player_gameweeks` as a typed view. This preserves legitimate blank expected-stat and future-target values while preventing SSMS sample-based type and nullability errors. The published CSV also uses a UTF-8 BOM, Windows line endings, and a consistently textual `team` identifier.
-
-If using the Flat File Wizard anyway, import into a new table and set `team` to `nvarchar(150)`. Do not reuse the failed partially created table from an earlier attempt.
-
 ## Quick verification queries
 
 ```sql

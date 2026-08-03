@@ -10,7 +10,6 @@ import pandas as pd
 from .baseline import build_current_projections, evaluate_recency_baseline, write_baseline_report
 from .features import build_modeling_table
 from .ingest import ingest_all, load_source_config
-from .ssms_export import export_ssms_csv
 from .storage import initialize_database
 
 
@@ -25,10 +24,6 @@ def run_pipeline(*, refresh: bool = False) -> None:
     table = build_modeling_table(
         raw_root,
         seasons,
-        processed_root / "modeling_table.csv",
-    )
-    export_ssms_csv(
-        processed_root / "modeling_table.csv",
         processed_root / "modeling_table.csv",
     )
     metrics = evaluate_recency_baseline(table)
@@ -77,10 +72,6 @@ def main() -> None:
         return
     if args.command == "features":
         table = build_modeling_table(raw_root, seasons, processed_root / "modeling_table.csv")
-        export_ssms_csv(
-            processed_root / "modeling_table.csv",
-            processed_root / "modeling_table.csv",
-        )
         print(f"modeling rows: {len(table):,}")
         return
 
