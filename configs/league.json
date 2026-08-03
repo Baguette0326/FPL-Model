@@ -1,0 +1,30 @@
+{
+  "platform": "official_fpl_draft",
+  "manager_count": 4,
+  "scoring": "head_to_head",
+  "draft_order": "unknown_random_draw",
+  "trades_enabled": true,
+  "draft_timing": "next_week_after_transfer_updates",
+  "risk_preference": "reliable_starters",
+  "opponent_model": {
+    "assume_perfect_rationality": false,
+    "initial_strategy": "stochastic_mixture",
+    "learn_individual_manager_tendencies": true,
+    "behaviors_to_model": [
+      "rank_based_picks",
+      "positional_reaches",
+      "favourite_player_bias",
+      "availability_surprises",
+      "free_agent_aggressiveness",
+      "waiver_priority_usage",
+      "trade_acceptance",
+      "inconsistent_or_noisy_choices"
+    ]
+  },
+  "pending_user_inputs": [
+    "exact_draft_date_and_time",
+    "draft_position_after_random_draw",
+    "past_draft_order_and_results",
+    "past waiver free-agent and trade history if available"
+  ]
+}
