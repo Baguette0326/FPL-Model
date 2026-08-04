@@ -15,7 +15,8 @@ POSITION_MAP = {1: "GK", 2: "DEF", 3: "MID", 4: "FWD"}
 def evaluate_recency_baseline(table: pd.DataFrame) -> pd.DataFrame:
     """Evaluate 'the next six resemble the previous six' by season."""
     valid = table.dropna(subset=["points_next_6"]).copy()
-    valid = valid[(valid["gameweek"] >= 6) & (valid["minutes_last_6"] >= 180)]
+    time_column = "event_sequence" if "event_sequence" in valid.columns else "gameweek"
+    valid = valid[(valid[time_column] >= 6) & (valid["minutes_last_6"] >= 180)]
     valid["prediction"] = valid["points_last_6"].clip(lower=0)
     rows: list[dict[str, Any]] = []
     for season, group in valid.groupby("season", sort=True):

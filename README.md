@@ -43,6 +43,10 @@ python -m fpl_model.pipeline all
 
 This downloads all ten available historical seasons (2016/17–2025/26) and current official FPL snapshots. Generated raw and processed data stay outside Git; checksums are recorded in `data/raw/manifest.json`.
 
+The original published `data/processed/modeling_table.csv` is preserved as the
+v1 ten-season export. New leakage-safe feature builds are written separately to
+`data/processed/modeling_table_ml_v2.csv`.
+
 Initialize the local league event database:
 
 ```powershell

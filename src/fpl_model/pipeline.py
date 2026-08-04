@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+import json
 from pathlib import Path
 
 import pandas as pd
@@ -10,7 +11,38 @@ import pandas as pd
 from .baseline import build_current_projections, evaluate_recency_baseline, write_baseline_report
 from .features import build_modeling_table
 from .ingest import ingest_all, load_source_config
+from .modeling import audit_modeling_table
 from .storage import initialize_database
+
+LEGACY_MODELING_TABLE = Path("data/processed/modeling_table.csv")
+ML_V2_MODELING_TABLE = Path("data/processed/modeling_table_ml_v2.csv")
+ML_V2_AUDIT_REPORT = Path("reports/ml_v2_data_audit.json")
+
+
+def build_ml_v2_table(raw_root: Path, seasons: list[str]) -> pd.DataFrame:
+    """Build, audit, and publish v2 without touching the legacy table."""
+    table = build_modeling_table(raw_root, seasons)
+    audit = audit_modeling_table(table)
+    audit.raise_for_violations()
+
+    ML_V2_MODELING_TABLE.parent.mkdir(parents=True, exist_ok=True)
+    table.to_csv(ML_V2_MODELING_TABLE, index=False)
+    ML_V2_AUDIT_REPORT.parent.mkdir(parents=True, exist_ok=True)
+    ML_V2_AUDIT_REPORT.write_text(
+        json.dumps(
+            {
+                "table": str(ML_V2_MODELING_TABLE),
+                "rows": audit.rows,
+                "passed": audit.passed,
+                "violations": audit.violations,
+                "seasons": seasons,
+            },
+            indent=2,
+        )
+        + "\n",
+        encoding="utf-8",
+    )
+    return table
 
 
 def run_pipeline(*, refresh: bool = False) -> None:
@@ -21,11 +53,7 @@ def run_pipeline(*, refresh: bool = False) -> None:
     ingest_all(config_path, raw_root, refresh=refresh)
 
     seasons = config["historical"]["seasons"]
-    table = build_modeling_table(
-        raw_root,
-        seasons,
-        processed_root / "modeling_table.csv",
-    )
+    table = build_ml_v2_table(raw_root, seasons)
     metrics = evaluate_recency_baseline(table)
     metrics.to_csv(processed_root / "baseline_metrics.csv", index=False, float_format="%.6f")
 
@@ -71,12 +99,20 @@ def main() -> None:
         print(f"source files ready: {len(manifest['files'])}")
         return
     if args.command == "features":
-        table = build_modeling_table(raw_root, seasons, processed_root / "modeling_table.csv")
+        table = build_ml_v2_table(raw_root, seasons)
         print(f"modeling rows: {len(table):,}")
+        print(f"modeling table: {ML_V2_MODELING_TABLE}")
+        print(f"leakage audit: {ML_V2_AUDIT_REPORT}")
         return
 
-    table = pd.read_csv(processed_root / "modeling_table.csv", low_memory=False)
+    modeling_path = (
+        ML_V2_MODELING_TABLE if ML_V2_MODELING_TABLE.exists() else LEGACY_MODELING_TABLE
+    )
+    table = pd.read_csv(modeling_path, low_memory=False)
     metrics = evaluate_recency_baseline(table)
+    metrics.to_csv(
+        processed_root / "baseline_metrics.csv", index=False, float_format="%.6f"
+    )
     current_season = config["current"]["season"]
     projections = build_current_projections(
         raw_root / current_season / "bootstrap-static.json",

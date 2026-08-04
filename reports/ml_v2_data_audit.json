@@ -1,0 +1,34 @@
+{
+  "table": "data\\processed\\modeling_table_ml_v2.csv",
+  "rows": 253281,
+  "passed": true,
+  "violations": {
+    "duplicate_player_events": 0,
+    "invalid_timestamps": 0,
+    "feature_timestamp_at_or_after_cutoff": 0,
+    "invalid_player_event_observed": 0,
+    "unobserved_registration_bounds": 0,
+    "incorrect_points_next_1": 0,
+    "incorrect_minutes_next_1": 0,
+    "incorrect_appearance_next_1": 0,
+    "incorrect_start_next_1": 0,
+    "incorrect_points_next_6": 0,
+    "incorrect_minutes_next_6": 0,
+    "rolling_feature_mismatch": 0,
+    "incorrect_one_event_observation_index": 0,
+    "incorrect_six_event_observation_index": 0,
+    "start_without_appearance": 0
+  },
+  "seasons": [
+    "2016-17",
+    "2017-18",
+    "2018-19",
+    "2019-20",
+    "2020-21",
+    "2021-22",
+    "2022-23",
+    "2023-24",
+    "2024-25",
+    "2025-26"
+  ]
+}

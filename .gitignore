@@ -23,8 +23,10 @@ reports/*
 !data/processed/.gitkeep
 !data/processed/README.md
 !data/processed/modeling_table.csv
+!data/processed/modeling_table_ml_v2.csv
 !data/processed/baseline_metrics.csv
 !data/processed/2026-27_baseline_projections.csv
 !models/.gitkeep
 !reports/.gitkeep
 !reports/baseline_report.md
+!reports/ml_v2_data_audit.json

@@ -7,6 +7,7 @@ Clone or download the repository, then import the three files under `data/proces
 | CSV | SQL table |
 |---|---|
 | `modeling_table.csv` | `player_gameweeks` |
+| `modeling_table_ml_v2.csv` | `player_gameweeks_ml_v2` |
 | `2026-27_baseline_projections.csv` | `player_projections_2026_27` |
 | `baseline_metrics.csv` | `baseline_metrics` |
 
@@ -40,5 +41,6 @@ ORDER BY season;
 ## Important interpretation notes
 
 - `expected_stats_available = 0` means the historical source did not contain xG/xA; the zero expected-stat values in those rows must not be interpreted as observed zero performance.
-- `modeling_table.csv` contains future targets for offline model training. Do not use target columns as live prediction inputs.
+- `modeling_table.csv` is the preserved original export. Use `modeling_table_ml_v2.csv` for new model training.
+- The ML-v2 table contains training targets. Do not use `points_next_1`, `minutes_next_1`, `appearance_next_1`, `start_next_1`, `points_next_6`, or `minutes_next_6` as live prediction inputs.
 - `2026-27_baseline_projections.csv` is the file intended for the current draft assistant, but it remains a preliminary baseline until the ML workstream promotes a validated model.

@@ -6,10 +6,11 @@ This document owns the prediction and decision-modeling work for the 2026/27 off
 
 The repository already provides a useful foundation:
 
-- `data/processed/modeling_table.csv` contains 285,598 player-Gameweek rows from all ten seasons from 2016/17 through 2025/26.
-- Each historical row contains rolling 3-, 6-, and 12-Gameweek player features, six-Gameweek team form, and the `points_next_6` and `minutes_next_6` targets.
+- `data/processed/modeling_table.csv` preserves the original 285,598-row ten-season v1 export.
+- `data/processed/modeling_table_ml_v2.csv` contains 253,281 registered player-event rows from all ten seasons from 2016/17 through 2025/26, with the original file left unchanged.
+- Each ML-v2 row contains rolling 3-, 6-, and 12-event player features, event-period team form, cutoff/source metadata, and one- and six-event targets.
 - `src/fpl_model/modeling.py` contains a first `HistGradientBoostingRegressor` walk-forward scaffold.
-- The current active-player recency baseline predicts that the next six Gameweeks resemble the previous six. Across the ten seasons its MAE is 8.477-9.763 points and its Spearman rank correlation is 0.275-0.404.
+- The current active-player recency baseline predicts that the next six event periods resemble the previous six. On ML-v2 its MAE is 8.336-9.240 points and its Spearman rank correlation is 0.295-0.415 across the ten seasons.
 - The 2026/27 preseason output currently ranks 560 selectable players, but it is a prior-season shrinkage baseline rather than a trained forecast.
 
 The objective is not to find the most complicated model. It is to produce calibrated weekly player distributions that improve actual draft, waiver, lineup, and trade decisions.
@@ -68,7 +69,7 @@ Bayesian probability and boosted trees are therefore complementary, not mutually
 
 ### Neural network: challenger only
 
-Do not make a neural network the default with the current 285,598-row tabular table. Although ten seasons provide more rows, they do not provide ten seasons of one consistent modern schema. Test a neural model only after the leakage-safe tree pipeline, expected-minutes model, era controls, and calibrated intervals are established.
+Do not make a neural network the default with the current 253,281-row ML-v2 tabular table. Although ten seasons provide more rows, they do not provide ten seasons of one consistent modern schema. Test a neural model only after the leakage-safe tree pipeline, expected-minutes model, era controls, and calibrated intervals are established.
 
 A neural model earns promotion only if it:
 
@@ -237,7 +238,7 @@ Simulate both managers before and after the complete proposed trade. Report chan
 No ML model should replace the current baseline merely because it has a lower aggregate error. Promotion requires all of the following:
 
 1. **Leakage gate:** all labels are fully observed before validation; the six-Gameweek purge/embargo audit passes.
-2. **Baseline gate:** median performance across season holdouts improves on the ten-season recency baseline (MAE 8.477-9.763 and Spearman 0.275-0.404), with no material regression in the recent 2024/25 or 2025/26 holdouts.
+2. **Baseline gate:** median performance across season holdouts improves on the ML-v2 ten-season recency baseline (MAE 8.336-9.240 and Spearman 0.295-0.415), with no material regression in the recent 2024/25 or 2025/26 holdouts.
 3. **Minutes gate:** appearance/start probabilities are calibrated and expected-minutes MAE beats recent-minutes and recent-start-rate baselines.
 4. **Ranking gate:** improve Spearman plus draft-relevant NDCG/precision among the top available players and within each position.
 5. **Uncertainty gate:** p10-p90 coverage is near its nominal 80% level overall and acceptable across the main position/minutes groups.
@@ -306,4 +307,4 @@ Use paired bootstrap intervals over Gameweeks or draft replays to distinguish a 
 
 ## Immediate ML next step
 
-Implement Phase ML-0 before fitting additional models. In particular, purge overlapping six-Gameweek labels from the current walk-forward validation, establish chronological event sequencing for the 47-number 2019/20 source, and distinguish missing schema-era fields from observed zeros. Then add the one-Gameweek appearance/start/minutes targets needed for the two-stage model and compare recency windows inside the training folds. This is more valuable than tuning the existing regressor against labels or imputed inputs that misrepresent what was knowable.
+Phase ML-0 now has a separately versioned table, chronological event sequencing, current-event and six-event targets, registration bounds, schema-era null handling, purged folds, and a serialized leakage audit with zero violations. Next, run the common-schema recency-window challengers and begin Phase ML-1 with appearance/start classifiers and conditional-minutes regression. Keep 2025/26 untouched as the final recent holdout while choosing windows and calibration settings inside earlier temporal folds.

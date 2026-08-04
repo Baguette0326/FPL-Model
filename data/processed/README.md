@@ -11,10 +11,12 @@ python -m fpl_model.pipeline all
 
 | File | Rows | Purpose | Suggested SQL table |
 |---|---:|---|---|
-| `modeling_table.csv` | 285,598 | Leakage-safe historical player/Gameweek modeling rows covering 2016/17–2025/26 | `player_gameweeks` |
+| `modeling_table.csv` | 285,598 | Preserved original ten-season v1 export | `player_gameweeks_v1` |
+| `modeling_table_ml_v2.csv` | 253,281 | Registered player/event rows with cutoff timestamps, schema flags, corrected targets, and leakage-safe chronology | `player_gameweeks_ml_v2` |
 | `2026-27_baseline_projections.csv` | 560 | Current selectable-player baseline projections | `player_projections_2026_27` |
 | `baseline_metrics.csv` | 10 | Per-season recency-baseline evaluation | `baseline_metrics` |
 
 All files are UTF-8 CSVs with a header row. Raw source files are not tracked; see `configs/data_sources.json` and `data/raw/manifest.json` after a local build for provenance and checksums.
 
 The 2026/27 projections are still preliminary baselines, not final trained ML predictions.
+The ML-v2 table passed the generated audit in `reports/ml_v2_data_audit.json`.
