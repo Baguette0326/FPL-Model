@@ -1,0 +1,564 @@
+overall_rank,name,position,projected_points,uncertainty,player_id,code,team_name,status,news,prior_season,prior_points,prior_minutes,expected_minutes_season,projected_points_next_6,reliability,fixture_difficulty_next6,replacement_points,value_over_replacement,projection_method,promoted_team,new_to_history,manual_review
+1,Erling Haaland,FWD,203.6123,32.5780,411,223094,Man City,a,,2025-26,239.0000,2953.0000,2731.7000,32.1493,1.0000,3.0000,102.1080,101.5043,2025/26 empirical-Bayes rate and minutes,False,False,False
+2,Bruno Borges Fernandes,MID,196.8422,31.4948,426,141746,Man Utd,a,,2025-26,235.0000,3065.0000,2811.6000,31.2616,1.0000,2.8333,125.4383,71.4039,2025/26 empirical-Bayes rate and minutes,False,False,False
+3,Gabriel dos Santos Magalhães,DEF,174.7987,27.9678,4,226597,Arsenal,a,,2025-26,209.0000,2750.0000,2592.6000,27.5998,1.0000,3.0000,115.0131,59.7856,2025/26 empirical-Bayes rate and minutes,False,False,False
+4,Antoine Semenyo,MID,174.1738,27.8678,397,437730,Man City,a,,2025-26,202.0000,3200.0000,2919.6000,27.5011,1.0000,3.0000,125.4383,48.7355,2025/26 empirical-Bayes rate and minutes,False,False,False
+5,Igor Thiago Nascimento Rodrigues,FWD,164.1326,26.2612,106,502500,Brentford,a,,2025-26,181.0000,3282.0000,2994.9000,25.7645,1.0000,3.1667,102.1080,62.0246,2025/26 empirical-Bayes rate and minutes,False,False,False
+6,Morgan Gibbs-White,MID,163.7029,26.1925,480,222531,Nott'm Forest,a,,2025-26,188.0000,3101.0000,2840.4000,25.8478,1.0000,3.0000,125.4383,38.2646,2025/26 empirical-Bayes rate and minutes,False,False,False
+7,Declan Rice,MID,160.8223,25.7316,13,204480,Arsenal,a,,2025-26,184.0000,3093.0000,2834.0000,25.3930,1.0000,3.0000,125.4383,35.3840,2025/26 empirical-Bayes rate and minutes,False,False,False
+8,Elliot Anderson,MID,159.1179,25.4589,481,215379,Man City,a,,2025-26,180.0000,3332.0000,3025.2000,25.1239,1.0000,3.0000,125.4383,33.6796,2025/26 empirical-Bayes rate and minutes,False,False,False
+9,João Pedro Junqueira de Jesus,FWD,157.9561,25.2730,165,475168,Chelsea,a,,2025-26,177.0000,2658.0000,2495.7000,24.9404,1.0000,3.0000,102.1080,55.8481,2025/26 empirical-Bayes rate and minutes,False,False,False
+10,Marc Guéhi,DEF,155.4041,24.8647,388,209036,Man City,a,,2025-26,179.0000,3150.0000,2912.6000,24.5375,1.0000,3.0000,115.0131,40.3910,2025/26 empirical-Bayes rate and minutes,False,False,False
+11,Virgil van Dijk,DEF,153.5990,24.5758,356,97032,Liverpool,a,,2025-26,175.0000,3420.0000,3128.6000,24.3939,1.0000,2.8333,115.0131,38.5859,2025/26 empirical-Bayes rate and minutes,False,False,False
+12,Marcos Senesi Barón,DEF,153.0924,24.4948,498,221466,Spurs,a,,2025-26,175.0000,3288.0000,3023.0000,24.1725,1.0000,3.0000,115.0131,38.0793,2025/26 empirical-Bayes rate and minutes,False,False,False
+13,Ollie Watkins,FWD,151.9361,24.3098,55,178301,Aston Villa,a,,2025-26,167.0000,2833.0000,2635.7000,23.9899,1.0000,3.0000,102.1080,49.8281,2025/26 empirical-Bayes rate and minutes,False,False,False
+14,Morgan Rogers,MID,151.0305,24.1649,40,244850,Chelsea,a,,2025-26,169.0000,3280.0000,2983.6000,23.8469,1.0000,3.0000,125.4383,25.5922,2025/26 empirical-Bayes rate and minutes,False,False,False
+15,David Raya Martín,GK,150.0236,24.0038,1,154561,Arsenal,a,,2025-26,162.0000,3330.0000,3235.5000,23.6879,1.0000,3.0000,119.5420,30.4815,2025/26 empirical-Bayes rate and minutes,False,False,False
+16,James Tarkowski,DEF,149.6440,23.9430,229,17761,Everton,a,,2025-26,170.0000,3330.0000,3056.6000,23.7658,1.0000,2.8333,115.0131,34.6309,2025/26 empirical-Bayes rate and minutes,False,False,False
+17,Harry Wilson,MID,147.2380,23.5581,260,153682,Leeds,a,,2025-26,168.0000,2674.0000,2498.8000,23.1125,1.0000,3.1667,125.4383,21.7997,2025/26 empirical-Bayes rate and minutes,False,False,False
+18,Adrien Truffert,DEF,146.2065,23.3930,61,494521,Bournemouth,a,,2025-26,165.0000,3378.0000,3095.0000,22.5466,1.0000,3.6667,115.0131,31.1934,2025/26 empirical-Bayes rate and minutes,False,False,False
+19,Dominik Szoboszlai,MID,144.4036,23.1046,368,424876,Liverpool,a,,2025-26,160.0000,3232.0000,2945.2000,22.9336,1.0000,2.8333,125.4383,18.9653,2025/26 empirical-Bayes rate and minutes,False,False,False
+20,Enzo Fernández,MID,141.7535,22.6806,155,448047,Chelsea,a,,2025-26,157.0000,3114.0000,2850.8000,22.3821,1.0000,3.0000,125.4383,16.3152,2025/26 empirical-Bayes rate and minutes,False,False,False
+21,Nico O'Reilly,DEF,139.4601,22.3136,387,472769,Man City,a,,2025-26,160.0000,2643.0000,2507.0000,22.0200,1.0000,3.0000,115.0131,24.4470,2025/26 empirical-Bayes rate and minutes,False,False,False
+22,Maxence Lacroix,DEF,137.1731,21.9477,200,437499,Chelsea,a,,2025-26,154.0000,3085.0000,2860.6000,21.6589,1.0000,3.0000,115.0131,22.1600,2025/26 empirical-Bayes rate and minutes,False,False,False
+23,Bukayo Saka,MID,136.6038,21.8566,12,223340,Arsenal,a,,2025-26,157.0000,2218.0000,2134.0000,21.5690,1.0000,3.0000,125.4383,11.1655,2025/26 empirical-Bayes rate and minutes,False,False,False
+24,Matheus Nunes,DEF,136.2380,21.7981,389,465351,Man City,a,,2025-26,154.0000,2861.0000,2681.4000,21.5113,1.0000,3.0000,115.0131,21.2250,2025/26 empirical-Bayes rate and minutes,False,False,False
+25,Bruno Guimarães Rodriguez Moura,MID,136.1620,21.7859,452,208706,Newcastle,a,,2025-26,154.0000,2456.0000,2324.4000,21.6247,1.0000,2.8333,125.4383,10.7237,2025/26 empirical-Bayes rate and minutes,False,False,False
+26,Caoimhín Kelleher,GK,135.4906,21.6785,82,200720,Brentford,a,,2025-26,143.0000,3330.0000,3235.5000,21.2685,1.0000,3.1667,119.5420,15.9486,2025/26 empirical-Bayes rate and minutes,False,False,False
+27,Kiernan Dewsbury-Hall,MID,135.1034,21.6165,236,215413,Everton,a,,2025-26,151.0000,2629.0000,2462.8000,21.4566,1.0000,2.8333,125.4383,9.6651,2025/26 empirical-Bayes rate and minutes,False,False,False
+28,Enzo Le Fée,MID,133.8336,21.4134,542,484420,Sunderland,a,,2025-26,147.0000,2930.0000,2703.6000,21.1316,1.0000,3.0000,125.4383,8.3953,2025/26 empirical-Bayes rate and minutes,False,False,False
+29,Nordi Mukiele,DEF,133.7570,21.4011,533,200834,Sunderland,a,,2025-26,151.0000,2784.0000,2619.8000,21.1195,1.0000,3.0000,115.0131,18.7439,2025/26 empirical-Bayes rate and minutes,False,False,False
+30,Dominic Calvert-Lewin,FWD,133.7321,21.3971,346,177815,Leeds,a,,2025-26,142.0000,2721.0000,2546.1000,20.9924,1.0000,3.1667,102.1080,31.6241,2025/26 empirical-Bayes rate and minutes,False,False,False
+31,Jan Paul van Hecke,DEF,133.3285,21.3326,112,469142,Spurs,a,,2025-26,148.0000,3210.0000,2960.6000,21.0519,1.0000,3.0000,115.0131,18.3154,2025/26 empirical-Bayes rate and minutes,False,False,False
+32,Bryan Mbeumo,MID,132.9100,21.2656,427,446008,Man Utd,a,,2025-26,148.0000,2611.0000,2448.4000,21.1082,1.0000,2.8333,125.4383,7.4717,2025/26 empirical-Bayes rate and minutes,False,False,False
+33,Ryan Gravenberch,MID,131.9911,21.1186,371,441266,Liverpool,a,,2025-26,144.0000,2991.0000,2752.4000,20.9623,1.0000,2.8333,125.4383,6.5528,2025/26 empirical-Bayes rate and minutes,False,False,False
+34,Robin Roefs,GK,129.8709,20.7793,529,498016,Sunderland,a,,2025-26,136.0000,3150.0000,3091.5000,20.5059,1.0000,3.0000,119.5420,10.3289,2025/26 empirical-Bayes rate and minutes,False,False,False
+35,Jordan Pickford,GK,129.4951,20.7192,226,111234,Everton,a,,2025-26,135.0000,3420.0000,3307.5000,20.5659,1.0000,2.8333,119.5420,9.9531,2025/26 empirical-Bayes rate and minutes,False,False,False
+36,Gianluigi Donnarumma,GK,128.9666,20.6347,384,204936,Man City,a,,2025-26,135.0000,3060.0000,3019.5000,20.3631,1.0000,3.0000,119.5420,9.4246,2025/26 empirical-Bayes rate and minutes,False,False,False
+37,Matheus Santos Carneiro da Cunha,MID,128.7607,20.6017,428,430871,Man Utd,a,,2025-26,143.0000,2493.0000,2354.0000,20.4492,1.0000,2.8333,125.4383,3.3224,2025/26 empirical-Bayes rate and minutes,False,False,False
+38,James Garner,MID,127.0973,35.5872,239,232928,Everton,i,Groin injury - Expected back 22 Aug,2025-26,159.0000,3413.0000,3090.0000,16.0563,0.7000,2.8333,125.4383,1.6590,2025/26 empirical-Bayes rate and minutes,False,False,True
+39,Dean Henderson,GK,126.3119,20.2099,198,172649,Crystal Palace,a,,2025-26,131.0000,3330.0000,3235.5000,19.9440,1.0000,3.0000,119.5420,6.7698,2025/26 empirical-Bayes rate and minutes,False,False,False
+40,Marcus Tavernier,MID,125.8533,20.1365,68,201658,Bournemouth,a,,2025-26,137.0000,2732.0000,2545.2000,19.4079,1.0000,3.6667,125.4383,0.4150,2025/26 empirical-Bayes rate and minutes,False,False,False
+41,Mateus Fernandes,MID,125.7339,20.1174,525,551226,Spurs,a,,2025-26,135.0000,3017.0000,2773.2000,19.8527,1.0000,3.0000,125.4383,0.2956,2025/26 empirical-Bayes rate and minutes,False,False,False
+42,Alex Scott,MID,125.7010,20.1122,69,503139,Bournemouth,a,,2025-26,136.0000,2848.0000,2638.0000,19.3844,1.0000,3.6667,125.4383,0.2627,2025/26 empirical-Bayes rate and minutes,False,False,False
+43,Bart Verbruggen,GK,125.6670,20.1067,109,489639,Brighton,a,,2025-26,130.0000,3420.0000,3307.5000,19.8422,1.0000,3.0000,119.5420,6.1250,2025/26 empirical-Bayes rate and minutes,False,False,False
+44,Ethan Ampadu,MID,125.4383,20.0701,338,199598,Leeds,a,,2025-26,134.0000,3119.0000,2854.8000,19.6905,1.0000,3.1667,125.4383,0.0000,2025/26 empirical-Bayes rate and minutes,False,False,False
+45,Martín Zubimendi Ibáñez,MID,124.2100,19.8736,19,481655,Arsenal,a,,2025-26,133.0000,2991.0000,2752.4000,19.6121,1.0000,3.0000,125.4383,-1.2283,2025/26 empirical-Bayes rate and minutes,False,False,False
+46,Tyrick Mitchell,DEF,124.1060,19.8570,204,244723,Crystal Palace,a,,2025-26,135.0000,3253.0000,2995.0000,19.5957,1.0000,3.0000,115.0131,9.0930,2025/26 empirical-Bayes rate and minutes,False,False,False
+47,Anton Stach,MID,123.8744,19.8199,335,466525,Leeds,a,,2025-26,137.0000,2369.0000,2254.8000,19.4450,1.0000,3.1667,125.4383,-1.5639,2025/26 empirical-Bayes rate and minutes,False,False,False
+48,Trevoh Chalobah,DEF,123.0733,19.6917,143,180736,Chelsea,a,,2025-26,136.0000,2780.0000,2616.6000,19.4326,1.0000,3.0000,115.0131,8.0602,2025/26 empirical-Bayes rate and minutes,False,False,False
+49,Dango Ouattara,MID,122.5761,19.6122,95,533463,Brentford,a,,2025-26,136.0000,2271.0000,2176.4000,19.2412,1.0000,3.1667,125.4383,-2.8622,2025/26 empirical-Bayes rate and minutes,False,False,False
+50,Cody Gakpo,MID,121.6676,19.4668,367,243298,Liverpool,a,,2025-26,131.0000,2736.0000,2548.4000,19.3227,1.0000,2.8333,125.4383,-3.7707,2025/26 empirical-Bayes rate and minutes,False,False,False
+51,Daniel Muñoz Mejía,DEF,121.3000,19.4080,201,247348,Crystal Palace,a,,2025-26,136.0000,2400.0000,2312.6000,19.1526,1.0000,3.0000,115.0131,6.2870,2025/26 empirical-Bayes rate and minutes,False,False,False
+52,Viktor Gyökeres,FWD,121.1288,19.3806,25,224117,Arsenal,a,,2025-26,128.0000,2217.0000,2142.9000,19.1256,1.0000,3.0000,102.1080,19.0208,2025/26 empirical-Bayes rate and minutes,False,False,False
+53,Đorđe Petrović,GK,121.0733,19.3717,57,457569,Bournemouth,a,,2025-26,124.0000,3420.0000,3307.5000,18.6708,1.0000,3.6667,119.5420,1.5312,2025/26 empirical-Bayes rate and minutes,False,False,False
+54,Danny Welbeck,FWD,119.9530,19.1925,136,50175,Chelsea,a,,2025-26,126.0000,2249.0000,2168.5000,18.9399,1.0000,3.0000,102.1080,17.8450,2025/26 empirical-Bayes rate and minutes,False,False,False
+55,Iliman Ndiaye,MID,119.7717,19.1635,237,440993,Everton,a,,2025-26,128.0000,2781.0000,2584.4000,19.0216,1.0000,2.8333,125.4383,-5.6666,2025/26 empirical-Bayes rate and minutes,False,False,False
+56,Bernd Leno,GK,119.5420,19.1267,250,80201,Fulham,a,,2025-26,122.0000,3420.0000,3307.5000,18.6548,1.0000,3.3333,119.5420,0.0000,2025/26 empirical-Bayes rate and minutes,False,False,False
+57,Neco Williams,DEF,118.8993,19.0239,469,215136,Nott'm Forest,a,,2025-26,128.0000,3203.0000,2955.0000,18.7736,1.0000,3.0000,115.0131,3.8862,2025/26 empirical-Bayes rate and minutes,False,False,False
+58,Nathan Collins,DEF,118.8252,19.0120,84,432830,Brentford,a,,2025-26,129.0000,2971.0000,2769.4000,18.6524,1.0000,3.1667,115.0131,3.8121,2025/26 empirical-Bayes rate and minutes,False,False,False
+59,Jaidon Anthony,MID,118.7758,19.0041,105,444180,Brentford,a,,2025-26,127.0000,2717.0000,2533.2000,18.6447,1.0000,3.1667,125.4383,-6.6625,2025/26 empirical-Bayes rate and minutes,False,False,False
+60,Michael Keane,DEF,118.6950,18.9912,231,106611,Everton,a,,2025-26,131.0000,2588.0000,2463.0000,18.8506,1.0000,2.8333,115.0131,3.6819,2025/26 empirical-Bayes rate and minutes,False,False,False
+61,Rayan Cherki,MID,118.1203,18.8993,399,466052,Man City,a,,2025-26,135.0000,1772.0000,1777.2000,18.6506,0.9844,3.0000,125.4383,-7.3180,2025/26 empirical-Bayes rate and minutes,False,False,False
+62,Phil Foden,MID,117.8658,18.8585,398,209244,Man City,a,,2025-26,131.0000,2078.0000,2022.0000,18.6104,1.0000,3.0000,125.4383,-7.5725,2025/26 empirical-Bayes rate and minutes,False,False,False
+63,Chris Richards,DEF,117.5625,18.8100,202,427623,Crystal Palace,a,,2025-26,128.0000,2825.0000,2652.6000,18.5625,1.0000,3.0000,115.0131,2.5494,2025/26 empirical-Bayes rate and minutes,False,False,False
+64,Kevin Schade,MID,117.4988,18.7998,94,513418,Brentford,a,,2025-26,125.0000,2744.0000,2554.8000,18.4442,1.0000,3.1667,125.4383,-7.9395,2025/26 empirical-Bayes rate and minutes,False,False,False
+65,Granit Xhaka,MID,117.4782,18.7965,544,84450,Sunderland,a,,2025-26,124.0000,2901.0000,2680.4000,18.5492,1.0000,3.0000,125.4383,-7.9601,2025/26 empirical-Bayes rate and minutes,False,False,False
+66,Emiliano Martínez Romero,GK,117.1809,18.7489,28,98980,Aston Villa,a,,2025-26,120.0000,2835.0000,2839.5000,18.5022,1.0000,3.0000,119.5420,-2.3611,2025/26 empirical-Bayes rate and minutes,False,False,False
+67,Pedro Lomba Neto,MID,116.9586,18.7134,156,247632,Chelsea,a,,2025-26,125.0000,2629.0000,2462.8000,18.4672,1.0000,3.0000,125.4383,-8.4797,2025/26 empirical-Bayes rate and minutes,False,False,False
+68,Brenden Aaronson,MID,116.7311,18.6770,337,427637,Leeds,a,,2025-26,126.0000,2449.0000,2318.8000,18.3237,1.0000,3.1667,125.4383,-8.7072,2025/26 empirical-Bayes rate and minutes,False,False,False
+69,Malick Thiaw,DEF,116.6504,18.6641,445,465642,Newcastle,a,,2025-26,126.0000,2963.0000,2763.0000,18.5259,1.0000,2.8333,115.0131,1.6373,2025/26 empirical-Bayes rate and minutes,False,False,False
+70,Florian Wirtz,MID,115.6256,18.5001,366,494595,Liverpool,a,,2025-26,125.0000,2374.0000,2258.8000,18.3632,1.0000,2.8333,125.4383,-9.8127,2025/26 empirical-Bayes rate and minutes,False,False,False
+71,Omar Alderete,DEF,115.3183,18.4509,535,201895,Sunderland,a,,2025-26,125.0000,2797.0000,2630.2000,18.2081,1.0000,3.0000,115.0131,0.3052,2025/26 empirical-Bayes rate and minutes,False,False,False
+72,Jurriën Timber,DEF,115.0131,32.2037,5,445122,Arsenal,i,Groin injury - Expected back 21 Aug,2025-26,149.0000,2452.0000,2354.2000,14.4454,0.7000,3.0000,115.0131,0.0000,2025/26 empirical-Bayes rate and minutes,False,False,True
+73,Francisco Evanilson de Lima Barbosa,FWD,114.8339,18.3734,79,444102,Bournemouth,a,,2025-26,115.0000,2741.0000,2562.1000,17.7086,1.0000,3.6667,102.1080,12.7259,2025/26 empirical-Bayes rate and minutes,False,False,False
+74,Richarlison de Andrade,FWD,113.2079,18.1133,527,212319,Spurs,a,,2025-26,119.0000,1954.0000,1932.5000,17.8749,1.0000,3.0000,102.1080,11.1000,2025/26 empirical-Bayes rate and minutes,False,False,False
+75,Nikola Milenković,DEF,112.9186,18.0670,471,227444,Nott'm Forest,a,,2025-26,119.0000,3375.0000,3092.6000,17.8292,1.0000,3.0000,115.0131,-2.0945,2025/26 empirical-Bayes rate and minutes,False,False,False
+76,Robert Lynch Sánchez,GK,112.1636,17.9462,140,215059,Chelsea,a,,2025-26,113.0000,3040.0000,3003.5000,17.7100,1.0000,3.0000,119.5420,-7.3784,2025/26 empirical-Bayes rate and minutes,False,False,False
+77,Igor Jesus Maciel da Cruz,FWD,111.9383,17.9101,491,482973,Nott'm Forest,a,,2025-26,114.0000,2293.0000,2203.7000,17.6745,1.0000,3.0000,102.1080,9.8303,2025/26 empirical-Bayes rate and minutes,False,False,False
+78,Ferdi Kadıoğlu,DEF,111.4731,17.8357,113,231416,Brighton,a,,2025-26,118.0000,3130.0000,2896.6000,17.6010,1.0000,3.0000,115.0131,-3.5400,2025/26 empirical-Bayes rate and minutes,False,False,False
+79,Jean-Philippe Mateta,FWD,111.4629,17.8341,223,231747,Crystal Palace,a,,2025-26,114.0000,2210.0000,2137.3000,17.5994,1.0000,3.0000,102.1080,9.3549,2025/26 empirical-Bayes rate and minutes,False,False,False
+80,Joachim Andersen,DEF,110.7876,31.0205,253,174874,Fulham,s,Suspended until 30 Aug,2025-26,123.0000,2882.0000,2698.2000,13.9023,0.7800,3.3333,115.0131,-4.2255,2025/26 empirical-Bayes rate and minutes,False,False,True
+81,Matty Cash,DEF,110.3899,17.6624,32,199796,Aston Villa,a,,2025-26,117.0000,3016.0000,2805.4000,17.4300,1.0000,3.0000,115.0131,-4.6232,2025/26 empirical-Bayes rate and minutes,False,False,False
+82,Yankuba Minteh,MID,110.1863,17.6298,122,592031,Brighton,a,,2025-26,117.0000,2389.0000,2270.8000,17.3978,1.0000,3.0000,125.4383,-15.2520,2025/26 empirical-Bayes rate and minutes,False,False,False
+83,Jake O'Brien,DEF,109.9984,17.5997,232,512462,Everton,a,,2025-26,116.0000,3118.0000,2887.0000,17.4695,1.0000,2.8333,115.0131,-5.0147,2025/26 empirical-Bayes rate and minutes,False,False,False
+84,Micky van de Ven,DEF,109.7547,17.5607,503,491279,Spurs,a,,2025-26,116.0000,3041.0000,2825.4000,17.3297,1.0000,3.0000,115.0131,-5.2584,2025/26 empirical-Bayes rate and minutes,False,False,False
+85,Pedro Porro Sauceda,DEF,109.6120,17.5379,499,441164,Spurs,a,,2025-26,117.0000,2793.0000,2627.0000,17.3072,1.0000,3.0000,115.0131,-5.4011,2025/26 empirical-Bayes rate and minutes,False,False,False
+86,Ismaïla Sarr,MID,108.9571,17.4331,208,232185,Crystal Palace,a,,2025-26,117.0000,2173.0000,2098.0000,17.2038,1.0000,3.0000,125.4383,-16.4812,2025/26 empirical-Bayes rate and minutes,False,False,False
+87,Senne Lammens,GK,108.8860,17.4218,412,465247,Man Utd,a,,2025-26,109.0000,2880.0000,2875.5000,17.2928,1.0000,2.8333,119.5420,-10.6560,2025/26 empirical-Bayes rate and minutes,False,False,False
+88,Lukás Hornícek,GK,108.6456,36.9395,567,470551,Newcastle,a,,,,,2864.4133,17.2546,0.0000,2.8333,119.5420,-10.8964,position and official-cost prior; manual review,False,True,True
+89,William Saliba,DEF,108.2864,30.3202,6,462424,Arsenal,i,Back injury - Unknown return date,2025-26,137.0000,2614.0000,2483.8000,13.6006,0.7000,3.0000,115.0131,-6.7267,2025/26 empirical-Bayes rate and minutes,False,False,True
+90,Michael Kayode,DEF,108.2546,17.3207,88,607464,Brentford,a,,2025-26,113.0000,3258.0000,2999.0000,16.9931,1.0000,3.1667,115.0131,-6.7585,2025/26 empirical-Bayes rate and minutes,False,False,False
+91,Jérémy Doku,MID,108.1518,17.3043,400,248875,Man City,a,,2025-26,120.0000,1773.0000,1778.0000,17.0766,0.9850,3.0000,125.4383,-17.2866,2025/26 empirical-Bayes rate and minutes,False,False,False
+92,Luke Shaw,DEF,108.1456,17.3033,423,106760,Man Utd,a,,2025-26,113.0000,3220.0000,2968.6000,17.1752,1.0000,2.8333,115.0131,-6.8675,2025/26 empirical-Bayes rate and minutes,False,False,False
+93,Moisés Caicedo Corozo,MID,107.1946,17.1511,159,486672,Chelsea,a,,2025-26,110.0000,2796.0000,2596.4000,16.9255,1.0000,3.0000,125.4383,-18.2437,2025/26 empirical-Bayes rate and minutes,False,False,False
+94,Sepp van den Berg,DEF,106.6503,17.0640,85,444765,Brentford,a,,2025-26,113.0000,2761.0000,2601.4000,16.7413,1.0000,3.1667,115.0131,-8.3628,2025/26 empirical-Bayes rate and minutes,False,False,False
+95,Keane Lewis-Potter,MID,106.2152,16.9944,86,249231,Brentford,a,,2025-26,115.0000,1960.0000,1927.6000,16.6730,1.0000,3.1667,125.4383,-19.2231,2025/26 empirical-Bayes rate and minutes,False,False,False
+96,Daniel Ballard,DEF,106.0069,16.9611,532,223827,Sunderland,a,,2025-26,116.0000,2144.0000,2107.8000,16.7379,1.0000,3.0000,115.0131,-9.0062,2025/26 empirical-Bayes rate and minutes,False,False,False
+97,Matz Sels,GK,105.5167,16.8827,467,85633,Nott'm Forest,a,,2025-26,105.0000,2667.0000,2705.1000,16.6605,1.0000,3.0000,119.5420,-14.0253,2025/26 empirical-Bayes rate and minutes,False,False,False
+98,Cole Palmer,MID,105.4997,16.8800,154,244851,Chelsea,a,,2025-26,114.0000,1954.0000,1922.8000,16.6579,1.0000,3.0000,125.4383,-19.9386,2025/26 empirical-Bayes rate and minutes,False,False,False
+99,Mikkel Damsgaard,MID,105.4396,16.8703,96,440089,Brentford,a,,2025-26,113.0000,2046.0000,1996.4000,16.5512,1.0000,3.1667,125.4383,-19.9987,2025/26 empirical-Bayes rate and minutes,False,False,False
+100,Trai Hume,DEF,105.4252,16.8680,534,487676,Sunderland,a,,2025-26,110.0000,3032.0000,2818.2000,16.6461,1.0000,3.0000,115.0131,-9.5879,2025/26 empirical-Bayes rate and minutes,False,False,False
+101,Nick Woltemade,FWD,105.3615,16.8578,463,470313,Newcastle,a,,2025-26,108.0000,1896.0000,1886.1000,16.7331,1.0000,2.8333,102.1080,3.2535,2025/26 empirical-Bayes rate and minutes,False,False,False
+102,Joao Gomes,MID,105.2163,16.8346,54,448089,Aston Villa,a,,2025-26,107.0000,2829.0000,2622.8000,16.6131,1.0000,3.0000,125.4383,-20.2220,2025/26 empirical-Bayes rate and minutes,False,False,False
+103,Alexis Mac Allister,MID,105.2030,16.8325,372,243016,Liverpool,a,,2025-26,108.0000,2654.0000,2482.8000,16.7079,1.0000,2.8333,125.4383,-20.2354,2025/26 empirical-Bayes rate and minutes,False,False,False
+104,Diogo Dalot Teixeira,DEF,104.6554,16.7449,417,216051,Man Utd,a,,2025-26,111.0000,2609.0000,2479.8000,16.6209,1.0000,2.8333,115.0131,-10.3576,2025/26 empirical-Bayes rate and minutes,False,False,False
+105,Joe Rodon,DEF,104.4558,16.7129,329,214225,Leeds,a,,2025-26,109.0000,2952.0000,2754.2000,16.3968,1.0000,3.1667,115.0131,-10.5573,2025/26 empirical-Bayes rate and minutes,False,False,False
+106,Eberechi Eze,MID,104.3392,16.6943,14,232413,Arsenal,a,,2025-26,113.0000,1885.0000,1867.6000,16.4746,1.0000,3.0000,125.4383,-21.0991,2025/26 empirical-Bayes rate and minutes,False,False,False
+107,Reece James,DEF,104.2438,16.6790,142,225796,Chelsea,a,,2025-26,115.0000,1957.0000,1958.2000,16.4595,1.0000,3.0000,115.0131,-10.7693,2025/26 empirical-Bayes rate and minutes,False,False,False
+108,Rúben dos Santos Gato Alves Dias,DEF,103.9030,16.6245,390,171314,Man City,a,,2025-26,113.0000,2139.0000,2103.8000,16.4057,1.0000,3.0000,115.0131,-11.1100,2025/26 empirical-Bayes rate and minutes,False,False,False
+109,Pascal Struijk,DEF,103.6861,16.5898,328,222694,Brighton,a,,2025-26,108.0000,2935.0000,2740.6000,16.3715,1.0000,3.0000,115.0131,-11.3270,2025/26 empirical-Bayes rate and minutes,False,False,False
+110,Adam Wharton,MID,103.2327,28.9052,210,496221,Crystal Palace,d,Ankle injury - 75% chance of playing,2025-26,112.0000,2552.0000,2401.2000,14.9416,0.8800,3.0000,125.4383,-22.2056,2025/26 empirical-Bayes rate and minutes,False,False,True
+111,Yehor Yarmoliuk,MID,102.4002,16.3840,102,508395,Brentford,a,,2025-26,104.0000,2652.0000,2481.2000,16.0741,1.0000,3.1667,125.4383,-23.0381,2025/26 empirical-Bayes rate and minutes,False,False,False
+112,Hugo Ekitiké,FWD,102.1080,28.5902,380,510663,Liverpool,i,Achilles injury - Unknown return date,2025-26,125.0000,1797.0000,1806.9000,12.8994,0.6988,2.8333,102.1080,0.0000,2025/26 empirical-Bayes rate and minutes,False,False,True
+113,James Hill,DEF,101.6309,16.2609,60,463981,Bournemouth,a,,2025-26,110.0000,2102.0000,2074.2000,15.6726,1.0000,3.6667,115.0131,-13.3822,2025/26 empirical-Bayes rate and minutes,False,False,False
+114,Benjamin Sesko,FWD,101.0745,28.3008,439,485711,Man Utd,d,Shin injury - 75% chance of playing,2025-26,111.0000,1630.0000,1673.3000,14.7145,0.7969,2.8333,102.1080,-1.0335,2025/26 empirical-Bayes rate and minutes,False,False,True
+115,Alex Iwobi,MID,100.6694,16.1071,261,153133,Fulham,a,,2025-26,103.0000,2420.0000,2295.6000,15.7097,1.0000,3.3333,125.4383,-24.7689,2025/26 empirical-Bayes rate and minutes,False,False,False
+116,Harvey Barnes,MID,100.0902,16.0144,453,201666,Newcastle,a,,2025-26,106.0000,1951.0000,1920.4000,15.8959,1.0000,2.8333,125.4383,-25.3481,2025/26 empirical-Bayes rate and minutes,False,False,False
+117,Norberto Bercique Gomes Betuncal,FWD,99.9762,15.9962,248,486385,Everton,a,,2025-26,104.0000,1551.0000,1610.1000,15.8778,0.8617,2.8333,102.1080,-2.1317,2025/26 empirical-Bayes rate and minutes,False,False,False
+118,Martin Dubravka,GK,99.3375,15.8940,497,67089,Spurs,a,,2025-26,96.0000,3150.0000,3091.5000,15.6849,1.0000,3.0000,119.5420,-20.2045,2025/26 empirical-Bayes rate and minutes,False,False,False
+119,John McGinn,MID,99.1909,15.8706,45,122806,Aston Villa,a,,2025-26,103.0000,2136.0000,2068.4000,15.6617,1.0000,3.0000,125.4383,-26.2474,2025/26 empirical-Bayes rate and minutes,False,False,False
+120,Noah Okafor,MID,99.0018,15.8403,336,435997,Leeds,a,,2025-26,109.0000,1553.0000,1602.0000,15.5407,0.8628,3.1667,125.4383,-26.4365,2025/26 empirical-Bayes rate and minutes,False,False,False
+121,Calvin Bassey,DEF,98.7086,15.7934,257,232892,Fulham,a,,2025-26,103.0000,2532.0000,2418.2000,15.4037,1.0000,3.3333,115.0131,-16.3045,2025/26 empirical-Bayes rate and minutes,False,False,False
+122,Riccardo Calafiori,DEF,98.4553,15.7528,8,466075,Arsenal,a,,2025-26,109.0000,1697.0000,1750.2000,15.5456,0.9428,3.0000,115.0131,-16.5578,2025/26 empirical-Bayes rate and minutes,False,False,False
+123,Nick Pope,GK,98.2813,15.7250,442,98747,Newcastle,a,,2025-26,96.0000,2416.0000,2504.3000,15.6086,1.0000,2.8333,119.5420,-21.2607,2025/26 empirical-Bayes rate and minutes,False,False,False
+124,Ezri Konsa Ngoyo,DEF,98.2665,15.7226,31,199798,Aston Villa,a,,2025-26,100.0000,3035.0000,2820.6000,15.5158,1.0000,3.0000,115.0131,-16.7466,2025/26 empirical-Bayes rate and minutes,False,False,False
+125,Lewis Dunk,DEF,97.6622,15.6259,116,83299,Brighton,a,,2025-26,100.0000,2837.0000,2662.2000,15.4203,1.0000,3.0000,115.0131,-17.3509,2025/26 empirical-Bayes rate and minutes,False,False,False
+126,Thierno Barry,FWD,96.6049,15.4568,249,586309,Everton,a,,2025-26,95.0000,1898.0000,1887.7000,15.3424,1.0000,2.8333,102.1080,-5.5031,2025/26 empirical-Bayes rate and minutes,False,False,False
+127,Mathias Jensen,MID,96.3321,15.4131,97,207283,Brentford,a,,2025-26,98.0000,2239.0000,2150.8000,15.1216,1.0000,3.1667,125.4383,-29.1062,2025/26 empirical-Bayes rate and minutes,False,False,False
+128,Emiliano Buendía Stati,MID,96.0317,15.3651,41,195546,Aston Villa,a,,2025-26,102.0000,1753.0000,1762.0000,15.1629,0.9739,3.0000,125.4383,-29.4066,2025/26 empirical-Bayes rate and minutes,False,False,False
+129,Diego Gómez Amarilla,MID,94.9988,15.1998,127,514254,Brighton,a,,2025-26,97.0000,2117.0000,2053.2000,14.9998,1.0000,3.0000,125.4383,-30.4395,2025/26 empirical-Bayes rate and minutes,False,False,False
+130,Brian Brobbey,FWD,94.7180,15.1549,552,441264,Sunderland,a,,2025-26,92.0000,1920.0000,1905.3000,14.9555,1.0000,3.0000,102.1080,-7.3900,2025/26 empirical-Bayes rate and minutes,False,False,False
+131,Jayden Bogle,DEF,94.6801,15.1488,330,226182,Leeds,a,,2025-26,96.0000,2795.0000,2628.6000,14.8623,1.0000,3.1667,115.0131,-20.3330,2025/26 empirical-Bayes rate and minutes,False,False,False
+132,Yasin Ayari,MID,94.5125,15.1220,129,509416,Brighton,a,,2025-26,98.0000,1921.0000,1896.4000,14.9230,1.0000,3.0000,125.4383,-30.9258,2025/26 empirical-Bayes rate and minutes,False,False,False
+133,Vitalii Mykolenko,DEF,94.4661,15.1146,233,224967,Everton,a,,2025-26,95.0000,2959.0000,2759.8000,15.0027,1.0000,2.8333,115.0131,-20.5470,2025/26 empirical-Bayes rate and minutes,False,False,False
+134,Alisson Becker,GK,94.3738,15.0998,350,116535,Liverpool,a,,2025-26,91.0000,2340.0000,2443.5000,14.9880,1.0000,2.8333,119.5420,-25.1682,2025/26 empirical-Bayes rate and minutes,False,False,False
+135,Guglielmo Vicario,GK,94.3135,15.0902,494,184254,Spurs,a,,2025-26,90.0000,2790.0000,2803.5000,14.8916,1.0000,3.0000,119.5420,-25.2285,2025/26 empirical-Bayes rate and minutes,False,False,False
+136,Sander Berge,MID,94.2172,15.0748,265,207189,Fulham,a,,2025-26,91.0000,2904.0000,2682.8000,14.7028,1.0000,3.3333,125.4383,-31.2211,2025/26 empirical-Bayes rate and minutes,False,False,False
+137,Álvaro Rodríguez,FWD,93.1032,31.6551,81,561245,Bournemouth,a,,,,,1738.7875,14.3575,0.0000,3.6667,102.1080,-9.0048,position and official-cost prior; manual review,False,True,True
+138,Gonzalo García,FWD,93.1032,31.6551,569,551466,Fulham,a,,,,,1738.7875,14.5290,0.0000,3.3333,102.1080,-9.0048,position and official-cost prior; manual review,False,True,True
+139,Jaka Bijol,DEF,92.8914,14.8626,327,434752,Leeds,a,,2025-26,99.0000,1888.0000,1903.0000,14.5815,1.0000,3.1667,115.0131,-22.1217,2025/26 empirical-Bayes rate and minutes,False,False,False
+140,Malo Gusto,DEF,92.6617,14.8259,144,482609,Chelsea,a,,2025-26,96.0000,2255.0000,2196.6000,14.6308,1.0000,3.0000,115.0131,-22.3514,2025/26 empirical-Bayes rate and minutes,False,False,False
+141,Amad Diallo,MID,92.0094,14.7215,431,493250,Man Utd,a,,2025-26,91.0000,2339.0000,2230.8000,14.6125,1.0000,2.8333,125.4383,-33.4289,2025/26 empirical-Bayes rate and minutes,False,False,False
+142,Lucas Digne,DEF,91.2621,14.6019,30,101188,Aston Villa,a,,2025-26,97.0000,1842.0000,1866.2000,14.4098,1.0000,3.0000,115.0131,-23.7510,2025/26 empirical-Bayes rate and minutes,False,False,False
+143,Georginio Rutter,FWD,90.4351,14.4696,125,463067,Brighton,a,,2025-26,87.0000,1776.0000,1790.1000,14.2792,0.9867,3.0000,102.1080,-11.6729,2025/26 empirical-Bayes rate and minutes,False,False,False
+144,Dan Burn,DEF,90.3113,14.4498,448,78916,Newcastle,a,,2025-26,93.0000,2195.0000,2148.6000,14.3429,1.0000,2.8333,115.0131,-24.7018,2025/26 empirical-Bayes rate and minutes,False,False,False
+145,Junior Kroupi,MID,90.2838,25.2795,78,560262,Bournemouth,i,Foot injury - Unknown return date,2025-26,113.0000,1663.0000,1690.0000,11.0749,0.6467,3.6667,125.4383,-35.1545,2025/26 empirical-Bayes rate and minutes,False,False,True
+146,Ben Wilson,GK,89.8971,39.5547,172,110690,Coventry City,a,,,,,2370.1119,14.1115,0.0000,3.1667,119.5420,-29.6450,position and official-cost prior; manual review,True,True,True
+147,Kayne van Oevelen,GK,89.8971,39.5547,554,546600,Ipswich Town,a,,,,,2370.1119,14.1943,0.0000,3.0000,119.5420,-29.6450,position and official-cost prior; manual review,True,True,True
+148,Ewen Jaouen,GK,89.8971,30.5650,444,554578,Newcastle,a,,,,,2370.1119,14.2771,0.0000,2.8333,119.5420,-29.6450,position and official-cost prior; manual review,False,True,True
+149,Ryan Sessegnon,DEF,89.7499,14.3600,269,184349,Fulham,a,,2025-26,95.0000,1816.0000,1845.4000,14.0057,1.0000,3.3333,115.0131,-25.2632,2025/26 empirical-Bayes rate and minutes,False,False,False
+150,Mats Wieffer,DEF,89.5500,14.3280,130,467779,Brighton,a,,2025-26,94.0000,1901.0000,1913.4000,14.1395,1.0000,3.0000,115.0131,-25.4631,2025/26 empirical-Bayes rate and minutes,False,False,False
+151,James Justin,DEF,89.5061,14.3210,332,220627,Leeds,a,,2025-26,94.0000,1893.0000,1907.0000,14.0501,1.0000,3.1667,115.0131,-25.5070,2025/26 empirical-Bayes rate and minutes,False,False,False
+152,Ibrahim Sangaré,MID,89.3218,14.2915,488,210462,Nott'm Forest,a,,2025-26,89.0000,2073.0000,2018.0000,14.1034,1.0000,3.0000,125.4383,-36.1165,2025/26 empirical-Bayes rate and minutes,False,False,False
+153,Patrick Dorgu,MID,88.8825,14.2212,415,596777,Man Utd,a,,2025-26,95.0000,1440.0000,1511.6000,14.1159,0.8000,2.8333,125.4383,-36.5558,2025/26 empirical-Bayes rate and minutes,False,False,False
+154,Jack Hinshelwood,MID,88.6090,14.1774,123,532529,Brighton,a,,2025-26,91.0000,1736.0000,1748.4000,13.9909,0.9644,3.0000,125.4383,-36.8293,2025/26 empirical-Bayes rate and minutes,False,False,False
+155,Tijjani Reijnders,MID,88.4481,14.1517,404,433036,Man City,a,,2025-26,92.0000,1623.0000,1658.0000,13.9655,0.9017,3.0000,125.4383,-36.9902,2025/26 empirical-Bayes rate and minutes,False,False,False
+156,Victor Munoz,MID,88.2430,30.0026,377,551499,Liverpool,a,,,,,1864.6127,14.0144,0.0000,2.8333,125.4383,-37.1953,position and official-cost prior; manual review,False,True,True
+157,Cristian Romero,DEF,87.3276,13.9724,500,221632,Spurs,a,,2025-26,91.0000,1869.0000,1887.8000,13.7886,1.0000,3.0000,115.0131,-27.6855,2025/26 empirical-Bayes rate and minutes,False,False,False
+158,Noah Sadiki,MID,86.4195,13.8271,545,577669,Sunderland,a,,2025-26,80.0000,2891.0000,2672.4000,13.6452,1.0000,3.0000,125.4383,-39.0188,2025/26 empirical-Bayes rate and minutes,False,False,False
+159,Rodrigo Bentancur,MID,86.2033,13.7925,516,202993,Spurs,a,,2025-26,86.0000,1880.0000,1863.6000,13.6110,1.0000,3.0000,125.4383,-39.2350,2025/26 empirical-Bayes rate and minutes,False,False,False
+160,Sandro Tonali,MID,85.9030,13.7445,455,432422,Spurs,a,,2025-26,81.0000,2534.0000,2386.8000,13.5636,1.0000,3.0000,125.4383,-39.5353,2025/26 empirical-Bayes rate and minutes,False,False,False
+161,Sven Botman,DEF,85.7732,13.7237,447,220237,Newcastle,a,,2025-26,89.0000,1834.0000,1859.8000,13.6221,1.0000,2.8333,115.0131,-29.2399,2025/26 empirical-Bayes rate and minutes,False,False,False
+162,Harry Maguire,DEF,85.3489,13.6558,418,95658,Man Utd,a,,2025-26,90.0000,1649.0000,1711.8000,13.5548,0.9161,2.8333,115.0131,-29.6642,2025/26 empirical-Bayes rate and minutes,False,False,False
+163,Jørgen Strand Larsen,FWD,85.0556,13.6089,222,247412,Crystal Palace,a,,2025-26,75.0000,2301.0000,2210.1000,13.4298,1.0000,3.0000,102.1080,-17.0523,2025/26 empirical-Bayes rate and minutes,False,False,False
+164,Milos Kerkez,DEF,84.9871,13.5979,358,544877,Liverpool,a,,2025-26,85.0000,2251.0000,2193.4000,13.4973,1.0000,2.8333,115.0131,-30.0260,2025/26 empirical-Bayes rate and minutes,False,False,False
+165,Piero Hincapié,DEF,84.1528,13.4644,9,448104,Arsenal,a,,2025-26,87.0000,1787.0000,1822.2000,13.2873,0.9928,3.0000,115.0131,-30.8603,2025/26 empirical-Bayes rate and minutes,False,False,False
+166,Marco Palestra,DEF,84.0855,28.5891,152,620109,Chelsea,a,,,,,2040.3063,13.2767,0.0000,3.0000,115.0131,-30.9276,position and official-cost prior; manual review,False,True,True
+167,Callum Hudson-Odoi,MID,83.7929,23.4620,482,209046,Nott'm Forest,d,Thigh injury - 75% chance of playing,2025-26,88.0000,1838.0000,1830.0000,12.1279,0.8800,3.0000,125.4383,-41.6454,2025/26 empirical-Bayes rate and minutes,False,False,True
+168,Johan Manzambi,MID,83.2623,28.3092,53,614071,Aston Villa,a,,,,,1759.3683,13.1467,0.0000,3.0000,125.4383,-42.1760,position and official-cost prior; manual review,False,True,True
+169,Bazoumana Touré,MID,83.2623,28.3092,461,611665,Newcastle,a,,,,,1759.3683,13.2234,0.0000,2.8333,125.4383,-42.1760,position and official-cost prior; manual review,False,True,True
+170,Curtis Jones,MID,83.0956,13.2953,373,206915,Liverpool,a,,2025-26,81.0000,1923.0000,1898.0000,13.1969,1.0000,2.8333,125.4383,-42.3428,2025/26 empirical-Bayes rate and minutes,False,False,False
+171,Emile Smith Rowe,MID,82.3452,13.1752,262,209289,Fulham,a,,2025-26,80.0000,1909.0000,1886.8000,12.8502,1.0000,3.3333,125.4383,-43.0931,2025/26 empirical-Bayes rate and minutes,False,False,False
+172,Omari Hutchinson,MID,82.2427,13.1588,484,503301,Nott'm Forest,a,,2025-26,82.0000,1676.0000,1700.4000,12.9857,0.9311,3.0000,125.4383,-43.1956,2025/26 empirical-Bayes rate and minutes,False,False,False
+173,Chemsdine Talbi,MID,82.0217,13.1235,549,549912,Sunderland,a,,2025-26,83.0000,1553.0000,1602.0000,12.9508,0.8628,3.0000,125.4383,-43.4166,2025/26 empirical-Bayes rate and minutes,False,False,False
+174,Jacob Murphy,MID,81.7558,13.0809,457,114243,Newcastle,a,,2025-26,82.0000,1606.0000,1644.4000,12.9841,0.8922,2.8333,125.4383,-43.6825,2025/26 empirical-Bayes rate and minutes,False,False,False
+175,Callum Wilson,FWD,81.4856,13.0377,108,75115,Brentford,a,,2025-26,80.0000,1234.0000,1356.5000,12.7911,0.6856,3.1667,102.1080,-20.6224,2025/26 empirical-Bayes rate and minutes,False,False,False
+176,Yéremy Pino Santos,MID,81.1814,12.9890,211,488024,Crystal Palace,a,,2025-26,77.0000,2074.0000,2018.8000,12.8181,1.0000,3.0000,125.4383,-44.2569,2025/26 empirical-Bayes rate and minutes,False,False,False
+177,Lewis Hall,DEF,80.5164,12.8826,449,487838,Newcastle,a,,2025-26,79.0000,2176.0000,2133.4000,12.7873,1.0000,2.8333,115.0131,-34.4967,2025/26 empirical-Bayes rate and minutes,False,False,False
+178,Kenny Tete,DEF,80.1053,12.8168,256,167074,Fulham,a,,2025-26,81.0000,1791.0000,1825.4000,12.5006,0.9950,3.3333,115.0131,-34.9078,2025/26 empirical-Bayes rate and minutes,False,False,False
+179,Murillo Costa dos Santos,DEF,79.7727,22.3364,472,575476,Nott'm Forest,d,Muscular injury - 75% chance of playing,2025-26,83.0000,2130.0000,2096.6000,11.5461,0.8800,3.0000,115.0131,-35.2404,2025/26 empirical-Bayes rate and minutes,False,False,True
+180,Maxim De Cuyper,DEF,79.6657,12.7465,115,465730,Brighton,a,,2025-26,84.0000,1404.0000,1515.8000,12.5788,0.7800,3.0000,115.0131,-35.3474,2025/26 empirical-Bayes rate and minutes,False,False,False
+181,Tyler Adams,MID,79.5253,12.7240,73,200785,Bournemouth,a,,2025-26,77.0000,1769.0000,1774.8000,12.2636,0.9828,3.6667,125.4383,-45.9130,2025/26 empirical-Bayes rate and minutes,False,False,False
+182,Pascal Groß,MID,79.3362,12.6938,124,60307,Brighton,a,,2025-26,78.0000,1636.0000,1668.4000,12.5268,0.9089,3.0000,125.4383,-46.1021,2025/26 empirical-Bayes rate and minutes,False,False,False
+183,Djed Spence,DEF,79.2953,12.6872,505,232859,Spurs,a,,2025-26,78.0000,2049.0000,2031.8000,12.5203,1.0000,3.0000,115.0131,-35.7178,2025/26 empirical-Bayes rate and minutes,False,False,False
+184,Haji Wright,FWD,79.0965,34.8025,193,176412,Coventry City,a,,,,,1477.2000,12.4161,0.0000,3.1667,102.1080,-23.0114,position and official-cost prior; manual review,True,True,True
+185,Emersonn Correia da Silva,FWD,79.0965,34.8025,316,543968,Ipswich Town,a,,,,,1477.2000,12.4889,0.0000,3.0000,102.1080,-23.0114,position and official-cost prior; manual review,True,True,True
+186,Mathys Tel,MID,77.0195,12.3231,514,511499,Spurs,a,,2025-26,78.0000,1334.0000,1426.8000,12.1610,0.7411,3.0000,125.4383,-48.4188,2025/26 empirical-Bayes rate and minutes,False,False,False
+187,Wilson Isidor,FWD,76.8284,12.2925,553,437505,Sunderland,a,,2025-26,74.0000,1148.0000,1287.7000,12.1308,0.6378,3.0000,102.1080,-25.2796,2025/26 empirical-Bayes rate and minutes,False,False,False
+188,Kristoffer Ajer,DEF,76.7848,12.2856,87,191866,Brentford,a,,2025-26,76.0000,1805.0000,1836.6000,12.0532,1.0000,3.1667,115.0131,-38.2283,2025/26 empirical-Bayes rate and minutes,False,False,False
+189,Jack Grealish,MID,76.7353,21.4859,238,114283,Man City,d,Foot injury - 75% chance of playing,2025-26,79.0000,1627.0000,1661.2000,11.1064,0.7954,3.0000,125.4383,-48.7030,2025/26 empirical-Bayes rate and minutes,False,False,True
+190,António João Pereira de Albuquerque Tavares da Silva,DEF,76.4305,25.9864,566,483067,Bournemouth,a,,,,,1854.5601,11.7864,0.0000,3.6667,115.0131,-38.5826,position and official-cost prior; manual review,False,True,True
+191,Michael Svoboda,DEF,76.4305,25.9864,120,454490,Brighton,a,,,,,1854.5601,12.0680,0.0000,3.0000,115.0131,-38.5826,position and official-cost prior; manual review,False,True,True
+192,Tarik Muharemović,DEF,76.4305,25.9864,334,522047,Leeds,a,,,,,1854.5601,11.9976,0.0000,3.1667,115.0131,-38.5826,position and official-cost prior; manual review,False,True,True
+193,Jeremy Jacquet,DEF,76.4305,25.9864,362,606702,Liverpool,a,,,,,1854.5601,12.1384,0.0000,2.8333,115.0131,-38.5826,position and official-cost prior; manual review,False,True,True
+194,Reinildo Mandava,DEF,76.1822,12.1892,536,434399,Sunderland,a,,2025-26,74.0000,1966.0000,1965.4000,12.0288,1.0000,3.0000,115.0131,-38.8309,2025/26 empirical-Bayes rate and minutes,False,False,False
+195,Kobbie Mainoo,MID,76.1562,12.1850,432,516895,Man Utd,a,,2025-26,73.0000,1653.0000,1682.0000,12.0948,0.9183,2.8333,125.4383,-49.2821,2025/26 empirical-Bayes rate and minutes,False,False,False
+196,Joško Gvardiol,DEF,76.1291,12.1807,391,477424,Man City,a,,2025-26,79.0000,1370.0000,1488.6000,12.0204,0.7611,3.0000,115.0131,-38.8840,2025/26 empirical-Bayes rate and minutes,False,False,False
+197,Karl Darlow,GK,75.5406,21.1514,325,59735,Man Utd,d,Unspecified injury - 75% chance of playing,2025-26,71.0000,1980.0000,2155.5000,10.9973,0.8800,2.8333,119.5420,-44.0014,2025/26 empirical-Bayes rate and minutes,False,False,True
+198,Lukas Nmecha,FWD,75.3231,12.0517,347,174594,Leeds,a,,2025-26,73.0000,1065.0000,1221.3000,11.8237,0.5917,3.1667,102.1080,-26.7849,2025/26 empirical-Bayes rate and minutes,False,False,False
+199,Vitaly Janelt,MID,75.2707,12.0433,98,204580,Brentford,a,,2025-26,74.0000,1434.0000,1506.8000,11.8155,0.7967,3.1667,125.4383,-50.1676,2025/26 empirical-Bayes rate and minutes,False,False,False
+200,Joelinton Cássio Apolinário de Lira,MID,74.7424,20.9279,458,180974,Newcastle,d,Thigh injury - 75% chance of playing,2025-26,73.0000,1950.0000,1919.6000,10.8811,0.8800,2.8333,125.4383,-50.6959,2025/26 empirical-Bayes rate and minutes,False,False,True
+201,Martin Ødegaard,MID,74.7058,11.9529,15,184029,Arsenal,a,,2025-26,74.0000,1363.0000,1450.0000,11.7957,0.7572,3.0000,125.4383,-50.7325,2025/26 empirical-Bayes rate and minutes,False,False,False
+202,Gabriel Gudmundsson,DEF,74.3451,11.8952,331,243526,Leeds,a,,2025-26,68.0000,2637.0000,2502.2000,11.6702,1.0000,3.1667,115.0131,-40.6680,2025/26 empirical-Bayes rate and minutes,False,False,False
+203,Mamadou Sangaré,MID,74.2406,25.2418,565,513545,Brentford,a,,,,,1568.7369,11.6538,0.0000,3.1667,125.4383,-51.1977,position and official-cost prior; manual review,False,True,True
+204,Geovany Quenda,MID,74.2406,25.2418,164,593117,Chelsea,a,,,,,1568.7369,11.7222,0.0000,3.0000,125.4383,-51.1977,position and official-cost prior; manual review,False,True,True
+205,Ephron Mason-Clark,MID,74.2406,32.6659,186,241293,Coventry City,a,,,,,1568.7369,11.6538,0.0000,3.1667,125.4383,-51.1977,position and official-cost prior; manual review,True,True,True
+206,Victor Torp,MID,74.2406,32.6659,188,226965,Coventry City,a,,,,,1568.7369,11.6538,0.0000,3.1667,125.4383,-51.1977,position and official-cost prior; manual review,True,True,True
+207,Hayden Hackney,MID,74.2406,25.2418,247,244860,Everton,a,,,,,1568.7369,11.7906,0.0000,2.8333,125.4383,-51.1977,position and official-cost prior; manual review,False,True,True
+208,César Palacios,MID,74.2406,25.2418,570,571779,Fulham,a,,,,,1568.7369,11.5854,0.0000,3.3333,125.4383,-51.1977,position and official-cost prior; manual review,False,True,True
+209,Daizen Maeda,MID,74.2406,32.6659,562,442967,Ipswich Town,a,,,,,1568.7369,11.7222,0.0000,3.0000,125.4383,-51.1977,position and official-cost prior; manual review,True,True,True
+210,Jefferson Lerma Solís,MID,73.9354,11.8297,213,152551,Crystal Palace,a,,2025-26,69.0000,1722.0000,1737.2000,11.6740,0.9567,3.0000,125.4383,-51.5029,2025/26 empirical-Bayes rate and minutes,False,False,False
+211,William Osula,FWD,73.8077,11.8092,465,538207,Newcastle,a,,2025-26,76.0000,805.0000,1013.3000,11.7218,0.4472,2.8333,102.1080,-28.3003,2025/26 empirical-Bayes rate and minutes,False,False,True
+212,Mohammed Kudus,MID,73.6026,20.6087,512,460842,Spurs,d,Thigh injury - 75% chance of playing,2025-26,75.0000,1535.0000,1587.6000,10.6530,0.7504,3.0000,125.4383,-51.8357,2025/26 empirical-Bayes rate and minutes,False,False,True
+213,Daichi Kamada,MID,73.5629,11.7701,214,209400,Crystal Palace,a,,2025-26,67.0000,1899.0000,1878.8000,11.6152,1.0000,3.0000,125.4383,-51.8754,2025/26 empirical-Bayes rate and minutes,False,False,False
+214,Pape Matar Sarr,MID,72.9813,11.6770,518,482442,Spurs,a,,2025-26,71.0000,1388.0000,1470.0000,11.5234,0.7711,3.0000,125.4383,-52.4570,2025/26 empirical-Bayes rate and minutes,False,False,False
+215,Saša Lukić,MID,72.6561,11.6250,267,212314,Fulham,a,,2025-26,67.0000,1730.0000,1743.6000,11.3382,0.9611,3.3333,125.4383,-52.7822,2025/26 empirical-Bayes rate and minutes,False,False,False
+216,Noni Madueke,MID,72.0545,11.5287,16,248857,Arsenal,a,,2025-26,72.0000,1205.0000,1323.6000,11.3770,0.6694,3.0000,125.4383,-53.3838,2025/26 empirical-Bayes rate and minutes,False,False,False
+217,Tim Iroegbunam,MID,71.7061,11.4730,240,490094,Everton,a,,2025-26,68.0000,1477.0000,1541.2000,11.3881,0.8206,2.8333,125.4383,-53.7322,2025/26 empirical-Bayes rate and minutes,False,False,False
+218,Xavi Simons,MID,71.6167,20.0527,513,493362,Spurs,i,Knee injury - Unknown return date,2025-26,80.0000,1747.0000,1757.2000,8.9949,0.6794,3.0000,125.4383,-53.8216,2025/26 empirical-Bayes rate and minutes,False,False,True
+219,Jaydee Canvot,DEF,71.2636,11.4022,203,651426,Crystal Palace,a,,2025-26,72.0000,1331.0000,1457.4000,11.2522,0.7394,3.0000,115.0131,-43.7495,2025/26 empirical-Bayes rate and minutes,False,False,False
+220,Brennan Johnson,MID,71.2172,11.3948,209,242898,Crystal Palace,a,,2025-26,65.0000,1710.0000,1727.6000,11.2448,0.9500,3.0000,125.4383,-54.2211,2025/26 empirical-Bayes rate and minutes,False,False,False
+221,Youri Tielemans,MID,71.0565,19.8958,43,166989,Man Utd,d,Hamstring injury - 75% chance of playing,2025-26,68.0000,1857.0000,1845.2000,10.3445,0.8800,2.8333,125.4383,-54.3818,2025/26 empirical-Bayes rate and minutes,False,False,True
+222,Tanaka Ao,MID,69.7778,11.1644,345,248056,Leeds,a,,2025-26,67.0000,1307.0000,1405.2000,10.9533,0.7261,3.1667,125.4383,-55.6605,2025/26 empirical-Bayes rate and minutes,False,False,False
+223,Ola Aina,DEF,69.5698,11.1312,473,159506,Nott'm Forest,a,,2025-26,67.0000,1587.0000,1662.2000,10.9847,0.8817,3.0000,115.0131,-45.4433,2025/26 empirical-Bayes rate and minutes,False,False,False
+224,Amadou Onana,MID,69.3228,19.4104,48,449871,Aston Villa,i,Knee injury - Unknown return date,2025-26,76.0000,1755.0000,1763.6000,8.7068,0.6825,3.0000,125.4383,-56.1155,2025/26 empirical-Bayes rate and minutes,False,False,True
+225,Habib Diarra,MID,69.2367,11.0779,543,547027,Sunderland,a,,2025-26,65.0000,1403.0000,1482.0000,10.9321,0.7794,3.0000,125.4383,-56.2016,2025/26 empirical-Bayes rate and minutes,False,False,False
+226,Oliver Dovin,GK,69.2255,30.4592,171,484389,Coventry City,a,,,,,1825.1129,10.8666,0.0000,3.1667,119.5420,-50.3165,position and official-cost prior; manual review,True,True,True
+227,Dillon Phillips,GK,69.2255,30.4592,273,167825,Hull City,a,,,,,1825.1129,10.8666,0.0000,3.1667,119.5420,-50.3165,position and official-cost prior; manual review,True,True,True
+228,Thimothée Lo-Tutala,GK,69.2255,30.4592,276,444307,Hull City,a,,,,,1825.1129,10.8666,0.0000,3.1667,119.5420,-50.3165,position and official-cost prior; manual review,True,True,True
+229,Nico González Iglesias,MID,69.0106,11.0417,405,465694,Man City,a,,2025-26,63.0000,1561.0000,1608.4000,10.8964,0.8672,3.0000,125.4383,-56.4277,2025/26 empirical-Bayes rate and minutes,False,False,False
+230,Abdukodir Khusanov,DEF,68.6276,10.9804,393,578153,Man City,a,,2025-26,67.0000,1427.0000,1534.2000,10.8359,0.7928,3.0000,115.0131,-46.3855,2025/26 empirical-Bayes rate and minutes,False,False,False
+231,Rayan Vitor Simplício Rocha,MID,68.0237,10.8838,67,499604,Bournemouth,a,,2025-26,67.0000,1110.0000,1247.6000,10.4900,0.6167,3.6667,125.4383,-57.4146,2025/26 empirical-Bayes rate and minutes,False,False,False
+232,Pau Torres,DEF,68.0095,10.8815,34,244954,Aston Villa,a,,2025-26,64.0000,1673.0000,1731.0000,10.7383,0.9294,3.0000,115.0131,-47.0036,2025/26 empirical-Bayes rate and minutes,False,False,False
+233,Antonee Robinson,DEF,67.6700,10.8272,254,169528,Fulham,a,,2025-26,65.0000,1487.0000,1582.2000,10.5601,0.8261,3.3333,115.0131,-47.3431,2025/26 empirical-Bayes rate and minutes,False,False,False
+234,Amine Adli,MID,67.6654,10.8265,77,489888,Bournemouth,a,,2025-26,67.0000,1074.0000,1218.8000,10.4347,0.5967,3.6667,125.4383,-57.7729,2025/26 empirical-Bayes rate and minutes,False,False,False
+235,Jacob Ramsey,MID,67.5719,10.8115,456,232653,Newcastle,a,,2025-26,62.0000,1441.0000,1512.4000,10.7315,0.8006,2.8333,125.4383,-57.8664,2025/26 empirical-Bayes rate and minutes,False,False,False
+236,Brandon Thomas-Asante,FWD,67.1497,29.5459,194,230730,Coventry City,a,,,,,1254.0812,10.5407,0.0000,3.1667,102.1080,-34.9583,position and official-cost prior; manual review,True,True,True
+237,Jahnoah Markelo,FWD,67.1497,29.5459,196,551262,Coventry City,a,,,,,1254.0812,10.5407,0.0000,3.1667,102.1080,-34.9583,position and official-cost prior; manual review,True,True,True
+238,Mikel Merino Zazón,MID,67.1454,10.7433,17,195384,Arsenal,a,,2025-26,67.0000,1024.0000,1178.8000,10.6019,0.5689,3.0000,125.4383,-58.2929,2025/26 empirical-Bayes rate and minutes,False,False,False
+239,Archie Gray,MID,67.1277,10.7404,522,547701,Spurs,a,,2025-26,61.0000,1471.0000,1536.4000,10.5991,0.8172,3.0000,125.4383,-58.3107,2025/26 empirical-Bayes rate and minutes,False,False,False
+240,Josh King,MID,67.0971,10.7355,268,577725,Fulham,a,,2025-26,63.0000,1290.0000,1391.6000,10.4707,0.7167,3.3333,125.4383,-58.3412,2025/26 empirical-Bayes rate and minutes,False,False,False
+241,Wesley Fofana,DEF,66.8384,18.7147,145,444463,Chelsea,s,Suspended until 6 Sep,2025-26,65.0000,1718.0000,1767.0000,8.4863,0.7445,3.0000,115.0131,-48.1747,2025/26 empirical-Bayes rate and minutes,False,False,True
+242,Timothy Castagne,DEF,66.7434,10.6789,258,166477,Fulham,a,,2025-26,61.0000,1838.0000,1863.0000,10.4155,1.0000,3.3333,115.0131,-48.2697,2025/26 empirical-Bayes rate and minutes,False,False,False
+243,Boubacar Kamara,MID,66.7118,10.6739,47,226944,Aston Villa,a,,2025-26,61.0000,1410.0000,1487.6000,10.5334,0.7833,3.0000,125.4383,-58.7265,2025/26 empirical-Bayes rate and minutes,False,False,False
+244,Kevin Danso,DEF,66.3558,10.6169,501,135720,Spurs,a,,2025-26,63.0000,1489.0000,1583.8000,10.4772,0.8272,3.0000,115.0131,-48.6573,2025/26 empirical-Bayes rate and minutes,False,False,False
+245,Lewis Miley,MID,65.4859,18.3360,459,547719,Newcastle,i,Leg injury - Expected back 30 Aug,2025-26,72.0000,1493.0000,1554.0000,8.2729,0.5806,2.8333,125.4383,-59.9524,2025/26 empirical-Bayes rate and minutes,False,False,True
+246,Carlos Baleba,MID,64.9178,10.3868,131,535301,Brighton,a,,2025-26,56.0000,1646.0000,1676.4000,10.2502,0.9144,3.0000,125.4383,-60.5205,2025/26 empirical-Bayes rate and minutes,False,False,False
+247,Emmanuel Emegha,FWD,64.4637,29.6533,170,503037,Chelsea,d,Hamstring injury - 75% chance of playing,,,,1254.0812,9.3303,0.0000,3.0000,102.1080,-37.6443,position and official-cost prior; manual review,False,True,True
+248,Loum Tchaouna,MID,64.3153,16.7220,190,469272,Coventry City,a,,2025-26,59.0000,1259.0000,1366.8000,10.0958,0.6994,3.1667,125.4383,-61.1230,2025/26 empirical-Bayes rate and minutes,True,False,True
+249,Rodrigo 'Rodri' Hernandez Cascante,MID,63.8758,17.8852,402,220566,Man City,i,Back injury - Unknown return date,2025-26,69.0000,1510.0000,1567.6000,8.0227,0.5872,3.0000,125.4383,-61.5625,2025/26 empirical-Bayes rate and minutes,False,False,True
+250,David Brooks,MID,63.7386,10.1982,74,111317,Bournemouth,a,,2025-26,59.0000,1188.0000,1310.0000,9.8292,0.6600,3.6667,125.4383,-61.6997,2025/26 empirical-Bayes rate and minutes,False,False,False
+251,Jannik Schuster,DEF,63.6322,21.6350,93,513086,Brentford,a,,,,,1544.0156,9.9886,0.0000,3.1667,115.0131,-51.3809,position and official-cost prior; manual review,False,True,True
+252,João Pedro Loureiro da Costa,DEF,63.6322,21.6350,119,451490,Brighton,a,,,,,1544.0156,10.0472,0.0000,3.0000,115.0131,-51.3809,position and official-cost prior; manual review,False,True,True
+253,Oscar Mingueza,DEF,63.6322,21.6350,207,242313,Crystal Palace,a,,,,,1544.0156,10.0472,0.0000,3.0000,115.0131,-51.3809,position and official-cost prior; manual review,False,True,True
+254,Thomas Meunier,DEF,63.6322,21.6350,541,93605,Sunderland,a,,,,,1544.0156,10.0472,0.0000,3.0000,115.0131,-51.3809,position and official-cost prior; manual review,False,True,True
+255,Jeremie Frimpong,DEF,63.1112,10.0978,357,216094,Liverpool,a,,2025-26,63.0000,1032.0000,1218.2000,10.0231,0.5733,2.8333,115.0131,-51.9019,2025/26 empirical-Bayes rate and minutes,False,False,False
+256,Leny Yoro,DEF,62.8842,10.0615,420,550864,Man Utd,a,,2025-26,56.0000,1730.0000,1776.6000,9.9870,0.9611,2.8333,115.0131,-52.1289,2025/26 empirical-Bayes rate and minutes,False,False,False
+257,Ilia Gruev,MID,62.8539,10.0566,344,486520,Leeds,a,,2025-26,56.0000,1318.0000,1414.0000,9.8664,0.7322,3.1667,125.4383,-62.5844,2025/26 empirical-Bayes rate and minutes,False,False,False
+258,Alejandro Garnacho Ferreyra,MID,62.4313,10.0000,160,493105,Aston Villa,a,,2025-26,56.0000,1261.0000,1368.4000,9.8576,0.7006,3.0000,125.4383,-63.0070,2025/26 empirical-Bayes rate and minutes,False,False,False
+259,Mason Mount,MID,61.4931,10.0000,430,184341,Man Utd,a,,2025-26,58.0000,1010.0000,1167.6000,9.7661,0.5611,2.8333,125.4383,-63.9452,2025/26 empirical-Bayes rate and minutes,False,False,False
+260,Gabriel Martinelli Silva,MID,61.4078,10.0000,18,444145,Arsenal,a,,2025-26,57.0000,1065.0000,1211.6000,9.6960,0.5917,3.0000,125.4383,-64.0305,2025/26 empirical-Bayes rate and minutes,False,False,False
+261,Mitoma Kaoru,MID,60.9432,17.0641,121,451340,Brighton,i,Hamstring injury - Unknown return date,2025-26,62.0000,1714.0000,1730.8000,7.6543,0.6666,3.0000,125.4383,-64.4952,2025/26 empirical-Bayes rate and minutes,False,False,True
+262,Ian Maatsen,DEF,60.8956,10.0000,36,441302,Aston Villa,a,,2025-26,54.0000,1590.0000,1664.6000,9.6151,0.8833,3.0000,115.0131,-54.1175,2025/26 empirical-Bayes rate and minutes,False,False,False
+263,Rayan Aït-Nouri,DEF,60.6831,10.0000,392,448514,Man City,a,,2025-26,60.0000,971.0000,1169.4000,9.5815,0.5394,3.0000,115.0131,-54.3299,2025/26 empirical-Bayes rate and minutes,False,False,False
+264,Omar Marmoush,FWD,60.3859,10.0000,401,438234,Man City,a,,2025-26,56.0000,691.0000,922.1000,9.5346,0.3839,3.0000,102.1080,-41.7221,2025/26 empirical-Bayes rate and minutes,False,False,True
+265,Adam Smith,DEF,60.2934,10.0000,64,54469,Bournemouth,a,,2025-26,58.0000,1073.0000,1251.0000,9.2979,0.5961,3.6667,115.0131,-54.7197,2025/26 empirical-Bayes rate and minutes,False,False,False
+266,Tino Livramento,DEF,60.2301,16.8644,450,441191,Newcastle,d,Calf injury - 75% chance of playing,2025-26,59.0000,1326.0000,1453.4000,8.7684,0.6483,2.8333,115.0131,-54.7830,2025/26 empirical-Bayes rate and minutes,False,False,True
+267,Sean Longstaff,MID,60.2021,10.0000,339,180135,Leeds,a,,2025-26,56.0000,1003.0000,1162.0000,9.4501,0.5572,3.1667,125.4383,-65.2362,2025/26 empirical-Bayes rate and minutes,False,False,False
+268,Zadok Yohanna,MID,59.9564,20.3852,135,700308,Brighton,a,,,,,1266.9040,9.4668,0.0000,3.0000,125.4383,-65.4819,position and official-cost prior; manual review,False,True,True
+269,Matt Grimes,MID,59.9564,26.3808,184,168144,Coventry City,a,,,,,1266.9040,9.4116,0.0000,3.1667,125.4383,-65.4819,position and official-cost prior; manual review,True,True,True
+270,Tatsuhiro Sakamoto,MID,59.9564,26.3808,185,501459,Coventry City,a,,,,,1266.9040,9.4116,0.0000,3.1667,125.4383,-65.4819,position and official-cost prior; manual review,True,True,True
+271,Josh Eccles,MID,59.9564,26.3808,187,439668,Coventry City,a,,,,,1266.9040,9.4116,0.0000,3.1667,125.4383,-65.4819,position and official-cost prior; manual review,True,True,True
+272,Mohamed Belloumi,MID,59.9564,26.3808,286,540324,Hull City,a,,,,,1266.9040,9.4116,0.0000,3.1667,125.4383,-65.4819,position and official-cost prior; manual review,True,True,True
+273,Liam Millar,MID,59.9564,26.3808,287,232905,Hull City,a,,,,,1266.9040,9.4116,0.0000,3.1667,125.4383,-65.4819,position and official-cost prior; manual review,True,True,True
+274,Abdülkadir Ömür,MID,59.9564,26.3808,292,208481,Hull City,a,,,,,1266.9040,9.4116,0.0000,3.1667,125.4383,-65.4819,position and official-cost prior; manual review,True,True,True
+275,David Akintola,MID,59.9564,26.3808,296,213292,Hull City,a,,,,,1266.9040,9.4116,0.0000,3.1667,125.4383,-65.4819,position and official-cost prior; manual review,True,True,True
+276,Hidemasa Morita,MID,59.9564,26.3808,563,445028,Hull City,a,,,,,1266.9040,9.4116,0.0000,3.1667,125.4383,-65.4819,position and official-cost prior; manual review,True,True,True
+277,Marcelino Núñez,MID,59.9564,26.3808,309,501390,Ipswich Town,a,,,,,1266.9040,9.4668,0.0000,3.0000,125.4383,-65.4819,position and official-cost prior; manual review,True,True,True
+278,Anis Mehmeti,MID,59.9564,26.3808,324,232457,Ipswich Town,a,,,,,1266.9040,9.4668,0.0000,3.0000,125.4383,-65.4819,position and official-cost prior; manual review,True,True,True
+279,Sean Steur,MID,59.9564,20.3852,462,636852,Newcastle,a,,,,,1266.9040,9.5220,0.0000,2.8333,125.4383,-65.4819,position and official-cost prior; manual review,False,True,True
+280,Aladji Bamba,MID,59.9564,20.3852,559,632794,Newcastle,a,,,,,1266.9040,9.5220,0.0000,2.8333,125.4383,-65.4819,position and official-cost prior; manual review,False,True,True
+281,Xaver Schlager,MID,59.9564,20.3852,558,204561,Nott'm Forest,a,,,,,1266.9040,9.4668,0.0000,3.0000,125.4383,-65.4819,position and official-cost prior; manual review,False,True,True
+282,Dwight McNeil,MID,59.7581,10.0000,241,433154,Everton,a,,2025-26,53.0000,1161.0000,1288.4000,9.4905,0.6450,2.8333,125.4383,-65.6802,2025/26 empirical-Bayes rate and minutes,False,False,False
+283,Estêvão Almeida de Oliveira Gonçalves,MID,59.6267,10.0000,157,624773,Chelsea,a,,2025-26,58.0000,839.0000,1030.8000,9.4147,0.4661,3.0000,125.4383,-65.8116,2025/26 empirical-Bayes rate and minutes,False,False,True
+284,Andrew Robertson,DEF,59.0720,10.0000,502,122798,Spurs,a,,2025-26,55.0000,1165.0000,1324.6000,9.3272,0.6472,3.0000,115.0131,-55.9411,2025/26 empirical-Bayes rate and minutes,False,False,False
+285,Enis Destan,FWD,58.9104,25.9206,298,500957,Hull City,a,,,,,1100.2063,9.2474,0.0000,3.1667,102.1080,-43.1975,position and official-cost prior; manual review,True,True,True
+286,Sindre Walle Egeli,FWD,58.9104,25.9206,321,557012,Ipswich Town,a,,,,,1100.2063,9.3016,0.0000,3.0000,102.1080,-43.1975,position and official-cost prior; manual review,True,True,True
+287,Felipe Rodrigues da Silva,DEF,58.9050,10.0000,470,485047,Nott'm Forest,a,,2025-26,53.0000,1340.0000,1464.6000,9.3008,0.7444,3.0000,115.0131,-56.1081,2025/26 empirical-Bayes rate and minutes,False,False,False
+288,Ross Barkley,MID,58.4998,10.0000,46,88894,Aston Villa,a,,2025-26,56.0000,844.0000,1034.8000,9.2368,0.4689,3.0000,125.4383,-66.9385,2025/26 empirical-Bayes rate and minutes,False,False,True
+289,Liam Delap,FWD,58.1458,10.0000,167,463034,Chelsea,a,,2025-26,45.0000,1092.0000,1242.9000,9.1809,0.6067,3.0000,102.1080,-43.9622,2025/26 empirical-Bayes rate and minutes,False,False,False
+290,Rico Henry,DEF,58.1457,10.0000,89,194010,Brentford,a,,2025-26,52.0000,1322.0000,1450.2000,9.1273,0.7344,3.1667,115.0131,-56.8674,2025/26 empirical-Bayes rate and minutes,False,False,False
+291,Dan Ndoye,MID,57.9297,10.0000,483,456512,Nott'm Forest,a,,2025-26,50.0000,1167.0000,1293.2000,9.1468,0.6483,3.0000,125.4383,-67.5086,2025/26 empirical-Bayes rate and minutes,False,False,False
+292,Anthony Elanga,MID,57.6468,10.0000,454,449434,Newcastle,a,,2025-26,48.0000,1302.0000,1401.2000,9.1552,0.7233,2.8333,125.4383,-67.7915,2025/26 empirical-Bayes rate and minutes,False,False,False
+293,Jack Rudoni,MID,57.5581,32.2325,183,480457,Coventry City,d,Shoulder injury - 75% chance of playing,,,,1266.9040,8.2822,0.0000,3.1667,125.4383,-67.8802,position and official-cost prior; manual review,True,True,True
+294,Will Hughes,MID,57.2414,10.0000,212,108413,Crystal Palace,a,,2025-26,45.0000,1560.0000,1607.6000,9.0381,0.8667,3.0000,125.4383,-68.1969,2025/26 empirical-Bayes rate and minutes,False,False,False
+295,Tyrone Mings,DEF,56.8404,10.0000,33,149484,Aston Villa,a,,2025-26,50.0000,1322.0000,1450.2000,8.9748,0.7344,3.0000,115.0131,-58.1727,2025/26 empirical-Bayes rate and minutes,False,False,False
+296,Lucas Estella Perri,GK,56.8140,10.0000,326,201595,Leeds,a,,2025-26,43.0000,1440.0000,1723.5000,8.9183,0.8000,3.1667,119.5420,-62.7280,2025/26 empirical-Bayes rate and minutes,False,False,False
+297,Nicolás Domínguez,MID,56.6861,10.0000,487,250199,Nott'm Forest,a,,2025-26,48.0000,1168.0000,1294.0000,8.9504,0.6489,3.0000,125.4383,-68.7522,2025/26 empirical-Bayes rate and minutes,False,False,False
+298,Andrey Nascimento dos Santos,MID,56.6349,10.0000,162,532605,Man Utd,a,,2025-26,47.0000,1247.0000,1357.2000,8.9945,0.6928,2.8333,125.4383,-68.8034,2025/26 empirical-Bayes rate and minutes,False,False,False
+299,Noussair Mazraoui,DEF,56.3584,10.0000,422,230001,Man Utd,a,,2025-26,53.0000,977.0000,1174.2000,8.9506,0.5428,2.8333,115.0131,-58.6546,2025/26 empirical-Bayes rate and minutes,False,False,False
+300,Kevin Santos Lopes de Macedo,MID,56.1705,10.0000,263,560552,Fulham,a,,2025-26,49.0000,1030.0000,1183.6000,8.7655,0.5722,3.3333,125.4383,-69.2678,2025/26 empirical-Bayes rate and minutes,False,False,False
+301,Fabian Schär,DEF,55.9725,10.0000,446,119471,Newcastle,a,,2025-26,51.0000,1089.0000,1263.8000,8.8893,0.6050,2.8333,115.0131,-59.0406,2025/26 empirical-Bayes rate and minutes,False,False,False
+302,Axel Disasi,DEF,55.7873,10.0000,153,220362,Chelsea,a,,2025-26,49.0000,1254.0000,1395.8000,8.8085,0.6967,3.0000,115.0131,-59.2258,2025/26 empirical-Bayes rate and minutes,False,False,False
+303,Lucas Bergvall,MID,55.4789,10.0000,520,570526,Spurs,a,,2025-26,49.0000,955.0000,1123.6000,8.7598,0.5306,3.0000,125.4383,-69.9594,2025/26 empirical-Bayes rate and minutes,False,False,False
+304,Lisandro Martínez,DEF,54.6490,15.3017,419,221820,Man Utd,d,Thigh injury - 75% chance of playing,2025-26,51.0000,1229.0000,1375.8000,7.9559,0.6008,2.8333,115.0131,-60.3641,2025/26 empirical-Bayes rate and minutes,False,False,True
+305,Conor Gallagher,MID,54.2919,10.0000,519,232787,Spurs,a,,2025-26,44.0000,1183.0000,1306.0000,8.5724,0.6572,3.0000,125.4383,-71.1465,2025/26 empirical-Bayes rate and minutes,False,False,False
+306,Dominic Solanke-Mitchell,FWD,54.2485,10.0000,526,154566,Spurs,a,,2025-26,40.0000,997.0000,1166.9000,8.5656,0.5539,3.0000,102.1080,-47.8595,2025/26 empirical-Bayes rate and minutes,False,False,False
+307,Bafodé Diakité,DEF,53.9652,10.0000,62,242882,Bournemouth,a,,2025-26,46.0000,1275.0000,1412.6000,8.3220,0.7083,3.6667,115.0131,-61.0479,2025/26 empirical-Bayes rate and minutes,False,False,False
+308,Chris Wood,FWD,53.9364,10.0000,490,60689,Nott'm Forest,a,,2025-26,41.0000,896.0000,1086.1000,8.5163,0.4978,3.0000,102.1080,-48.1716,2025/26 empirical-Bayes rate and minutes,False,False,True
+309,Ryan Christie,MID,52.8463,14.7970,75,158499,Bournemouth,s,Suspended until 29 Aug,2025-26,47.0000,978.0000,1142.0000,6.5532,0.4238,3.6667,125.4383,-72.5920,2025/26 empirical-Bayes rate and minutes,False,False,True
+310,Azor Matusiwa,MID,52.7616,29.5465,310,241117,Ipswich Town,i,Muscular injury - Unknown return date,,,,1266.9040,6.6268,0.0000,3.0000,125.4383,-72.6767,position and official-cost prior; manual review,True,True,True
+311,Evann Guessand,MID,52.0226,10.0000,42,485337,Aston Villa,a,,2025-26,44.0000,909.0000,1086.8000,8.2141,0.5050,3.0000,125.4383,-73.4157,2025/26 empirical-Bayes rate and minutes,False,False,False
+312,Oscar Bobb,MID,51.8776,10.0000,264,477555,Fulham,a,,2025-26,42.0000,1030.0000,1183.6000,8.0956,0.5722,3.3333,125.4383,-73.5607,2025/26 empirical-Bayes rate and minutes,False,False,False
+313,Alexander Isak,FWD,51.7293,10.0000,379,219168,Liverpool,a,,2025-26,41.0000,694.0000,924.5000,8.2154,0.3856,2.8333,102.1080,-50.3787,2025/26 empirical-Bayes rate and minutes,False,False,True
+314,Rodrigo Muniz Carvalho,FWD,51.7055,10.0000,271,244042,Fulham,a,,2025-26,36.0000,987.0000,1158.9000,8.0688,0.5483,3.3333,102.1080,-50.4025,2025/26 empirical-Bayes rate and minutes,False,False,False
+315,Joshua Zirkzee,FWD,51.1638,10.0000,440,458249,Man Utd,a,,2025-26,42.0000,607.0000,854.9000,8.1256,0.3372,2.8333,102.1080,-50.9442,2025/26 empirical-Bayes rate and minutes,False,False,True
+316,Lamare Bogarde,MID,50.7464,10.0000,35,515597,Aston Villa,a,,2025-26,40.0000,1042.0000,1193.2000,8.0126,0.5789,3.0000,125.4383,-74.6919,2025/26 empirical-Bayes rate and minutes,False,False,False
+317,Justin Kluivert,MID,50.5452,10.0000,70,222683,Bournemouth,a,,2025-26,41.0000,945.0000,1115.6000,7.7946,0.5250,3.6667,125.4383,-74.8931,2025/26 empirical-Bayes rate and minutes,False,False,False
+318,Sávio Moreira de Oliveira,MID,50.5081,10.0000,403,510281,Man City,a,,2025-26,43.0000,817.0000,1013.2000,7.9750,0.4539,3.0000,125.4383,-74.9302,2025/26 empirical-Bayes rate and minutes,False,False,True
+319,Liam Kitching,DEF,50.2360,22.1038,174,436761,Coventry City,a,,,,,1218.9597,7.8857,0.0000,3.1667,115.0131,-64.7771,position and official-cost prior; manual review,True,True,True
+320,Milan van Ewijk,DEF,50.2360,22.1038,175,451284,Coventry City,a,,,,,1218.9597,7.8857,0.0000,3.1667,115.0131,-64.7771,position and official-cost prior; manual review,True,True,True
+321,Jay Dasilva,DEF,50.2360,22.1038,176,173878,Coventry City,a,,,,,1218.9597,7.8857,0.0000,3.1667,115.0131,-64.7771,position and official-cost prior; manual review,True,True,True
+322,Jake Bidwell,DEF,50.2360,22.1038,178,80178,Coventry City,a,,,,,1218.9597,7.8857,0.0000,3.1667,115.0131,-64.7771,position and official-cost prior; manual review,True,True,True
+323,Joel Latibeaudiere,DEF,50.2360,22.1038,179,204813,Coventry City,a,,,,,1218.9597,7.8857,0.0000,3.1667,115.0131,-64.7771,position and official-cost prior; manual review,True,True,True
+324,Miguel Brau,DEF,50.2360,22.1038,181,577411,Coventry City,a,,,,,1218.9597,7.8857,0.0000,3.1667,115.0131,-64.7771,position and official-cost prior; manual review,True,True,True
+325,Aurèle Amenda,DEF,50.2360,22.1038,182,539142,Coventry City,a,,,,,1218.9597,7.8857,0.0000,3.1667,115.0131,-64.7771,position and official-cost prior; manual review,True,True,True
+326,Lewie Coyle,DEF,50.2360,22.1038,280,193278,Hull City,a,,,,,1218.9597,7.8857,0.0000,3.1667,115.0131,-64.7771,position and official-cost prior; manual review,True,True,True
+327,Cathal McCarthy,DEF,50.2360,22.1038,284,661800,Hull City,a,,,,,1218.9597,7.8857,0.0000,3.1667,115.0131,-64.7771,position and official-cost prior; manual review,True,True,True
+328,Tyler Bindon,DEF,50.2360,17.0802,479,538638,Nott'm Forest,a,,,,,1218.9597,7.9320,0.0000,3.0000,115.0131,-64.7771,position and official-cost prior; manual review,False,True,True
+329,Taiwo Awoniyi,FWD,49.7781,10.0000,492,210156,Nott'm Forest,a,,2025-26,43.0000,480.0000,753.3000,7.8597,0.2667,3.0000,102.1080,-52.3299,2025/26 empirical-Bayes rate and minutes,False,False,True
+330,Lewis Cook,MID,49.2759,10.0000,71,155408,Bournemouth,a,,2025-26,40.0000,872.0000,1057.2000,7.5989,0.4844,3.6667,125.4383,-76.1624,2025/26 empirical-Bayes rate and minutes,False,False,True
+331,George Shepherd,MID,49.2432,21.6670,189,684268,Coventry City,a,,,,,1040.5293,7.7299,0.0000,3.1667,125.4383,-76.1951,position and official-cost prior; manual review,True,True,True
+332,Raphael Borges Rodrigues,MID,49.2432,21.6670,191,492498,Coventry City,a,,,,,1040.5293,7.7299,0.0000,3.1667,125.4383,-76.1951,position and official-cost prior; manual review,True,True,True
+333,Kaine Andrews,MID,49.2432,21.6670,192,629397,Coventry City,a,,,,,1040.5293,7.7299,0.0000,3.1667,125.4383,-76.1951,position and official-cost prior; manual review,True,True,True
+334,Matt Crooks,MID,49.2432,21.6670,289,101282,Hull City,a,,,,,1040.5293,7.7299,0.0000,3.1667,125.4383,-76.1951,position and official-cost prior; manual review,True,True,True
+335,Regan Slater,MID,49.2432,21.6670,290,243413,Hull City,a,,,,,1040.5293,7.7299,0.0000,3.1667,125.4383,-76.1951,position and official-cost prior; manual review,True,True,True
+336,Ayden Heaven,DEF,49.0451,10.0000,421,606745,Man Utd,a,,2025-26,42.0000,920.0000,1128.6000,7.7891,0.5111,2.8333,115.0131,-65.9680,2025/26 empirical-Bayes rate and minutes,False,False,False
+337,Joe Willock,MID,48.9583,10.0000,460,200089,Newcastle,a,,2025-26,38.0000,972.0000,1137.2000,7.7753,0.5400,2.8333,125.4383,-76.4800,2025/26 empirical-Bayes rate and minutes,False,False,False
+338,Benjamin White,DEF,48.8644,10.0000,10,198869,Arsenal,a,,2025-26,45.0000,699.0000,951.8000,7.7154,0.3883,3.0000,115.0131,-66.1487,2025/26 empirical-Bayes rate and minutes,False,False,True
+339,Giorgi Mamardashvili,GK,48.7830,10.0000,351,449027,Liverpool,a,,2025-26,34.0000,867.0000,1265.1000,7.7475,0.4817,2.8333,119.5420,-70.7591,2025/26 empirical-Bayes rate and minutes,False,False,True
+340,Tom Cairney,MID,48.6816,10.0000,266,76357,Fulham,a,,2025-26,41.0000,756.0000,964.4000,7.5969,0.4200,3.3333,125.4383,-76.7567,2025/26 empirical-Bayes rate and minutes,False,False,True
+341,Cristhian Mosquera,DEF,48.2902,10.0000,11,500040,Arsenal,a,,2025-26,40.0000,986.0000,1181.4000,7.6248,0.5478,3.0000,115.0131,-66.7229,2025/26 empirical-Bayes rate and minutes,False,False,False
+342,Matty Jacob,DEF,48.2265,27.0069,283,449428,Hull City,d,Hip injury - 75% chance of playing,,,,1218.9597,6.9394,0.0000,3.1667,115.0131,-66.7866,position and official-cost prior; manual review,True,True,True
+343,Kai Havertz,FWD,47.3621,10.0000,26,219847,Arsenal,a,,2025-26,36.0000,577.0000,830.9000,7.4782,0.3206,3.0000,102.1080,-54.7459,2025/26 empirical-Bayes rate and minutes,False,False,True
+344,Wilson Odobert,MID,47.3599,13.2608,517,550839,Spurs,i,Knee injury - Unknown return date,2025-26,46.0000,972.0000,1137.2000,5.9483,0.3780,3.0000,125.4383,-78.0784,2025/26 empirical-Bayes rate and minutes,False,False,True
+345,Jorge Cuenca Barreno,DEF,47.2966,10.0000,255,246301,Fulham,a,,2025-26,39.0000,935.0000,1140.6000,7.3808,0.5194,3.3333,115.0131,-67.7164,2025/26 empirical-Bayes rate and minutes,False,False,False
+346,Rio Ngumoha,MID,47.1558,10.0000,369,611922,Liverpool,a,,2025-26,43.0000,547.0000,797.2000,7.4891,0.3039,2.8333,125.4383,-78.2825,2025/26 empirical-Bayes rate and minutes,False,False,True
+347,Olivier Boscagli,DEF,46.2099,10.0000,114,204120,Brighton,a,,2025-26,39.0000,799.0000,1031.8000,7.2963,0.4439,3.0000,115.0131,-68.8032,2025/26 empirical-Bayes rate and minutes,False,False,True
+348,Justin Devenny,MID,46.0641,10.0000,215,489706,Crystal Palace,a,,2025-26,36.0000,785.0000,987.6000,7.2733,0.4361,3.0000,125.4383,-79.3742,2025/26 empirical-Bayes rate and minutes,False,False,True
+349,Chris Rigg,MID,45.7904,10.0000,548,554197,Sunderland,a,,2025-26,36.0000,758.0000,966.0000,7.2301,0.4211,3.0000,125.4383,-79.6479,2025/26 empirical-Bayes rate and minutes,False,False,True
+350,Leif Davis,DEF,45.5500,11.8430,305,455084,Ipswich Town,a,,2024-25,52.0000,2742.0000,1862.0640,7.1921,1.0000,3.0000,115.0131,-69.4631,older PL history with recency discount,True,False,True
+351,Matthijs de Ligt,DEF,45.2366,12.6663,416,209365,Man Utd,i,Back injury - Unknown return date,2025-26,43.0000,1170.0000,1328.6000,5.7148,0.4550,2.8333,115.0131,-69.7765,2025/26 empirical-Bayes rate and minutes,False,False,True
+352,Merlin Röhl,MID,44.8901,10.0000,246,513466,Everton,a,,2025-26,36.0000,675.0000,899.6000,7.1293,0.3750,2.8333,125.4383,-80.5482,2025/26 empirical-Bayes rate and minutes,False,False,True
+353,Josh Acheampong,DEF,44.8727,10.0000,151,577016,Chelsea,a,,2025-26,39.0000,657.0000,918.2000,7.0852,0.3650,3.0000,115.0131,-70.1404,2025/26 empirical-Bayes rate and minutes,False,False,True
+354,Dara O'Shea,DEF,44.5426,11.5811,304,216616,Ipswich Town,a,,2024-25,49.0000,3122.0000,2080.9440,7.0330,1.0000,3.0000,115.0131,-70.4705,older PL history with recency discount,True,False,True
+355,Charlie Hughes,DEF,44.2077,24.7563,278,501902,Hull City,i,Groin injury - Unknown return date,,,,1218.9597,5.5200,0.0000,3.1667,115.0131,-70.8054,position and official-cost prior; manual review,True,True,True
+356,Aaron Hickey,DEF,43.9103,10.0000,90,472713,Brentford,a,,2025-26,37.0000,679.0000,935.8000,6.8928,0.3772,3.1667,115.0131,-71.1028,2025/26 empirical-Bayes rate and minutes,False,False,True
+357,Simon Adingra,MID,43.4536,10.0000,546,535818,Sunderland,a,,2025-26,34.0000,649.0000,878.8000,6.8611,0.3606,3.0000,125.4383,-81.9847,2025/26 empirical-Bayes rate and minutes,False,False,True
+358,Eliot Matazo,MID,43.3340,24.2670,291,465525,Hull City,i,Knee injury - Unknown return date,,,,1040.5293,5.4109,0.0000,3.1667,125.4383,-82.1043,position and official-cost prior; manual review,True,True,True
+359,Óscar Zambrano,MID,43.3340,24.2670,294,553783,Hull City,i,Thigh injury - Unknown return date,,,,1040.5293,5.4109,0.0000,3.1667,125.4383,-82.1043,position and official-cost prior; manual review,True,True,True
+360,Charalampos Kostoulas,FWD,43.2311,10.0000,138,647850,Brighton,a,,2025-26,35.0000,351.0000,650.1000,6.8260,0.1950,3.0000,102.1080,-58.8769,2025/26 empirical-Bayes rate and minutes,False,False,True
+361,Conor Bradley,DEF,43.2145,12.1001,360,492777,Liverpool,i,Knee injury - Unknown return date,2025-26,42.0000,928.0000,1135.0000,5.4593,0.3609,2.8333,115.0131,-71.7986,2025/26 empirical-Bayes rate and minutes,False,False,True
+362,Destiny Udogie,DEF,43.1913,10.0000,506,487053,Spurs,a,,2025-26,29.0000,1335.0000,1460.6000,6.8197,0.7417,3.0000,115.0131,-71.8218,2025/26 empirical-Bayes rate and minutes,False,False,False
+363,Tosin Adarabioyo,DEF,43.0842,10.0000,147,109646,Chelsea,a,,2025-26,34.0000,788.0000,1023.0000,6.8028,0.4378,3.0000,115.0131,-71.9289,2025/26 empirical-Bayes rate and minutes,False,False,True
+364,Jack Clarke,MID,43.0259,11.1867,313,443261,Ipswich Town,a,,2024-25,53.0000,1161.0000,927.6480,6.7936,0.6450,3.0000,125.4383,-82.4125,older PL history with recency discount,True,False,True
+365,Sam Szmodics,MID,42.3616,11.0140,319,172453,Ipswich Town,a,,2024-25,54.0000,988.0000,828.0000,6.6887,0.5489,3.0000,125.4383,-83.0767,older PL history with recency discount,True,False,True
+366,Manuel Ugarte Ribeiro,MID,42.3452,11.8567,433,232112,Man Utd,i,Knee injury - Unknown return date,2025-26,38.0000,876.0000,1060.4000,5.3495,0.3407,2.8333,125.4383,-83.0931,2025/26 empirical-Bayes rate and minutes,False,False,True
+367,Nicolò Savona,DEF,42.1796,11.8103,475,500151,Nott'm Forest,i,Knee injury - Unknown return date,2025-26,39.0000,1025.0000,1212.6000,5.2977,0.3986,3.0000,115.0131,-72.8335,2025/26 empirical-Bayes rate and minutes,False,False,True
+368,Yoane Wissa,FWD,41.5431,10.0000,464,216646,Newcastle,a,,2025-26,27.0000,517.0000,782.9000,6.5977,0.2872,2.8333,102.1080,-60.5649,2025/26 empirical-Bayes rate and minutes,False,False,True
+369,Issa Diop,DEF,41.4512,10.7773,259,219924,Ipswich Town,a,,2025-26,31.0000,812.0000,1042.2000,6.5449,0.4511,3.0000,115.0131,-73.5619,2025/26 empirical-Bayes rate and minutes,True,False,True
+370,Victor Lindelöf,DEF,41.1257,10.0000,37,184667,Aston Villa,a,,2025-26,29.0000,942.0000,1146.2000,6.4935,0.5233,3.0000,115.0131,-73.8874,2025/26 empirical-Bayes rate and minutes,False,False,False
+371,Myles Lewis-Skelly,MID,41.1175,10.0000,7,499169,Arsenal,a,,2025-26,29.0000,697.0000,917.2000,6.4922,0.3872,3.0000,125.4383,-84.3208,2025/26 empirical-Bayes rate and minutes,False,False,True
+372,Jarrad Branthwaite,DEF,40.9379,10.0000,230,480455,Everton,a,,2025-26,32.0000,678.0000,935.0000,6.5016,0.3767,2.8333,115.0131,-74.0752,2025/26 empirical-Bayes rate and minutes,False,False,True
+373,Carlos Alcaraz Durán,MID,40.9334,10.0000,243,502697,Everton,a,,2025-26,29.0000,679.0000,902.8000,6.5009,0.3772,2.8333,125.4383,-84.5049,2025/26 empirical-Bayes rate and minutes,False,False,True
+374,Wilfried Gnonto,MID,40.7556,10.0000,341,492859,Leeds,a,,2025-26,32.0000,521.0000,776.4000,6.3976,0.2894,3.1667,125.4383,-84.6827,2025/26 empirical-Bayes rate and minutes,False,False,True
+375,Ryan Yates,MID,40.6557,10.0000,489,204968,Nott'm Forest,a,,2025-26,30.0000,602.0000,841.2000,6.4193,0.3344,3.0000,125.4383,-84.7826,2025/26 empirical-Bayes rate and minutes,False,False,True
+376,Federico Chiesa,MID,40.1037,10.0000,370,223541,Liverpool,a,,2025-26,37.0000,317.0000,613.2000,6.3691,0.1761,2.8333,125.4383,-85.3346,2025/26 empirical-Bayes rate and minutes,False,False,True
+377,George Hirst,FWD,38.8599,10.1036,317,222625,Ipswich Town,a,,2024-25,46.0000,645.0000,637.4160,6.1358,0.3583,3.0000,102.1080,-63.2481,older PL history with recency discount,True,False,True
+378,Gabriel Fernando de Jesus,FWD,38.5435,10.0000,27,205651,Arsenal,a,,2025-26,24.0000,418.0000,703.7000,6.0858,0.2322,3.0000,102.1080,-63.5644,2025/26 empirical-Bayes rate and minutes,False,False,True
+379,Antonín Kinský,GK,38.0548,10.0000,496,485055,Spurs,a,,2025-26,20.0000,630.0000,1075.5000,6.0087,0.3500,3.0000,119.5420,-81.4872,2025/26 empirical-Bayes rate and minutes,False,False,True
+380,Eddie Nketiah,FWD,37.9520,10.0000,224,205533,Crystal Palace,a,,2025-26,23.0000,414.0000,700.5000,5.9924,0.2300,3.0000,102.1080,-64.1560,2025/26 empirical-Bayes rate and minutes,False,False,True
+381,Oli McBurnie,FWD,37.8297,10.0000,295,169432,Hull City,a,,2023-24,66.0000,1279.0000,721.8720,5.9383,0.7106,3.1667,102.1080,-64.2783,older PL history with recency discount,True,False,True
+382,Dilane Bakwa,MID,37.8135,10.0000,485,476887,Nott'm Forest,a,,2025-26,26.0000,549.0000,798.8000,5.9706,0.3050,3.0000,125.4383,-87.6248,2025/26 empirical-Bayes rate and minutes,False,False,True
+383,Jacob Greaves,DEF,37.0515,10.0000,306,449429,Ipswich Town,a,,2024-25,37.0000,2205.0000,1552.7520,5.8502,1.0000,3.0000,115.0131,-77.9616,older PL history with recency discount,True,False,True
+384,Jamie Bynoe-Gittens,MID,36.4980,10.0000,158,463936,Chelsea,a,,2025-26,25.0000,486.0000,748.4000,5.7628,0.2700,3.0000,125.4383,-88.9403,2025/26 empirical-Bayes rate and minutes,False,False,True
+385,Enes Ünal,FWD,36.4815,10.0000,80,168636,Bournemouth,a,,2025-26,27.0000,214.0000,540.5000,5.6258,0.1189,3.6667,102.1080,-65.6265,2025/26 empirical-Bayes rate and minutes,False,False,True
+386,Luke O'Nien,DEF,36.3731,10.0000,539,167512,Sunderland,a,,2025-26,26.0000,565.0000,844.6000,5.7431,0.3139,3.0000,115.0131,-78.6400,2025/26 empirical-Bayes rate and minutes,False,False,True
+387,Daniel James,MID,36.1371,10.0000,343,200617,Leeds,a,,2025-26,23.0000,547.0000,797.2000,5.6726,0.3039,3.1667,125.4383,-89.3012,2025/26 empirical-Bayes rate and minutes,False,False,True
+388,Jorrel Hato,DEF,35.8663,10.0000,148,551210,Chelsea,a,,2025-26,19.0000,1139.0000,1303.8000,5.6631,0.6328,3.0000,115.0131,-79.1468,2025/26 empirical-Bayes rate and minutes,False,False,False
+389,Joe Gomez,DEF,35.8273,10.0316,359,171287,Liverpool,i,Muscular injury - Unknown return date,2025-26,33.0000,594.0000,867.8000,4.5261,0.2310,2.8333,115.0131,-79.1858,2025/26 empirical-Bayes rate and minutes,False,False,True
+390,Marco Bizot,GK,35.0956,10.0000,29,72147,Aston Villa,a,,2025-26,16.0000,585.0000,1039.5000,5.5414,0.3250,3.0000,119.5420,-84.4465,2025/26 empirical-Bayes rate and minutes,False,False,True
+391,Harrison Armstrong,MID,34.7794,10.0000,244,609873,Everton,a,,2025-26,21.0000,524.0000,778.8000,5.5235,0.2911,2.8333,125.4383,-90.6589,2025/26 empirical-Bayes rate and minutes,False,False,True
+392,Sebastiaan Bornauw,DEF,34.3766,10.0000,333,437738,Leeds,a,,2025-26,25.0000,429.0000,735.8000,5.3962,0.2383,3.1667,115.0131,-80.6365,2025/26 empirical-Bayes rate and minutes,False,False,True
+393,Leon Bailey,MID,33.8972,10.0000,44,215711,Aston Villa,a,,2025-26,21.0000,450.0000,719.6000,5.3522,0.2500,3.0000,125.4383,-91.5411,2025/26 empirical-Bayes rate and minutes,False,False,True
+394,Melker Ellborg,GK,33.7457,10.0000,531,515046,Sunderland,a,,2025-26,16.0000,270.0000,787.5000,5.3283,0.1500,3.0000,119.5420,-85.7963,2025/26 empirical-Bayes rate and minutes,False,False,True
+395,Jaden Philogene,MID,33.6677,10.0000,318,481624,Ipswich Town,a,,2024-25,37.0000,796.0000,717.4080,5.3159,0.4422,3.0000,125.4383,-91.7706,older PL history with recency discount,True,False,True
+396,Kasey McAteer,MID,33.1616,10.0000,323,461587,Ipswich Town,a,,2024-25,35.0000,846.0000,746.2080,5.2360,0.4700,3.0000,125.4383,-92.2767,older PL history with recency discount,True,False,True
+397,Chadi Riad Dnanou,DEF,32.7820,10.0000,206,515621,Crystal Palace,a,,2025-26,20.0000,550.0000,832.6000,5.1761,0.3056,3.0000,115.0131,-82.2311,2025/26 empirical-Bayes rate and minutes,False,False,True
+398,Joël Piroe,FWD,32.1678,10.0000,348,235826,Leeds,a,,2025-26,17.0000,244.0000,564.5000,5.0495,0.1356,3.1667,102.1080,-69.9402,2025/26 empirical-Bayes rate and minutes,False,False,True
+399,James Trafford,GK,32.1538,10.0000,385,432720,Man City,a,,2025-26,13.0000,360.0000,859.5000,5.0769,0.2000,3.0000,119.5420,-87.3882,2025/26 empirical-Bayes rate and minutes,False,False,True
+400,Ben Johnson,DEF,31.6029,10.0000,307,222018,Ipswich Town,a,,2024-25,30.0000,1346.0000,1057.9680,4.9899,0.7478,3.0000,115.0131,-83.4102,older PL history with recency discount,True,False,True
+401,Wes Burns,MID,31.4747,10.0000,311,149929,Ipswich Town,a,,2024-25,30.0000,922.0000,789.9840,4.9697,0.5122,3.0000,125.4383,-93.9636,older PL history with recency discount,True,False,True
+402,Tammy Abraham,FWD,31.4674,10.0000,56,173879,Aston Villa,i,Shoulder injury - Expected back 23 Aug,2025-26,23.0000,278.0000,591.7000,3.9522,0.1081,3.0000,102.1080,-70.6406,2025/26 empirical-Bayes rate and minutes,False,False,True
+403,Altay Bayındır,GK,31.4545,10.0000,413,451302,Man Utd,a,,2025-26,11.0000,540.0000,1003.5000,4.9955,0.3000,2.8333,119.5420,-88.0875,2025/26 empirical-Bayes rate and minutes,False,False,True
+404,John Victor Maciel Furtado,GK,31.0959,10.0000,468,221389,Nott'm Forest,a,,2025-26,11.0000,437.0000,921.1000,4.9099,0.2428,3.0000,119.5420,-88.4461,2025/26 empirical-Bayes rate and minutes,False,False,True
+405,Tyler Dibling,MID,30.9900,10.0000,245,496661,Everton,a,,2025-26,18.0000,349.0000,638.8000,4.9217,0.1939,2.8333,125.4383,-94.4483,2025/26 empirical-Bayes rate and minutes,False,False,True
+406,Rico Lewis,DEF,30.7573,10.0000,395,477064,Man City,a,,2025-26,19.0000,401.0000,713.4000,4.8564,0.2228,3.0000,115.0131,-84.2558,2025/26 empirical-Bayes rate and minutes,False,False,True
+407,Marc Guiu Paz,FWD,30.5322,10.0000,168,499309,Chelsea,a,,2025-26,13.0000,265.0000,581.3000,4.8209,0.1472,3.0000,102.1080,-71.5758,2025/26 empirical-Bayes rate and minutes,False,False,True
+408,Veljko Milosavljevic,DEF,30.3785,10.0000,63,620487,Bournemouth,a,,2025-26,19.0000,367.0000,686.2000,4.6847,0.2039,3.6667,115.0131,-84.6346,2025/26 empirical-Bayes rate and minutes,False,False,True
+409,Nathan Patterson,DEF,30.2724,10.0000,234,243571,Everton,a,,2025-26,22.0000,238.0000,583.0000,4.8077,0.1322,2.8333,115.0131,-84.7407,2025/26 empirical-Bayes rate and minutes,False,False,True
+410,Jack Taylor,MID,30.2559,11.4972,312,231899,Ipswich Town,i,Knee injury - Unknown return date,2024-25,38.0000,837.0000,741.0240,3.8001,0.3255,3.0000,125.4383,-95.1824,older PL history with recency discount,True,False,True
+411,Tyrique George,MID,29.9942,10.0000,242,550615,Everton,a,,2025-26,16.0000,351.0000,640.4000,4.7635,0.1950,2.8333,125.4383,-95.4441,2025/26 empirical-Bayes rate and minutes,False,False,True
+412,James McAtee,MID,29.5956,10.0000,486,432714,Nott'm Forest,a,,2025-26,17.0000,288.0000,590.0000,4.6730,0.1600,3.0000,125.4383,-95.8427,2025/26 empirical-Bayes rate and minutes,False,False,True
+413,Romaine Mundle,MID,29.5728,10.0000,547,461199,Sunderland,a,,2025-26,14.0000,399.0000,678.8000,4.6694,0.2217,3.0000,125.4383,-95.8655,2025/26 empirical-Bayes rate and minutes,False,False,True
+414,Filip Jörgensen,GK,29.4969,10.0000,141,508479,Chelsea,a,,2025-26,9.0000,378.0000,873.9000,4.6574,0.2100,3.0000,119.5420,-90.0451,2025/26 empirical-Bayes rate and minutes,False,False,True
+415,Alex Palmer,GK,29.4351,10.0000,301,112520,Ipswich Town,a,,2024-25,22.0000,1170.0000,1085.4000,4.6476,0.6500,3.0000,119.5420,-90.1070,older PL history with recency discount,True,False,True
+416,Nilson Angulo,MID,29.0739,10.0000,551,536661,Sunderland,a,,2025-26,13.0000,401.0000,680.4000,4.5906,0.2228,3.0000,125.4383,-96.3644,2025/26 empirical-Bayes rate and minutes,False,False,True
+417,Roméo Lavia,MID,28.7476,10.0000,161,514356,Chelsea,a,,2025-26,13.0000,374.0000,658.8000,4.5391,0.2078,3.0000,125.4383,-96.6907,2025/26 empirical-Bayes rate and minutes,False,False,True
+418,Jair Paula da Cunha Filho,DEF,28.4746,10.0000,474,575458,Nott'm Forest,a,,2025-26,13.0000,514.0000,803.8000,4.4960,0.2856,3.0000,115.0131,-86.5385,2025/26 empirical-Bayes rate and minutes,False,False,True
+419,Stefanos Tzimas,FWD,28.3572,10.0000,137,608181,Brighton,d,Knee injury - 75% chance of playing,2025-26,16.0000,132.0000,474.9000,4.1043,0.0645,3.0000,102.1080,-73.7507,2025/26 empirical-Bayes rate and minutes,False,False,True
+420,Matt O'Riley,MID,27.7119,10.0000,126,219249,Brighton,a,,2025-26,16.0000,202.0000,521.2000,4.3756,0.1122,3.0000,125.4383,-97.7265,2025/26 empirical-Bayes rate and minutes,False,False,True
+421,Abdul Fatawu,MID,27.4504,10.0000,315,531442,Ipswich Town,a,,2024-25,26.0000,576.0000,590.6880,4.3343,0.3200,3.0000,125.4383,-97.9879,older PL history with recency discount,True,False,True
+422,Ethan Pinnock,DEF,27.1395,10.0000,91,231065,Brentford,a,,2025-26,14.0000,318.0000,647.0000,4.2602,0.1767,3.1667,115.0131,-87.8736,2025/26 empirical-Bayes rate and minutes,False,False,True
+423,Max Dowman,MID,26.8011,10.0000,20,616077,Arsenal,a,,2025-26,16.0000,152.0000,481.2000,4.2318,0.0844,3.0000,125.4383,-98.6372,2025/26 empirical-Bayes rate and minutes,False,False,True
+424,Freddie Woodman,GK,26.7493,10.0000,352,155503,Liverpool,a,,2025-26,6.0000,212.0000,741.1000,4.2482,0.1178,2.8333,119.5420,-92.7928,2025/26 empirical-Bayes rate and minutes,False,False,True
+425,Walter Benítez,GK,26.7387,10.0000,199,121709,Crystal Palace,a,,2025-26,7.0000,90.0000,643.5000,4.2219,0.0500,3.0000,119.5420,-92.8033,2025/26 empirical-Bayes rate and minutes,False,False,True
+426,Luca Netz,DEF,25.9069,10.0000,478,470315,Nott'm Forest,a,,2025-26,11.0000,353.0000,675.0000,4.0906,0.1961,3.0000,115.0131,-89.1062,2025/26 empirical-Bayes rate and minutes,False,False,True
+427,Luke Woolfenden,DEF,25.5098,10.0000,180,220583,Coventry City,a,,2024-25,18.0000,1187.0000,966.3840,4.0044,0.6594,3.1667,115.0131,-89.5033,older PL history with recency discount,True,False,True
+428,Arnaud Kalimuendo,FWD,25.4726,10.0000,493,465680,Nott'm Forest,a,,2025-26,9.0000,89.0000,440.5000,4.0220,0.0494,3.0000,102.1080,-76.6354,2025/26 empirical-Bayes rate and minutes,False,False,True
+429,Christian Walton,GK,25.3750,10.0000,300,108813,Ipswich Town,a,,2024-25,16.0000,630.0000,774.3600,4.0066,0.3500,3.0000,119.5420,-94.1670,older PL history with recency discount,True,False,True
+430,Harrison Reed,MID,25.0868,10.0000,270,153366,Fulham,a,,2025-26,15.0000,89.0000,430.8000,3.9149,0.0494,3.3333,125.4383,-100.3515,2025/26 empirical-Bayes rate and minutes,False,False,True
+431,Reiss Nelson,MID,24.7928,10.0000,24,200641,Arsenal,a,,2025-26,13.0000,118.0000,454.0000,3.9146,0.0656,3.0000,125.4383,-100.6455,2025/26 empirical-Bayes rate and minutes,False,False,True
+432,Benoît Badiashile Mukinayi,DEF,24.7360,10.0000,146,242880,Chelsea,a,,2025-26,7.0000,470.0000,768.6000,3.9057,0.2611,3.0000,115.0131,-90.2771,2025/26 empirical-Bayes rate and minutes,False,False,True
+433,Endo Wataru,MID,24.2746,10.0000,374,158983,Liverpool,d,Ankle injury - 75% chance of playing,2025-26,12.0000,170.0000,495.6000,3.5339,0.0831,2.8333,125.4383,-101.1637,2025/26 empirical-Bayes rate and minutes,False,False,True
+434,Frank Onyeka,MID,23.7599,10.0000,104,428580,Coventry City,a,,2025-26,12.0000,88.0000,430.0000,3.7297,0.0489,3.1667,125.4383,-101.6784,2025/26 empirical-Bayes rate and minutes,True,False,True
+435,Ben Gannon-Doak,MID,23.6554,10.0000,72,496208,Bournemouth,a,,2025-26,11.0000,105.0000,443.6000,3.6479,0.0583,3.6667,125.4383,-101.7829,2025/26 empirical-Bayes rate and minutes,False,False,True
+436,Diego Coppola,DEF,23.5670,10.0000,117,550090,Brighton,a,,2025-26,10.0000,193.0000,547.0000,3.7211,0.1072,3.0000,115.0131,-91.4461,2025/26 empirical-Bayes rate and minutes,False,False,True
+437,Kepa Arrizabalaga Revuelta,GK,23.4887,10.0000,2,109745,Arsenal,a,,2025-26,2.0000,90.0000,643.5000,3.7087,0.0500,3.0000,119.5420,-96.0533,2025/26 empirical-Bayes rate and minutes,False,False,True
+438,Ethan Nwaneri,MID,23.3534,10.0000,22,499175,Arsenal,a,,2025-26,8.0000,165.0000,491.6000,3.6874,0.0917,3.0000,125.4383,-102.0850,2025/26 empirical-Bayes rate and minutes,False,False,True
+439,Jonah Kusi-Asare,FWD,23.3264,10.0000,272,631786,Fulham,a,,2025-26,6.0000,49.0000,408.5000,3.6402,0.0272,3.3333,102.1080,-78.7815,2025/26 empirical-Bayes rate and minutes,False,False,True
+440,Mateo Kovačić,MID,23.1336,10.0000,406,91651,Man City,a,,2025-26,9.0000,125.0000,459.6000,3.6527,0.0694,3.0000,125.4383,-102.3047,2025/26 empirical-Bayes rate and minutes,False,False,True
+441,Levi Samuels Colwill,DEF,22.9503,10.0000,149,460028,Chelsea,a,,2025-26,8.0000,225.0000,572.6000,3.6237,0.1250,3.0000,115.0131,-92.0628,2025/26 empirical-Bayes rate and minutes,False,False,True
+442,Alex Tóth,MID,22.8571,10.0000,76,614574,Bournemouth,a,,2025-26,8.0000,135.0000,467.6000,3.5248,0.0750,3.6667,125.4383,-102.5812,2025/26 empirical-Bayes rate and minutes,False,False,True
+443,Hákon Rafn Valdimarsson,GK,22.8387,10.0000,83,507433,Brentford,a,,2025-26,1.0000,90.0000,643.5000,3.5851,0.0500,3.1667,119.5420,-96.7033,2025/26 empirical-Bayes rate and minutes,False,False,True
+444,Ben Davies,DEF,22.7909,10.0000,508,115556,Spurs,a,,2025-26,10.0000,136.0000,501.4000,3.5986,0.0756,3.0000,115.0131,-92.2222,2025/26 empirical-Bayes rate and minutes,False,False,True
+445,Christian Nørgaard,MID,21.8188,10.0000,21,128295,Arsenal,a,,2025-26,7.0000,101.0000,440.4000,3.4451,0.0561,3.0000,125.4383,-103.6195,2025/26 empirical-Bayes rate and minutes,False,False,True
+446,Illan Meslier,GK,21.6767,10.0000,3,437495,Arsenal,a,,2025-26,0.0000,0.0000,571.5000,3.4226,0.0000,3.0000,119.5420,-97.8653,2025/26 empirical-Bayes rate and minutes,False,False,True
+447,Fraser Forster,GK,21.6767,10.0000,58,40383,Bournemouth,a,,2025-26,0.0000,0.0000,571.5000,3.3428,0.0000,3.6667,119.5420,-97.8653,2025/26 empirical-Bayes rate and minutes,False,False,True
+448,Will Dennis,GK,21.6767,10.0000,59,444172,Bournemouth,a,,2025-26,0.0000,0.0000,571.5000,3.3428,0.0000,3.6667,119.5420,-97.8653,2025/26 empirical-Bayes rate and minutes,False,False,True
+449,Jason Steele,GK,21.6767,10.0000,111,49262,Brighton,a,,2025-26,0.0000,0.0000,571.5000,3.4226,0.0000,3.0000,119.5420,-97.8653,2025/26 empirical-Bayes rate and minutes,False,False,True
+450,Mike Penders,GK,21.6767,10.0000,560,549939,Chelsea,a,,2025-26,0.0000,0.0000,571.5000,3.4226,0.0000,3.0000,119.5420,-97.8653,2025/26 empirical-Bayes rate and minutes,False,False,True
+451,Carl Rushworth,GK,21.6767,10.0000,110,472739,Coventry City,a,,2025-26,0.0000,0.0000,571.5000,3.4027,0.0000,3.1667,119.5420,-97.8653,2025/26 empirical-Bayes rate and minutes,True,False,True
+452,Remi Matthews,GK,21.6767,10.0000,555,169593,Crystal Palace,a,,2025-26,0.0000,0.0000,571.5000,3.4226,0.0000,3.0000,119.5420,-97.8653,2025/26 empirical-Bayes rate and minutes,False,False,True
+453,Mark Travers,GK,21.6767,10.0000,227,229600,Everton,a,,2025-26,0.0000,0.0000,571.5000,3.4426,0.0000,2.8333,119.5420,-97.8653,2025/26 empirical-Bayes rate and minutes,False,False,True
+454,Tom King,GK,21.6767,10.0000,228,138001,Everton,a,,2025-26,0.0000,0.0000,571.5000,3.4426,0.0000,2.8333,119.5420,-97.8653,2025/26 empirical-Bayes rate and minutes,False,False,True
+455,Benjamin Lecomte,GK,21.6767,10.0000,251,86873,Fulham,a,,2025-26,0.0000,0.0000,571.5000,3.3827,0.0000,3.3333,119.5420,-97.8653,2025/26 empirical-Bayes rate and minutes,False,False,True
+456,Alfie McNally,GK,21.6767,10.0000,252,505079,Fulham,a,,2025-26,0.0000,0.0000,571.5000,3.3827,0.0000,3.3333,119.5420,-97.8653,2025/26 empirical-Bayes rate and minutes,False,False,True
+457,Kjell Scherpen,GK,21.6767,10.0000,564,240514,Ipswich Town,a,,2025-26,0.0000,0.0000,571.5000,3.4226,0.0000,3.0000,119.5420,-97.8653,2025/26 empirical-Bayes rate and minutes,True,False,True
+458,Armin Pecsi,GK,21.6767,10.0000,353,586268,Liverpool,a,,2025-26,0.0000,0.0000,571.5000,3.4426,0.0000,2.8333,119.5420,-97.8653,2025/26 empirical-Bayes rate and minutes,False,False,True
+459,Marcus Bettinelli,GK,21.6767,10.0000,386,122074,Man City,a,,2025-26,0.0000,0.0000,571.5000,3.4226,0.0000,3.0000,119.5420,-97.8653,2025/26 empirical-Bayes rate and minutes,False,False,True
+460,Tom Heaton,GK,21.6767,10.0000,414,21205,Man Utd,a,,2025-26,0.0000,0.0000,571.5000,3.4426,0.0000,2.8333,119.5420,-97.8653,2025/26 empirical-Bayes rate and minutes,False,False,True
+461,Mark Gillespie,GK,21.6767,10.0000,443,81441,Newcastle,a,,2025-26,0.0000,0.0000,571.5000,3.4426,0.0000,2.8333,119.5420,-97.8653,2025/26 empirical-Bayes rate and minutes,False,False,True
+462,Brandon Austin,GK,21.6767,10.0000,495,214572,Spurs,a,,2025-26,0.0000,0.0000,571.5000,3.4226,0.0000,3.0000,119.5420,-97.8653,2025/26 empirical-Bayes rate and minutes,False,False,True
+463,Anthony Patterson,GK,21.6767,10.0000,530,232571,Sunderland,a,,2025-26,0.0000,0.0000,571.5000,3.4226,0.0000,3.0000,119.5420,-97.8653,2025/26 empirical-Bayes rate and minutes,False,False,True
+464,Fábio Freitas Gouveia Carvalho,MID,21.5059,10.0000,100,244858,Brentford,i,Knee injury - Unknown return date,2025-26,13.0000,100.0000,439.6000,2.6853,0.0389,3.1667,125.4383,-103.9324,2025/26 empirical-Bayes rate and minutes,False,False,True
+465,Harvey Elliott,MID,21.0915,10.0000,383,444884,Liverpool,a,,2025-26,5.0000,110.0000,447.6000,3.3497,0.0611,2.8333,125.4383,-104.3468,2025/26 empirical-Bayes rate and minutes,False,False,True
+466,Dane Scarlett,FWD,20.7457,10.0000,528,490145,Spurs,a,,2025-26,2.0000,7.0000,374.9000,3.2756,0.0039,3.0000,102.1080,-81.3622,2025/26 empirical-Bayes rate and minutes,False,False,True
+467,Sean Neave,FWD,20.4574,10.0000,466,599303,Newcastle,a,,2025-26,1.0000,13.0000,379.7000,3.2490,0.0072,2.8333,102.1080,-81.6506,2025/26 empirical-Bayes rate and minutes,False,False,True
+468,Igor Julio dos Santos de Paulo,DEF,20.4070,10.0000,118,223434,Brighton,a,,2025-26,6.0000,103.0000,475.0000,3.2222,0.0572,3.0000,115.0131,-94.6061,2025/26 empirical-Bayes rate and minutes,False,False,True
+469,Max Alleyne,DEF,20.3582,10.0000,394,494307,Man City,a,,2025-26,5.0000,135.0000,500.6000,3.2145,0.0750,3.0000,115.0131,-94.6549,2025/26 empirical-Bayes rate and minutes,False,False,True
+470,Borna Sosa,DEF,20.3507,10.0000,205,218364,Crystal Palace,a,,2025-26,6.0000,99.0000,471.8000,3.2133,0.0550,3.0000,115.0131,-94.6624,2025/26 empirical-Bayes rate and minutes,False,False,True
+471,Harry Howell,MID,20.3467,10.0000,132,597320,Brighton,a,,2025-26,4.0000,92.0000,433.2000,3.2126,0.0511,3.0000,125.4383,-105.0916,2025/26 empirical-Bayes rate and minutes,False,False,True
+472,Kaye Furo,FWD,20.2057,10.0000,107,593174,Brentford,a,,2025-26,1.0000,1.0000,370.1000,3.1718,0.0006,3.1667,102.1080,-81.9022,2025/26 empirical-Bayes rate and minutes,False,False,True
+473,Shumaira Mheuka,FWD,20.2057,10.0000,169,567119,Chelsea,a,,2025-26,1.0000,1.0000,370.1000,3.1904,0.0006,3.0000,102.1080,-81.9022,2025/26 empirical-Bayes rate and minutes,False,False,True
+474,Jack Fletcher,MID,20.1567,10.0000,434,547037,Man Utd,a,,2025-26,3.0000,107.0000,445.2000,3.2012,0.0594,2.8333,125.4383,-105.2816,2025/26 empirical-Bayes rate and minutes,False,False,True
+475,Trey Nyoni,MID,19.8591,10.0000,375,591386,Liverpool,a,,2025-26,6.0000,21.0000,376.4000,3.1539,0.0117,2.8333,125.4383,-105.5792,2025/26 empirical-Bayes rate and minutes,False,False,True
+476,Nicolas Jackson,FWD,19.7741,10.0000,166,517052,Chelsea,a,,2025-26,0.0000,0.0000,369.3000,3.1222,0.0000,3.0000,102.1080,-82.3338,2025/26 empirical-Bayes rate and minutes,False,False,True
+477,Chido Obi,FWD,19.7741,10.0000,441,596047,Man Utd,a,,2025-26,0.0000,0.0000,369.3000,3.1404,0.0000,2.8333,102.1080,-82.3338,2025/26 empirical-Bayes rate and minutes,False,False,True
+478,Zach Abbott,DEF,19.7481,10.0000,477,549067,Nott'm Forest,a,,2025-26,3.0000,165.0000,524.6000,3.1181,0.0917,3.0000,115.0131,-95.2650,2025/26 empirical-Bayes rate and minutes,False,False,True
+479,Facundo Buonanotte,MID,19.7243,10.0000,128,536916,Brighton,a,,2025-26,3.0000,81.0000,424.4000,3.1144,0.0450,3.0000,125.4383,-105.7140,2025/26 empirical-Bayes rate and minutes,False,False,True
+480,Andrés García,DEF,19.6539,10.0000,38,606798,Aston Villa,a,,2025-26,5.0000,83.0000,459.0000,3.1032,0.0461,3.0000,115.0131,-95.3592,2025/26 empirical-Bayes rate and minutes,False,False,True
+481,João Victor de Souza Menezes,DEF,19.4760,10.0000,511,616221,Spurs,a,,2025-26,3.0000,142.0000,506.2000,3.0752,0.0789,3.0000,115.0131,-95.5370,2025/26 empirical-Bayes rate and minutes,False,False,True
+482,Romain Esse,MID,19.4103,10.0000,216,606921,Crystal Palace,a,,2025-26,4.0000,40.0000,391.6000,3.0648,0.0222,3.0000,125.4383,-106.0280,2025/26 empirical-Bayes rate and minutes,False,False,True
+483,Alysson Edward Franco da Rocha dos Santos,MID,19.1229,10.0000,52,653481,Aston Villa,a,,2025-26,3.0000,47.0000,397.2000,3.0194,0.0261,3.0000,125.4383,-106.3154,2025/26 empirical-Bayes rate and minutes,False,False,True
+484,Shea Lacey,MID,18.9937,10.0000,435,576628,Man Utd,a,,2025-26,3.0000,40.0000,391.6000,3.0165,0.0222,2.8333,125.4383,-106.4446,2025/26 empirical-Bayes rate and minutes,False,False,True
+485,Mamadou Sarr,DEF,18.9470,10.0000,150,574458,Chelsea,a,,2025-26,3.0000,100.0000,472.6000,2.9916,0.0556,3.0000,115.0131,-96.0661,2025/26 empirical-Bayes rate and minutes,False,False,True
+486,Jenson Seelt,DEF,18.8832,10.0000,537,519634,Sunderland,a,,2025-26,2.0000,133.0000,499.0000,2.9816,0.0739,3.0000,115.0131,-96.1299,2025/26 empirical-Bayes rate and minutes,False,False,True
+487,James Maddison,MID,18.8814,10.0000,515,172780,Spurs,a,,2025-26,3.0000,34.0000,386.8000,2.9813,0.0189,3.0000,125.4383,-106.5569,2025/26 empirical-Bayes rate and minutes,False,False,True
+488,Ali Al-Hamadi,FWD,18.5234,10.0000,322,462387,Ipswich Town,a,,2024-25,8.0000,125.0000,337.8960,2.9248,0.0694,3.0000,102.1080,-83.5846,older PL history with recency discount,True,False,True
+489,Rio Cardines,DEF,18.3451,10.0000,220,590014,Crystal Palace,a,,2025-26,2.0000,90.0000,464.6000,2.8966,0.0500,3.0000,115.0131,-96.6680,2025/26 empirical-Bayes rate and minutes,False,False,True
+490,Arthur Masuaku,DEF,18.3060,10.0000,540,105717,Sunderland,a,,2025-26,1.0000,125.0000,492.6000,2.8904,0.0694,3.0000,115.0131,-96.7071,2025/26 empirical-Bayes rate and minutes,False,False,True
+491,George Hemmings,MID,18.2998,10.0000,51,577285,Aston Villa,a,,2025-26,2.0000,25.0000,379.6000,2.8894,0.0139,3.0000,125.4383,-107.1385,2025/26 empirical-Bayes rate and minutes,False,False,True
+492,Divine Mukasa,MID,18.2998,10.0000,409,590039,Man City,a,,2025-26,2.0000,25.0000,379.6000,2.8894,0.0139,3.0000,125.4383,-107.1385,2025/26 empirical-Bayes rate and minutes,False,False,True
+493,Tyler Fletcher,MID,18.1483,10.0000,438,519913,Man Utd,a,,2025-26,2.0000,17.0000,373.2000,2.8822,0.0094,2.8333,125.4383,-107.2900,2025/26 empirical-Bayes rate and minutes,False,False,True
+494,Djiamgone Jocelin Ta Bi,MID,18.1249,10.0000,550,699989,Sunderland,a,,2025-26,1.0000,38.0000,390.0000,2.8618,0.0211,3.0000,125.4383,-107.3134,2025/26 empirical-Bayes rate and minutes,False,False,True
+495,Julio Soler Barreto,DEF,18.0195,10.0000,66,575901,Bournemouth,a,,2025-26,3.0000,34.0000,419.8000,2.7788,0.0189,3.6667,115.0131,-96.9936,2025/26 empirical-Bayes rate and minutes,False,False,True
+496,Joél Drakes-Thomas,MID,17.9550,10.0000,221,672492,Crystal Palace,a,,2025-26,2.0000,7.0000,365.2000,2.8350,0.0039,3.0000,125.4383,-107.4833,2025/26 empirical-Bayes rate and minutes,False,False,True
+497,Dário Luís Essugo,MID,17.9078,10.0000,163,491007,Chelsea,a,,2025-26,1.0000,26.0000,380.4000,2.8275,0.0144,3.0000,125.4383,-107.5305,2025/26 empirical-Bayes rate and minutes,False,False,True
+498,Josh Dasilva,MID,17.8568,10.0000,103,183656,Brentford,a,,2025-26,2.0000,2.0000,361.2000,2.8030,0.0011,3.1667,125.4383,-107.5815,2025/26 empirical-Bayes rate and minutes,False,False,True
+499,Bradley Burrowes,MID,17.7226,10.0000,50,645618,Aston Villa,a,,2025-26,1.0000,16.0000,372.4000,2.7983,0.0089,3.0000,125.4383,-107.7157,2025/26 empirical-Bayes rate and minutes,False,False,True
+500,Bendito Mantato,MID,17.7038,10.0000,437,576620,Man Utd,a,,2025-26,1.0000,15.0000,371.6000,2.8116,0.0083,2.8333,125.4383,-107.7345,2025/26 empirical-Bayes rate and minutes,False,False,True
+501,Callum Olusesi,MID,17.6850,10.0000,524,499726,Spurs,a,,2025-26,1.0000,14.0000,370.8000,2.7924,0.0078,3.0000,125.4383,-107.7533,2025/26 empirical-Bayes rate and minutes,False,False,True
+502,Antoni Milambo,MID,17.5190,10.0000,99,543295,Brentford,d,Knee injury - 75% chance of playing,2025-26,1.0000,45.0000,395.6000,2.5208,0.0220,3.1667,125.4383,-107.9193,2025/26 empirical-Bayes rate and minutes,False,False,True
+503,Nehemiah Oriola,MID,17.4370,10.0000,134,556637,Brighton,a,,2025-26,1.0000,1.0000,360.4000,2.7532,0.0006,3.0000,125.4383,-108.0013,2025/26 empirical-Bayes rate and minutes,False,False,True
+504,Evan Ferguson,FWD,17.4012,10.0000,139,487117,Brighton,i,Ankle injury - Expected back 10 Oct,2025-26,0.0000,0.0000,369.3000,2.1856,0.0000,3.0000,102.1080,-84.7067,2025/26 empirical-Bayes rate and minutes,False,False,True
+505,Mateo Joseph Fernández-Regatillo,FWD,17.4012,10.0000,349,565297,Leeds,i,Knee injury - Unknown return date,2025-26,0.0000,0.0000,369.3000,2.1728,0.0000,3.1667,102.1080,-84.7067,2025/26 empirical-Bayes rate and minutes,False,False,True
+506,Jayden Danns,FWD,17.4012,10.0000,382,500058,Liverpool,i,Unspecified injury - Unknown return date,2025-26,0.0000,0.0000,369.3000,2.1983,0.0000,2.8333,102.1080,-84.7067,2025/26 empirical-Bayes rate and minutes,False,False,True
+507,Chiedozie Ogbene,MID,17.2472,10.0000,314,229164,Ipswich Town,a,,2024-25,7.0000,237.0000,395.4240,2.7232,0.1317,3.0000,125.4383,-108.1911,older PL history with recency discount,True,False,True
+508,Alex Murphy,DEF,17.1621,10.0000,451,545477,Newcastle,a,,2025-26,2.0000,7.0000,398.2000,2.7256,0.0039,2.8333,115.0131,-97.8510,2025/26 empirical-Bayes rate and minutes,False,False,True
+509,Fábio Ferreira Vieira,MID,17.0181,10.0000,23,438098,Arsenal,a,,2025-26,0.0000,0.0000,359.6000,2.6871,0.0000,3.0000,125.4383,-108.4202,2025/26 empirical-Bayes rate and minutes,False,False,True
+510,Samuel Iling-Junior,MID,17.0181,10.0000,49,469247,Aston Villa,a,,2025-26,0.0000,0.0000,359.6000,2.6871,0.0000,3.0000,125.4383,-108.4202,2025/26 empirical-Bayes rate and minutes,False,False,True
+511,Matheus França de Oliveira,MID,17.0181,10.0000,217,536694,Crystal Palace,a,,2025-26,0.0000,0.0000,359.6000,2.6871,0.0000,3.0000,125.4383,-108.4202,2025/26 empirical-Bayes rate and minutes,False,False,True
+512,Cheick Doucouré,MID,17.0181,10.0000,218,438464,Crystal Palace,a,,2025-26,0.0000,0.0000,359.6000,2.6871,0.0000,3.0000,125.4383,-108.4202,2025/26 empirical-Bayes rate and minutes,False,False,True
+513,Jesurun Rak-Sakyi,MID,17.0181,10.0000,219,450542,Crystal Palace,a,,2025-26,0.0000,0.0000,359.6000,2.6871,0.0000,3.0000,125.4383,-108.4202,2025/26 empirical-Bayes rate and minutes,False,False,True
+514,Joe Gelhardt,MID,17.0181,10.0000,340,462635,Leeds,a,,2025-26,0.0000,0.0000,359.6000,2.6714,0.0000,3.1667,125.4383,-108.4202,2025/26 empirical-Bayes rate and minutes,False,False,True
+515,James McConnell,MID,17.0181,10.0000,378,491501,Liverpool,a,,2025-26,0.0000,0.0000,359.6000,2.7027,0.0000,2.8333,125.4383,-108.4202,2025/26 empirical-Bayes rate and minutes,False,False,True
+516,Claudio Echeverri,MID,17.0181,10.0000,407,575204,Man City,a,,2025-26,0.0000,0.0000,359.6000,2.6871,0.0000,3.0000,125.4383,-108.4202,2025/26 empirical-Bayes rate and minutes,False,False,True
+517,Kalvin Phillips,MID,17.0181,10.0000,408,155405,Man City,a,,2025-26,0.0000,0.0000,359.6000,2.6871,0.0000,3.0000,125.4383,-108.4202,2025/26 empirical-Bayes rate and minutes,False,False,True
+518,Marcus Rashford,MID,17.0181,10.0000,429,176297,Man Utd,a,,2025-26,0.0000,0.0000,359.6000,2.7027,0.0000,2.8333,125.4383,-108.4202,2025/26 empirical-Bayes rate and minutes,False,False,True
+519,Toby Collyer,MID,17.0181,10.0000,436,490881,Man Utd,a,,2025-26,0.0000,0.0000,359.6000,2.7027,0.0000,2.8333,125.4383,-108.4202,2025/26 empirical-Bayes rate and minutes,False,False,True
+520,Mikey Moore,MID,17.0181,10.0000,523,499721,Spurs,a,,2025-26,0.0000,0.0000,359.6000,2.6871,0.0000,3.0000,125.4383,-108.4202,2025/26 empirical-Bayes rate and minutes,False,False,True
+521,Tyler Fredricson,DEF,16.6468,10.0000,425,547676,Man Utd,a,,2025-26,1.0000,2.0000,394.2000,2.6438,0.0011,2.8333,115.0131,-98.3662,2025/26 empirical-Bayes rate and minutes,False,False,True
+522,Jun'ai Byfield,DEF,16.6315,10.0000,509,640419,Spurs,a,,2025-26,1.0000,1.0000,393.4000,2.6260,0.0006,3.0000,115.0131,-98.3816,2025/26 empirical-Bayes rate and minutes,False,False,True
+523,James Rowswell,DEF,16.6315,10.0000,510,499716,Spurs,a,,2025-26,1.0000,1.0000,393.4000,2.6260,0.0006,3.0000,115.0131,-98.3816,2025/26 empirical-Bayes rate and minutes,False,False,True
+524,Julián Araujo Zúñiga,DEF,16.1799,10.0000,65,436893,Bournemouth,a,,2025-26,0.0000,0.0000,392.6000,2.4951,0.0000,3.6667,115.0131,-98.8332,2025/26 empirical-Bayes rate and minutes,False,False,True
+525,Kim Ji-soo,DEF,16.1799,10.0000,92,570241,Brentford,a,,2025-26,0.0000,0.0000,392.6000,2.5398,0.0000,3.1667,115.0131,-98.8332,2025/26 empirical-Bayes rate and minutes,False,False,True
+526,Luka Vušković,DEF,16.1799,10.0000,504,610799,Brighton,a,,2025-26,0.0000,0.0000,392.6000,2.5547,0.0000,3.0000,115.0131,-98.8332,2025/26 empirical-Bayes rate and minutes,False,False,True
+527,Aaron Anselmino,DEF,16.1799,10.0000,561,622758,Chelsea,a,,2025-26,0.0000,0.0000,392.6000,2.5547,0.0000,3.0000,115.0131,-98.8332,2025/26 empirical-Bayes rate and minutes,False,False,True
+528,Adam Aznou,DEF,16.1799,10.0000,235,499300,Everton,a,,2025-26,0.0000,0.0000,392.6000,2.5696,0.0000,2.8333,115.0131,-98.8332,2025/26 empirical-Bayes rate and minutes,False,False,True
+529,Matt Targett,DEF,16.1799,10.0000,556,169359,Hull City,a,,2025-26,0.0000,0.0000,392.6000,2.5398,0.0000,3.1667,115.0131,-98.8332,2025/26 empirical-Bayes rate and minutes,True,False,True
+530,Wellity Lucky,DEF,16.1799,10.0000,361,519440,Liverpool,a,,2025-26,0.0000,0.0000,392.6000,2.5696,0.0000,2.8333,115.0131,-98.8332,2025/26 empirical-Bayes rate and minutes,False,False,True
+531,Kostas Tsimikas,DEF,16.1799,10.0000,364,214285,Liverpool,a,,2025-26,0.0000,0.0000,392.6000,2.5696,0.0000,2.8333,115.0131,-98.8332,2025/26 empirical-Bayes rate and minutes,False,False,True
+532,Calvin Ramsay,DEF,16.1799,10.0000,365,489580,Liverpool,a,,2025-26,0.0000,0.0000,392.6000,2.5696,0.0000,2.8333,115.0131,-98.8332,2025/26 empirical-Bayes rate and minutes,False,False,True
+533,Vitor de Oliveira Nunes dos Reis,DEF,16.1799,10.0000,396,616222,Man City,a,,2025-26,0.0000,0.0000,392.6000,2.5547,0.0000,3.0000,115.0131,-98.8332,2025/26 empirical-Bayes rate and minutes,False,False,True
+534,Harry Amass,DEF,16.1799,10.0000,424,577974,Man Utd,a,,2025-26,0.0000,0.0000,392.6000,2.5696,0.0000,2.8333,115.0131,-98.8332,2025/26 empirical-Bayes rate and minutes,False,False,True
+535,Omar Richards,DEF,16.1799,10.0000,476,204822,Nott'm Forest,a,,2025-26,0.0000,0.0000,392.6000,2.5547,0.0000,3.0000,115.0131,-98.8332,2025/26 empirical-Bayes rate and minutes,False,False,True
+536,Ashley Phillips,DEF,16.1799,10.0000,507,548308,Spurs,a,,2025-26,0.0000,0.0000,392.6000,2.5547,0.0000,3.0000,115.0131,-98.8332,2025/26 empirical-Bayes rate and minutes,False,False,True
+537,Leo Fuhr Hjelde,DEF,16.1799,10.0000,538,477547,Sunderland,a,,2025-26,0.0000,0.0000,392.6000,2.5547,0.0000,3.0000,115.0131,-98.8332,2025/26 empirical-Bayes rate and minutes,False,False,True
+538,Darnell Furlong,DEF,16.0504,10.0000,308,176420,Ipswich Town,a,,2020-21,79.0000,2931.0000,529.6644,2.5343,1.0000,3.0000,115.0131,-98.9627,older PL history with recency discount,True,False,True
+539,Jeremy Monga,MID,15.7607,10.0000,410,649208,Man City,a,,2024-25,7.0000,105.0000,319.3920,2.4885,0.0583,3.0000,125.4383,-109.6776,older PL history with recency discount,False,False,True
+540,Harvey Davies,GK,15.6072,10.0000,355,464353,Liverpool,a,,2024-25,0.0000,0.0000,411.4800,2.4787,0.0000,2.8333,119.5420,-103.9348,older PL history with recency discount,False,False,True
+541,Darko Gyabi,MID,14.9759,10.0000,297,470294,Hull City,i,Thigh injury - Unknown return date,2025-26,0.0000,0.0000,359.6000,1.8700,0.0000,3.1667,125.4383,-110.4624,2025/26 empirical-Bayes rate and minutes,True,False,True
+542,Stefan Bajčetić Maquieira,MID,14.9759,10.0000,376,535928,Liverpool,i,Hamstring injury - Expected back 23 Aug,2025-26,0.0000,0.0000,359.6000,1.8919,0.0000,2.8333,125.4383,-110.4624,2025/26 empirical-Bayes rate and minutes,False,False,True
+543,Dejan Kulusevski,MID,14.9759,10.0000,521,445044,Spurs,i,Knee injury - Unknown return date,2025-26,0.0000,0.0000,359.6000,1.8809,0.0000,3.0000,125.4383,-110.4624,2025/26 empirical-Bayes rate and minutes,False,False,True
+544,Kosta Nedeljkovic,DEF,14.5265,10.0000,39,578545,Aston Villa,a,,2024-25,5.0000,121.0000,352.3680,2.2937,0.0672,3.0000,115.0131,-100.4866,older PL history with recency discount,False,False,True
+545,Giovanni Leoni,DEF,14.2383,10.0000,363,647681,Liverpool,i,Knee injury - Unknown return date,2025-26,0.0000,0.0000,392.6000,1.7987,0.0000,2.8333,115.0131,-100.7748,2025/26 empirical-Bayes rate and minutes,False,False,True
+546,Vitezslav Jaros,GK,14.1810,10.0000,354,432987,Liverpool,i,Knee injury - Unknown return date,2024-25,1.0000,11.0000,417.8160,1.7915,0.0043,2.8333,119.5420,-105.3610,older PL history with recency discount,False,False,True
+547,Ryan Giles,DEF,14.1058,10.0000,282,232351,Hull City,a,,2023-24,11.0000,498.0000,410.0544,2.2142,0.2767,3.1667,115.0131,-100.9073,older PL history with recency discount,True,False,True
+548,Kieran Dowell,MID,13.4862,10.0000,288,171270,Hull City,a,,2021-22,41.0000,905.0000,291.2051,2.1170,0.5028,3.1667,125.4383,-111.9521,older PL history with recency discount,True,False,True
+549,Valentín Barco,MID,12.2530,10.0000,568,543158,Chelsea,a,,2024-25,0.0000,0.0000,258.9120,1.9347,0.0000,3.0000,125.4383,-113.1853,older PL history with recency discount,False,False,True
+550,Semi Ajayi,DEF,12.1190,10.0000,279,146426,Hull City,a,,2020-21,51.0000,2779.0000,506.1358,1.9024,1.0000,3.1667,115.0131,-102.8940,older PL history with recency discount,True,False,True
+551,Kaine Kesler-Hayden,DEF,11.6495,10.0000,177,465390,Coventry City,a,,2024-25,0.0000,0.0000,282.6720,1.8287,0.0000,3.1667,115.0131,-103.3636,older PL history with recency discount,True,False,True
+552,John Egan,DEF,11.1191,10.0000,277,108416,Hull City,a,,2023-24,1.0000,482.0000,403.4189,1.7454,0.2678,3.1667,115.0131,-103.8940,older PL history with recency discount,True,False,True
+553,Ellis Simms,FWD,10.2509,10.0000,195,218997,Coventry City,a,,2023-24,0.0000,0.0000,191.4451,1.6091,0.0000,3.1667,102.1080,-91.8571,older PL history with recency discount,True,False,True
+554,Lewis Koumas,MID,8.8222,10.0000,381,514514,Liverpool,a,,2023-24,0.0000,0.0000,186.4166,1.4011,0.0000,2.8333,125.4383,-116.6161,older PL history with recency discount,False,False,True
+555,Bobby Thomas,DEF,8.3877,10.0000,173,461102,Coventry City,a,,2023-24,0.0000,0.0000,203.5238,1.3166,0.0000,3.1667,115.0131,-106.6254,older PL history with recency discount,True,False,True
+556,Jack Butland,GK,8.0908,10.0000,274,105666,Hull City,a,,2022-23,0.0000,0.0000,213.3112,1.2700,0.0000,3.1667,119.5420,-111.4512,older PL history with recency discount,True,False,True
+557,Christos Tzolis,MID,7.9681,10.0000,557,439509,Arsenal,a,,2021-22,16.0000,326.0000,166.7254,1.2581,0.1811,3.0000,125.4383,-117.4702,older PL history with recency discount,False,False,True
+558,Cody Drameh,DEF,6.5752,10.0000,281,433590,Hull City,a,,2022-23,1.0000,70.0000,167.4391,1.0321,0.0389,3.1667,115.0131,-108.4379,older PL history with recency discount,True,False,True
+559,Abu Kamara,MID,4.5734,10.0000,293,490161,Hull City,a,,2021-22,0.0000,0.0000,96.6384,0.7179,0.0000,3.1667,125.4383,-120.8649,older PL history with recency discount,True,False,True
+560,David Button,GK,4.5449,10.0000,302,50093,Ipswich Town,a,,2020-21,2.0000,90.0000,124.5119,0.7176,0.0500,3.0000,119.5420,-114.9971,older PL history with recency discount,True,False,True
+561,Cédric Kipré,DEF,3.1307,10.0000,303,183015,Ipswich Town,a,,2020-21,0.0000,0.0000,75.9649,0.4943,0.0000,3.0000,115.0131,-111.8824,older PL history with recency discount,True,False,True
+562,Paddy McNair,DEF,1.3751,10.0000,285,160817,Hull City,a,,2016-17,12.0000,353.0000,35.0991,0.2159,0.1961,3.1667,115.0131,-113.6380,older PL history with recency discount,True,False,True
+563,Chuba Akpom,FWD,1.0282,10.0000,320,147675,Ipswich Town,a,,2016-17,0.0000,0.0000,19.2031,0.1624,0.0000,3.0000,102.1080,-101.0798,older PL history with recency discount,True,False,True

@@ -13,6 +13,7 @@ Each row represents the information available for one player immediately before 
 | `name` | Display name for review only |
 | `team` | Club at the cutoff time |
 | `position` | `GK`, `DEF`, `MID`, or `FWD` |
+| `fixtures_next_1` | Completed team fixtures in the event at the cutoff: 0 for a blank, 1 normally, 2 for a double, and 3 for a historical triple |
 | `age` | Player age at cutoff |
 | `minutes_last_3/6/12` | Rolling minutes before cutoff |
 | `starts_last_3/6/12` | Rolling starts before cutoff |
@@ -50,6 +51,8 @@ strictly earlier than the validation event.
 
 Raw input files, feature tables, model artifacts, and predictions belong in separate directories. Generated data is ignored by Git except for the synthetic sample.
 
-The published `modeling_table.csv` remains the original ten-season v1 export.
-Leakage-safe additions are generated separately as `modeling_table_ml_v2.csv` so
-the original table is never overwritten.
+The published `modeling_table.csv` and `modeling_table_ml_v2.csv` remain frozen.
+`modeling_table_ml_v3.csv` removes non-player Assistant Manager chip records,
+canonicalizes positions from player metadata, removes equivalent raw duplicate
+player-fixture rows, and adds fixture-count exposure for blank/double/triple events.
+The versioned predecessors are never overwritten.

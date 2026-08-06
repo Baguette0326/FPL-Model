@@ -45,7 +45,16 @@ This downloads all ten available historical seasons (2016/17–2025/26) and curr
 
 The original published `data/processed/modeling_table.csv` is preserved as the
 v1 ten-season export. New leakage-safe feature builds are written separately to
-`data/processed/modeling_table_ml_v2.csv`.
+`data/processed/modeling_table_ml_v2.csv`. The model-ready v3 table adds strict
+player-position, source-duplicate, and fixture-exposure checks without modifying
+v1 or v2.
+
+Run the first appearance/start/minutes holdout backtest after building v3:
+
+```powershell
+$env:PYTHONPATH = "src"
+python -m fpl_model.pipeline minutes-model
+```
 
 Initialize the local league event database:
 

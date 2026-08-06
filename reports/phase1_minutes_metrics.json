@@ -1,0 +1,48 @@
+{
+  "metrics": {
+    "holdout_season": "2025-26",
+    "rows": 29747,
+    "appearance_brier": 0.09205963908171784,
+    "appearance_baseline_brier": 0.11328016694570164,
+    "start_brier": 0.08729750547413928,
+    "start_baseline_brier": 0.1120259704631508,
+    "expected_minutes_mae": 11.623820759205246,
+    "minutes_baseline_mae": 13.10775252246325,
+    "appearance_rate": 0.3819208659696776,
+    "start_rate": 0.27821292903486067
+  },
+  "promotion": {
+    "appearance": true,
+    "start": true,
+    "minutes": true
+  },
+  "features": [
+    "minutes_last_3",
+    "minutes_last_6",
+    "minutes_last_12",
+    "points_last_3",
+    "points_last_6",
+    "points_last_12",
+    "goals_scored_last_6",
+    "assists_last_6",
+    "bonus_last_6",
+    "team_goals_for_last_6",
+    "team_goals_against_last_6",
+    "appearances_last_3",
+    "appearances_last_6",
+    "appearances_last_12",
+    "history_events_last_6",
+    "fixtures_last_6",
+    "minutes_per_fixture_last_6",
+    "recent_minutes_baseline",
+    "fixtures_next_1",
+    "position_GK",
+    "position_DEF",
+    "position_MID",
+    "position_FWD"
+  ],
+  "table_sha256": "3a3288c3db39b87e83fa9242dc7587250d7e2e2f64ba659ead1c14b1d49dc226",
+  "history_seasons": 5,
+  "calibration_season": "2024-25",
+  "seed": 26
+}

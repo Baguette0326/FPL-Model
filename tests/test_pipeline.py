@@ -9,6 +9,8 @@ from fpl_model.pipeline import (  # noqa: E402
     LEGACY_MODELING_TABLE,
     ML_V2_AUDIT_REPORT,
     ML_V2_MODELING_TABLE,
+    ML_V3_AUDIT_REPORT,
+    ML_V3_MODELING_TABLE,
 )
 
 
@@ -17,6 +19,14 @@ class PipelineOutputTests(unittest.TestCase):
         self.assertNotEqual(ML_V2_MODELING_TABLE, LEGACY_MODELING_TABLE)
         self.assertEqual(ML_V2_MODELING_TABLE.name, "modeling_table_ml_v2.csv")
         self.assertEqual(ML_V2_AUDIT_REPORT.name, "ml_v2_data_audit.json")
+
+    def test_ml_v3_outputs_preserve_both_predecessors(self) -> None:
+        self.assertNotIn(
+            ML_V3_MODELING_TABLE,
+            {LEGACY_MODELING_TABLE, ML_V2_MODELING_TABLE},
+        )
+        self.assertEqual(ML_V3_MODELING_TABLE.name, "modeling_table_ml_v3.csv")
+        self.assertEqual(ML_V3_AUDIT_REPORT.name, "ml_v3_data_audit.json")
 
 
 if __name__ == "__main__":

@@ -30,12 +30,15 @@ def _valid_table() -> pd.DataFrame:
             "gameweek": range(1, rows + 1),
             "event_sequence": range(1, rows + 1),
             "player_code": [10] * rows,
+            "position": ["MID"] * rows,
             "player_event_observed": [1] * rows,
+            "team_event_observed": [1] * rows,
             "prediction_cutoff": pd.date_range("2025-01-08", periods=rows, freq="7D", tz="UTC"),
             "available_at": [pd.NaT]
             + list(pd.date_range("2025-01-01", periods=rows - 1, freq="7D", tz="UTC")),
             "total_points": points,
             "minutes": minutes,
+            "fixtures_next_1": [1] * rows,
             "starts": starts,
             "has_starts_source": [1] * rows,
             "points_next_1": points,
@@ -126,6 +129,23 @@ class ModelingTableAuditTests(unittest.TestCase):
         table = pd.concat([_valid_table(), _valid_table().iloc[[0]]], ignore_index=True)
         audit = audit_modeling_table(table)
         self.assertEqual(audit.violations["duplicate_player_events"], 1)
+
+    def test_invalid_position_and_fixture_capacity_are_rejected(self) -> None:
+        table = _valid_table()
+        table.loc[0, "position"] = "AM"
+        table.loc[1, "minutes"] = 91
+        table.loc[1, "minutes_next_1"] = 91
+        table.loc[1, "appearance_next_1"] = 1
+        audit = audit_modeling_table(table)
+        self.assertEqual(audit.violations["invalid_player_position"], 1)
+        self.assertEqual(audit.violations["minutes_exceed_fixture_capacity"], 1)
+
+    def test_blank_event_cannot_contain_activity(self) -> None:
+        table = _valid_table()
+        table.loc[0, "fixtures_next_1"] = 0
+        table.loc[0, "team_event_observed"] = 0
+        audit = audit_modeling_table(table)
+        self.assertEqual(audit.violations["activity_without_fixture"], 1)
 
 
 if __name__ == "__main__":

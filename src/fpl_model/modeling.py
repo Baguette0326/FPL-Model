@@ -126,11 +126,14 @@ def audit_modeling_table(table: Any) -> LeakageAudit:
         "gameweek",
         "event_sequence",
         "player_code",
+        "position",
         "player_event_observed",
+        "team_event_observed",
         "available_at",
         "prediction_cutoff",
         "total_points",
         "minutes",
+        "fixtures_next_1",
         "starts",
         "has_starts_source",
         "points_next_1",
@@ -228,6 +231,13 @@ def audit_modeling_table(table: Any) -> LeakageAudit:
     first_observed = player_group["player_event_observed"].nth(0)
     last_observed = player_group["player_event_observed"].nth(-1)
     registration_bound_violations = int(first_observed.ne(1).sum() + last_observed.ne(1).sum())
+    fixtures = pd.to_numeric(ordered["fixtures_next_1"], errors="coerce")
+    minutes = pd.to_numeric(ordered["minutes"], errors="coerce")
+    starts = pd.to_numeric(ordered["starts"], errors="coerce")
+    invalid_fixture_count = fixtures.isna() | fixtures.lt(0) | fixtures.mod(1).ne(0)
+    activity_without_fixture = fixtures.eq(0) & (
+        minutes.gt(0) | starts.fillna(0).gt(0) | ordered["appearance_next_1"].eq(1)
+    )
 
     violations = {
         "duplicate_player_events": int(
@@ -239,6 +249,18 @@ def audit_modeling_table(table: Any) -> LeakageAudit:
         ),
         "invalid_player_event_observed": int(
             (~ordered["player_event_observed"].isin([0, 1, False, True])).sum()
+        ),
+        "invalid_player_position": int(
+            (~ordered["position"].isin(["GK", "DEF", "MID", "FWD"])).sum()
+        ),
+        "invalid_fixture_count": int(invalid_fixture_count.sum()),
+        "minutes_exceed_fixture_capacity": int((minutes > 90 * fixtures).sum()),
+        "starts_exceed_fixture_capacity": int(
+            (ordered["has_starts_source"].eq(1) & (starts > fixtures)).sum()
+        ),
+        "activity_without_fixture": int(activity_without_fixture.sum()),
+        "incorrect_team_event_observed": int(
+            ordered["team_event_observed"].astype(int).ne(fixtures.gt(0).astype(int)).sum()
         ),
         "unobserved_registration_bounds": registration_bound_violations,
         "incorrect_points_next_1": mismatch_count(ordered["points_next_1"], expected_points_1),

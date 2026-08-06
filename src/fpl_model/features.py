@@ -9,6 +9,7 @@ import numpy as np
 import pandas as pd
 
 POSITION_MAP = {1: "GK", 2: "DEF", 3: "MID", 4: "FWD"}
+ALLOWED_PLAYER_POSITIONS = frozenset(POSITION_MAP.values())
 
 CORE_PLAYER_SUM_COLUMNS = (
     "total_points",
@@ -23,6 +24,40 @@ CORE_PLAYER_SUM_COLUMNS = (
 )
 OPTIONAL_PLAYER_SUM_COLUMNS = ("expected_goals", "expected_assists")
 PLAYER_SUM_COLUMNS = CORE_PLAYER_SUM_COLUMNS + ("starts",) + OPTIONAL_PLAYER_SUM_COLUMNS
+
+
+def _deduplicate_player_fixtures(
+    gameweeks: pd.DataFrame, season: str
+) -> tuple[pd.DataFrame, int]:
+    """Remove equivalent source duplicates and reject conflicting outcomes."""
+    keys = ["GW", "element", "fixture"]
+    duplicated = gameweeks.duplicated(keys, keep=False)
+    if not duplicated.any():
+        return gameweeks, 0
+
+    candidates = [
+        "was_home",
+        "kickoff_time",
+        "team_h_score",
+        "team_a_score",
+        "position",
+        "team",
+        *CORE_PLAYER_SUM_COLUMNS,
+        "starts",
+        *OPTIONAL_PLAYER_SUM_COLUMNS,
+    ]
+    critical = [column for column in candidates if column in gameweeks.columns]
+    duplicate_rows = gameweeks.loc[duplicated]
+    conflicts = duplicate_rows.groupby(keys, dropna=False)[critical].nunique(dropna=False)
+    conflicting_keys = conflicts.index[conflicts.gt(1).any(axis=1)].tolist()
+    if conflicting_keys:
+        examples = conflicting_keys[:5]
+        raise ValueError(
+            f"{season} contains conflicting duplicate player-fixture rows: {examples}"
+        )
+
+    deduplicated = gameweeks.drop_duplicates(keys, keep="first").copy()
+    return deduplicated, len(gameweeks) - len(deduplicated)
 
 
 def _read_csv_compatible(path: str | Path) -> pd.DataFrame:
@@ -167,7 +202,15 @@ def _season_frame(
     if not {"id", "code"}.issubset(players.columns):
         raise ValueError(f"{season} players_raw.csv must include id and code")
 
-    id_map = players[["id", "code", "element_type", "team", "web_name"]].rename(
+    gameweeks, duplicate_rows_removed = _deduplicate_player_fixtures(
+        gameweeks, season
+    )
+    selectable_players = players.loc[players["element_type"].isin(POSITION_MAP)].copy()
+    gameweeks = gameweeks.loc[gameweeks["element"].isin(selectable_players["id"])].copy()
+
+    id_map = selectable_players[
+        ["id", "code", "element_type", "team", "web_name"]
+    ].rename(
         columns={
             "id": "element",
             "code": "player_code",
@@ -200,8 +243,16 @@ def _season_frame(
     )
     if "name" not in frame.columns:
         frame["name"] = frame["meta_name"]
-    if "position" not in frame.columns:
-        frame["position"] = frame["meta_element_type"].map(POSITION_MAP)
+    frame["position"] = frame["meta_element_type"].map(POSITION_MAP)
+    invalid_positions = sorted(
+        frame.loc[~frame["position"].isin(ALLOWED_PLAYER_POSITIONS), "position"]
+        .dropna()
+        .astype(str)
+        .unique()
+        .tolist()
+    )
+    if invalid_positions or frame["position"].isna().any():
+        raise ValueError(f"{season} contains unsupported player positions: {invalid_positions}")
     if "team" not in frame.columns:
         # Legacy Gameweek files omit the player's club. The end-of-season player
         # snapshot can be wrong for transferred players, so infer each fixture
@@ -259,18 +310,22 @@ def _season_frame(
             "team_h_score",
             "team_a_score",
         ]
-    ].drop_duplicates(["season", "fixture", "team"])
+    ].drop_duplicates(["season", "event_sequence", "fixture", "team"])
+    # Legacy archives can list a postponed fixture in both its original and
+    # eventual event. Only the completed occurrence supplies target exposure.
+    team_match = team_match.loc[
+        team_match["team_h_score"].notna() & team_match["team_a_score"].notna()
+    ].copy()
     home_score = pd.to_numeric(team_match["team_h_score"], errors="coerce").fillna(0)
     away_score = pd.to_numeric(team_match["team_a_score"], errors="coerce").fillna(0)
     team_match["goals_for"] = np.where(team_match["was_home"], home_score, away_score)
     team_match["goals_against"] = np.where(team_match["was_home"], away_score, home_score)
-    observed_team_week = (
-        team_match.groupby(
-            ["season", "gameweek", "event_sequence", "team"], as_index=False
-        )[
-            ["goals_for", "goals_against"]
-        ]
-        .sum()
+    observed_team_week = team_match.groupby(
+        ["season", "gameweek", "event_sequence", "team"], as_index=False
+    ).agg(
+        goals_for=("goals_for", "sum"),
+        goals_against=("goals_against", "sum"),
+        fixtures_next_1=("fixture", "nunique"),
     )
     team_keys = frame[["season", "team"]].drop_duplicates()
     team_week = (
@@ -284,10 +339,14 @@ def _season_frame(
         )
         .sort_values(["team", "event_sequence"])
     )
-    team_week["team_event_observed"] = team_week["goals_for"].notna().astype(int)
+    team_week["fixtures_next_1"] = team_week["fixtures_next_1"].fillna(0).astype(int)
+    team_week["team_event_observed"] = team_week["fixtures_next_1"].gt(0).astype(int)
     team_week[["goals_for", "goals_against"]] = team_week[
         ["goals_for", "goals_against"]
     ].fillna(0.0)
+    player_week.attrs["source_duplicate_player_fixture_rows_removed"] = (
+        duplicate_rows_removed
+    )
     return player_week, team_week, calendar
 
 
@@ -302,9 +361,19 @@ def build_modeling_table(
     team_seasons: list[pd.DataFrame] = []
     for season in seasons:
         player_week, team_week, calendar = _season_frame(raw_root, season)
+        source_duplicates_removed = player_week.attrs.get(
+            "source_duplicate_player_fixture_rows_removed", 0
+        )
         player_seasons.append(_complete_player_gameweeks(player_week, calendar))
+        player_seasons[-1].attrs["source_duplicate_player_fixture_rows_removed"] = (
+            source_duplicates_removed
+        )
         team_seasons.append(team_week)
 
+    total_source_duplicates_removed = sum(
+        frame.attrs.get("source_duplicate_player_fixture_rows_removed", 0)
+        for frame in player_seasons
+    )
     table = pd.concat(player_seasons, ignore_index=True)
     table["season"] = pd.Categorical(table["season"], categories=list(seasons), ordered=True)
     table = table.sort_values(["season", "player_code", "event_sequence"]).reset_index(drop=True)
@@ -356,6 +425,7 @@ def build_modeling_table(
                     "event_sequence",
                     "team",
                     "team_event_observed",
+                    "fixtures_next_1",
                     "team_goals_for_last_6",
                     "team_goals_against_last_6",
                 ]
@@ -380,6 +450,9 @@ def build_modeling_table(
         and not column.startswith(("expected_", "starts_"))
     ]
     table[common_features] = table[common_features].fillna(0.0)
+    table.attrs["source_duplicate_player_fixture_rows_removed"] = (
+        total_source_duplicates_removed
+    )
 
     if output_path is not None:
         output = Path(output_path)

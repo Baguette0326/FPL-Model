@@ -99,3 +99,36 @@ def ingest_all(
         json.dump(manifest, handle, indent=2)
         handle.write("\n")
     return manifest
+
+
+def ingest_current(
+    config_path: str | Path = "configs/data_sources.json",
+    raw_root: str | Path = "data/raw",
+) -> dict[str, Any]:
+    """Refresh only the two current-season official FPL snapshots."""
+    config = load_source_config(config_path)
+    raw_root = Path(raw_root)
+    current = config["current"]
+    current_root = raw_root / current["season"]
+    files = [
+        _download(
+            current["bootstrap_url"],
+            current_root / "bootstrap-static.json",
+            refresh=True,
+        ),
+        _download(
+            current["fixtures_url"],
+            current_root / "fixtures.json",
+            refresh=True,
+        ),
+    ]
+    manifest = {
+        "created_at": datetime.now(UTC).isoformat(),
+        "config": str(config_path),
+        "scope": "current_only",
+        "files": files,
+    }
+    with (raw_root / "current_manifest.json").open("w", encoding="utf-8") as handle:
+        json.dump(manifest, handle, indent=2)
+        handle.write("\n")
+    return manifest

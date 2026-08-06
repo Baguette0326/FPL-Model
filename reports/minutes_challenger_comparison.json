@@ -1,0 +1,23 @@
+{
+  "selection_seasons": ["2023-24", "2024-25"],
+  "selection_excludes": ["2025-26"],
+  "primary_metric": "mean_absolute_error",
+  "results": {
+    "2023-24": {
+      "recent_minutes_baseline": 13.240831042798897,
+      "direct_absolute": 25.213941333517404,
+      "direct_squared": 14.495360027451243,
+      "direct_poisson": 14.51985013702628,
+      "residual_absolute": 11.66284142046881
+    },
+    "2024-25": {
+      "recent_minutes_baseline": 13.995177434586871,
+      "direct_absolute": 27.404402095897222,
+      "direct_squared": 15.26992302441681,
+      "direct_poisson": 15.251914191884307,
+      "residual_absolute": 12.516946325981827
+    }
+  },
+  "selected": "residual_absolute",
+  "selection_rule": "Must beat the baseline in both pre-final seasons"
+}

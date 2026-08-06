@@ -1,0 +1,101 @@
+{
+  "folds": [
+    {
+      "season": "2023-24",
+      "rows": 29677,
+      "model_mae": 0.8399563420325177,
+      "baseline_mae": 0.9844076782244385,
+      "model_spearman": 0.6736219492199951,
+      "baseline_spearman": 0.6737576303253529,
+      "reliable_rows": 7969,
+      "reliable_model_mae": 2.0311011303834627,
+      "reliable_baseline_mae": 2.4310672606349604,
+      "reliable_model_spearman": 0.3204124273211651,
+      "reliable_baseline_spearman": 0.27290340582024397
+    },
+    {
+      "season": "2024-25",
+      "rows": 27279,
+      "model_mae": 0.880113574644577,
+      "baseline_mae": 1.0386889705843847,
+      "model_spearman": 0.688042020932482,
+      "baseline_spearman": 0.677736579813245,
+      "reliable_rows": 8107,
+      "reliable_model_mae": 1.9388748459660943,
+      "reliable_baseline_mae": 2.343686232356517,
+      "reliable_model_spearman": 0.3145020826735922,
+      "reliable_baseline_spearman": 0.268214386803488
+    },
+    {
+      "season": "2025-26",
+      "rows": 29747,
+      "model_mae": 0.8956617910948638,
+      "baseline_mae": 1.0442390349086823,
+      "model_spearman": 0.7096203765170387,
+      "baseline_spearman": 0.700098376171008,
+      "reliable_rows": 8034,
+      "reliable_model_mae": 2.1467646191017504,
+      "reliable_baseline_mae": 2.554404198821675,
+      "reliable_model_spearman": 0.2533987134424442,
+      "reliable_baseline_spearman": 0.19982694824313146
+    }
+  ],
+  "promotion": true,
+  "selection_excludes": "2025-26",
+  "development_candidates": {
+    "squared_error": {
+      "season": "2023-24",
+      "rows": 29677,
+      "model_mae": 0.9914338031722923,
+      "baseline_mae": 0.9844076782244385,
+      "model_spearman": 0.6779161554572992,
+      "baseline_spearman": 0.6737576303253529,
+      "reliable_rows": 7969,
+      "reliable_model_mae": 2.2612541629751965,
+      "reliable_baseline_mae": 2.4310672606349604,
+      "reliable_model_spearman": 0.3330444454022225,
+      "reliable_baseline_spearman": 0.27290340582024397
+    },
+    "absolute_error": {
+      "season": "2023-24",
+      "rows": 29677,
+      "model_mae": 0.8399563420325177,
+      "baseline_mae": 0.9844076782244385,
+      "model_spearman": 0.6736219492199951,
+      "baseline_spearman": 0.6737576303253529,
+      "reliable_rows": 7969,
+      "reliable_model_mae": 2.0311011303834627,
+      "reliable_baseline_mae": 2.4310672606349604,
+      "reliable_model_spearman": 0.3204124273211651,
+      "reliable_baseline_spearman": 0.27290340582024397
+    }
+  },
+  "selected_loss": "absolute_error",
+  "features": [
+    "minutes_last_3",
+    "minutes_last_6",
+    "minutes_last_12",
+    "points_last_3",
+    "points_last_6",
+    "points_last_12",
+    "goals_scored_last_6",
+    "assists_last_6",
+    "bonus_last_6",
+    "team_goals_for_last_6",
+    "team_goals_against_last_6",
+    "appearances_last_3",
+    "appearances_last_6",
+    "appearances_last_12",
+    "history_events_last_6",
+    "fixtures_last_6",
+    "minutes_per_fixture_last_6",
+    "recent_minutes_baseline",
+    "fixtures_next_1",
+    "position_GK",
+    "position_DEF",
+    "position_MID",
+    "position_FWD",
+    "recent_points_baseline"
+  ],
+  "seed": 26
+}

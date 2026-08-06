@@ -308,3 +308,30 @@ Use paired bootstrap intervals over Gameweeks or draft replays to distinguish a 
 ## Immediate ML next step
 
 Phase ML-0 now has a separately versioned table, chronological event sequencing, current-event and six-event targets, registration bounds, schema-era null handling, purged folds, and a serialized leakage audit with zero violations. Next, run the common-schema recency-window challengers and begin Phase ML-1 with appearance/start classifiers and conditional-minutes regression. Keep 2025/26 untouched as the final recent holdout while choosing windows and calibration settings inside earlier temporal folds.
+
+### First Phase ML-1 result (2026-08-05)
+
+The model-readiness gate produced `modeling_table_ml_v3.csv`. It excludes 320
+Assistant Manager chip rows, canonicalizes 80 `GKP` aliases to `GK`, removes 10
+equivalent duplicate source rows, and represents completed fixture exposure for
+blank, single, double, and triple events. Its serialized audit has zero violations.
+
+On the 2025/26 holdout, the calibrated appearance and start classifiers beat
+smoothed recent-rate baselines on Brier score (0.0921 versus 0.1133, and 0.0873
+versus 0.1120). Direct median, mean, and Poisson minutes challengers lost on the
+pre-final folds. A baseline-anchored residual model won on both 2023/24 and
+2024/25, was locked, and then beat the fixture-adjusted recent-minutes baseline
+on 2025/26 MAE (11.624 versus 13.108). All three Phase ML-1 components therefore
+pass their first baseline promotion gates. Next, add subgroup calibration and
+begin the conditional-points model.
+
+### First Phase ML-2 result (2026-08-06)
+
+An absolute-error points residual was selected against a squared-error
+challenger on 2023/24, confirmed on 2024/25, and evaluated on 2025/26. It beat
+the recent-points baseline on all-row MAE in all three seasons. Among the
+reliable-player cohort (recent expected minutes at least 45), 2025/26 MAE was
+2.147 versus 2.554 and Spearman was 0.253 versus 0.200. This first challenger is
+promoted for continued development, but the preseason board remains a separate
+transparent shrinkage model because a new season has no within-season rolling
+features yet.

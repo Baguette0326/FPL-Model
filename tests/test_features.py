@@ -11,6 +11,7 @@ sys.path.insert(0, str(Path(__file__).parents[1] / "src"))
 
 from fpl_model.features import (  # noqa: E402
     _complete_player_gameweeks,
+    _deduplicate_player_fixtures,
     _event_calendar,
     _forward_sum,
     _read_csv_compatible,
@@ -21,6 +22,75 @@ from fpl_model.modeling import purged_training_mask  # noqa: E402
 
 
 class FeatureSafetyTests(unittest.TestCase):
+    def test_exact_duplicate_player_fixture_is_counted_once(self) -> None:
+        frame = pd.DataFrame(
+            {
+                "GW": [1, 1],
+                "element": [7, 7],
+                "fixture": [11, 11],
+                "minutes": [74, 74],
+                "total_points": [5, 5],
+            }
+        )
+        result, removed = _deduplicate_player_fixtures(frame, "A")
+        self.assertEqual(len(result), 1)
+        self.assertEqual(removed, 1)
+        self.assertEqual(result.iloc[0]["minutes"], 74)
+
+    def test_conflicting_duplicate_player_fixture_fails_closed(self) -> None:
+        frame = pd.DataFrame(
+            {
+                "GW": [1, 1],
+                "element": [7, 7],
+                "fixture": [11, 11],
+                "minutes": [74, 75],
+                "total_points": [5, 5],
+            }
+        )
+        with self.assertRaisesRegex(ValueError, "conflicting duplicate"):
+            _deduplicate_player_fixtures(frame, "A")
+
+    def test_metadata_position_excludes_manager_and_canonicalizes_goalkeeper(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            season_root = Path(directory) / "A"
+            season_root.mkdir()
+            pd.DataFrame(
+                {
+                    "id": [1, 2],
+                    "code": [101, 999],
+                    "element_type": [1, 5],
+                    "team": [1, 1],
+                    "web_name": ["Keeper", "Manager"],
+                }
+            ).to_csv(season_root / "players_raw.csv", index=False)
+            rows = []
+            for gameweek, fixture in ((1, 11), (38, 388)):
+                for element, position in ((1, "GKP"), (2, "AM")):
+                    rows.append(
+                        {
+                            "GW": gameweek,
+                            "element": element,
+                            "fixture": fixture,
+                            "was_home": True,
+                            "kickoff_time": (
+                                "2025-08-01T12:00:00Z"
+                                if gameweek == 1
+                                else "2026-05-20T12:00:00Z"
+                            ),
+                            "team_h_score": 1,
+                            "team_a_score": 0,
+                            "position": position,
+                            "total_points": 2,
+                            "minutes": 90,
+                        }
+                    )
+            pd.DataFrame(rows).to_csv(season_root / "merged_gw.csv", index=False)
+
+            player_week, _, _ = _season_frame(Path(directory), "A")
+
+        self.assertEqual(player_week["name"].unique().tolist(), ["Keeper"])
+        self.assertEqual(player_week["position"].unique().tolist(), ["GK"])
+
     def test_forward_target_uses_next_six_rows_only(self) -> None:
         points = pd.Series([100, 1, 2, 3, 4, 5, 6, 999], dtype=float)
         target = _forward_sum(points, 6)
