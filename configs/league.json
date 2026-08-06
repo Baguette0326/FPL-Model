@@ -2,7 +2,7 @@
   "platform": "official_fpl_draft",
   "manager_count": 4,
   "scoring": "head_to_head",
-  "draft_order": "unknown_random_draw",
+  "draft_order": 3,
   "trades_enabled": true,
   "draft_date": "2026-08-07",
   "draft_timezone": "Asia/Hong_Kong",
@@ -15,6 +15,7 @@
   },
   "waiver_priority": "lowest_league_position_first",
   "preseason_waiver_priority": "reverse_draft_order",
+  "my_preseason_waiver_priority": 2,
   "trade_processing": "accepted_manager_trades_process_directly",
   "custom_rules": false,
   "risk_preference": "reliable_starters",
@@ -35,7 +36,6 @@
   },
   "pending_user_inputs": [
     "exact_draft_time",
-    "draft_position_after_random_draw",
     "past_draft_order_and_results",
     "past waiver free-agent and trade history if available"
   ]
